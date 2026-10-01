@@ -1,0 +1,46 @@
+{
+  "ntsb_number": null,
+  "date": "2026-09-15",
+  "location": {
+    "city": "Chatsworth",
+    "state": "CA",
+    "lat": null,
+    "lon": null
+  },
+  "aircraft": {
+    "type": "Eurocopter AS350 B2",
+    "registration": "N358TV"
+  },
+  "operator": "Angel City Air (electronic news-gathering contractor for NBC4/Telemundo 52 'NewsChopper4'); aircraft registered owner reported as Tiny Bubbles Aviation Inc., Pacoima, CA",
+  "flight_type": "Electronic news-gathering (ENG) / aerial news coverage",
+  "fatalities": 3,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "pending",
+  "narrative": "NEWS-SOURCED, NOT FROM AN NTSB REPORT (none exists yet). On the evening of September 15, 2026, a Eurocopter AS350 B2 helicopter (registration N358TV), operating as 'NewsChopper4' for NBC4 Los Angeles / Telemundo 52, was providing live aerial coverage of a fatal SUV-vs-Metro-bus collision in Chatsworth, California. The helicopter had reportedly been hovering/orbiting at low altitude over the collision scene. Witnesses described the helicopter appearing to sway before it descended; it crashed into a parking lot between two commercial buildings in the 9100 block of North Mason Avenue around 7:00 p.m. local time and caught fire, damaging several parked cars and storage containers. The pilot (George Marciniw) and the onboard reporter (Eliana Moreno) were killed, as was a bystander on the ground (29-year-old Edy Gutierrez Mejia); news reports differ on whether one or two additional people were injured on the ground, and none specify injury severity. NTSB investigator-in-charge Fabian Salazar said the live broadcast audio captured sounds consistent with changing engine speed and tones resembling cockpit advisories, and called it important evidence; he explicitly said no cause has been determined and that altitude, the crash sequence, and whether the aircraft was operating in or out of ground effect are all still under review.",
+  "probable_cause": null,
+  "phase_of_flight": "Reported as hovering/low-altitude orbit over an active incident scene at the time of the upset (NEWS-SOURCED characterization; NTSB has not published an official phase-of-flight finding)",
+  "weather": "Not reported by NTSB or by any news source reviewed; unknown at this time",
+  "links": {
+    "report": null,
+    "docket": null
+  },
+  "sources_checked": [
+    "NTSB (official, via search) - NTSB Newsroom post confirming an open investigation: https://x.com/NTSB_Newsroom/status/2100160211491180929 (could not fully fetch content directly - site returned HTTP 402 to automated fetch; text seen only via web-search snippet: 'NTSB is investigating the Sept. 15 crash of a Eurocopter AS 350 B2 helicopter in Chatsworth, California.')",
+    "NTSB (official) - attempted direct CAROL/case search, no case-specific record found by me: https://data.ntsb.gov/carol-main-public/basic-search (redirects to https://my.ntsb.gov/basic, a JavaScript search app that returned no queryable content via automated fetch)",
+    "NTSB (official) - attempted legacy aviation query page, also redirects to JS app with no content retrievable: https://www.ntsb.gov/Pages/AviationQuery.aspx -> https://my.ntsb.gov/aviation",
+    "News - NBC Los Angeles: https://www.nbclosangeles.com/news/local/helicopter-crashes-in-chatsworth/3942738/",
+    "News - NBC Los Angeles follow-up: https://www.nbclosangeles.com/news/local/chatsworth-la-news-helicopter-crash-video-investigation/3943998/",
+    "News - NBC News: https://www.nbcnews.com/news/us-news/helicopter-crashes-los-angeles-chatsworth-rcna598061",
+    "News - KTLA: https://ktla.com/news/local-news/ntsb-investigates-chatsworth-news-helicopter-crash/",
+    "News - KTLA follow-up on broadcast audio: https://ktla.com/news/local-news/la-news-helicopter-crash-video-ntsb-investigation/",
+    "News - San Fernando Valley Sun: https://sanfernandosun.com/2026/09/16/ntsb-leads-probe-into-deadly-newschopper4-crash-in-chatsworth/",
+    "Reference/secondary compilation (NOT NTSB, unverified claim of NTSB number WPR26FA345 - NOT confirmed by me on an official ntsb.gov/data.ntsb.gov page, treated as unverified): https://ntsb-reports.com/data/20260916203829/2026-09-16-Eurocopter-AS-350-B2-N358TV-Tiny-Bubbles-Aviation-Chatsworth",
+    "Reference/secondary compilation (NOT NTSB, same unverified case-number claim): https://data.thedtsb.org/accident/eurocopter-as-350-n358tv/",
+    "Wikipedia summary page (secondary, aggregates news coverage, not an original source): https://en.wikipedia.org/wiki/2026_Chatsworth_Eurocopter_AS350_crash",
+    "News - aerocorner.com on registration/aircraft details: https://aerocorner.com/news/n358tv-nbc-la-news-helicopter-crash-chatsworth/"
+  ],
+  "notes": "AS OF 2026-10-01 (16 days post-accident): NTSB has NOT published a preliminary report, and I could NOT independently verify an official NTSB case number on ntsb.gov or data.ntsb.gov (CAROL) - both are JavaScript single-page apps that returned no queryable/renderable case data to automated fetch tools, and I did not have a way to execute CAROL's search API programmatically. The NTSB Newsroom social-media account did publicly confirm (per a web-search snippet of the post; the live page itself returned HTTP 402 to my fetch attempt) that NTSB opened an investigation into 'the Sept. 15 crash of a Eurocopter AS 350 B2 helicopter in Chatsworth, California' - so an NTSB docket almost certainly exists, but I could not pull the case number from an NTSB-controlled page myself. Two non-NTSB aggregator sites (ntsb-reports.com, data.thedtsb.org) display a case number 'WPR26FA345' for this event; per the task rules I am NOT entering that into ntsb_number because I could not confirm it on an actual ntsb.gov/data.ntsb.gov page - it is left null and flagged here only as an unverified lead for a human to confirm directly against CAROL. ALL narrative, injury, operator, and phase-of-flight details in this record are NEWS-SOURCED (NBC Los Angeles, NBC News, KTLA, San Fernando Valley Sun, aerocorner.com), not from any NTSB-published text, because no NTSB preliminary report exists yet - NTSB investigator-in-charge Fabian Salazar stated at a press briefing that a preliminary report was expected in about 30 days from the accident date (i.e., roughly mid-October 2026), consistent with the task's expectation. No probable_cause is given and none should be inferred - the IIC explicitly stated at a news conference that no cause has been determined, altitude/ground-effect/crash-sequence are still under review, and witness accounts of the helicopter 'swaying' before descent are witness impressions, not findings. Injury counts for ground bystanders are inconsistent across news outlets (one says two people taken to hospital, another says a single additional bystander injured); I did not fabricate a split between 'serious' and 'minor' since no source characterizes severity, so both injury sub-fields are left at 0 with this caveat rather than guessing. Operator attribution is also slightly inconsistent across sources: aircraft registered owner is reported as 'Tiny Bubbles Aviation Inc.' (Pacoima, CA) while the ENG flight is reported as operated by 'Angel City Air' under contract to NBC4/Telemundo 52 - both are reflected in the operator field since sources do not reconcile them. Filename uses the PENDING placeholder per instructions because no NTSB case number could be confirmed by me on an official NTSB source."
+}
