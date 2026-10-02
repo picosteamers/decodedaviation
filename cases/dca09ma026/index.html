@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 
@@ -199,13 +200,9 @@ Contributing to the survivability of the accident was (1) the decision-making of
         <div class="accordion-section" data-section>
           <button class="accordion-trigger" type="button"><span class="t">Location</span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34435a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg></button>
           <div class="accordion-panel" hidden>
-            <div class="case-map" style="height:120px;margin-bottom:8px">
-              <div class="case-map-pattern"></div>
-              <div class="case-map-pin"><svg width="20" height="26" viewBox="0 0 24 30"><path d="M12 29s10-10 10-17a10 10 0 0 0-20 0c0 7 10 17 10 17Z" fill="#e0302a" stroke="#fff" stroke-width="1.5"></path><circle cx="12" cy="12" r="3.5" fill="#fff"></circle></svg></div>
-              <span class="case-map-caption">Weehawken, NJ (Hudson River)</span>
-            </div>
-            <span style="display:block;font-size:13px;color:var(--text)">Precise coordinates not published by NTSB · site is ~8.5 mi from LaGuardia Airport (LGA) · <a href="#">Open in Maps →</a></span>
-            <span style="display:block;font-size:13px;color:var(--muted);margin-top:4px">Hudson River, water temperature ~41°F (5.2°C), ebb current 1.4 kts · Near Midtown Manhattan / Weehawken, NJ waterfront</span>
+            <div class="case-map" id="case-map-dca09ma026-m" style="height:120px;margin-bottom:8px" data-lat="40.7795" data-lon="-74.0141" data-zoom="12"></div>
+            <span style="display:block;font-size:13px;color:var(--text)">Precise coordinates not published by NTSB · site is ~8.5 mi from LaGuardia Airport (LGA) · <a href="https://www.google.com/maps?q=40.7795,-74.0141" target="_blank" rel="noopener">Open in Maps →</a></span>
+            <span style="display:block;font-size:13px;color:var(--muted);margin-top:4px">Hudson River, water temperature ~41°F (5.2°C), ebb current 1.4 kts · Near Midtown Manhattan / Weehawken, NJ waterfront — map centered on Weehawken, NJ (the location NTSB named); exact ditching coordinates were not published.</span>
           </div>
         </div>
 
@@ -272,20 +269,16 @@ Contributing to the survivability of the accident was (1) the decision-making of
       <div class="side-card" style="padding:0;overflow:hidden">
         <div style="padding:12px;display:flex;flex-direction:column;gap:8px">
           <span class="side-card-title">Location</span>
-          <div class="case-map">
-            <div class="case-map-pattern"></div>
-            <div class="case-map-pin"><svg width="22" height="28" viewBox="0 0 24 30"><path d="M12 29s10-10 10-17a10 10 0 0 0-20 0c0 7 10 17 10 17Z" fill="#e0302a" stroke="#fff" stroke-width="1.5"></path><circle cx="12" cy="12" r="3.5" fill="#fff"></circle></svg></div>
-            <span class="case-map-caption">Weehawken, NJ (Hudson River)</span>
-          </div>
+          <div class="case-map" id="case-map-dca09ma026-d" data-lat="40.7795" data-lon="-74.0141" data-zoom="12"></div>
           <div class="case-location-info">
             <span class="primary">Hudson River, near Weehawken, New Jersey</span>
             <span class="muted">New York City / Weehawken, NJ, USA</span>
-            <span style="margin-top:2px">Precise coordinates not published by NTSB · site is ~8.5 mi from LaGuardia Airport (LGA) · <a href="#">Open in Maps →</a></span>
+            <span style="margin-top:2px">Precise coordinates not published by NTSB · site is ~8.5 mi from LaGuardia Airport (LGA) · <a href="https://www.google.com/maps?q=40.7795,-74.0141" target="_blank" rel="noopener">Open in Maps →</a></span>
           </div>
         </div>
         <div class="nearest-airport">
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#0f1b2d" stroke-width="1.8" stroke-linejoin="round"><path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z"></path></svg>
-          <div><span class="nearest-airport-title">Ditching site</span><br><span class="nearest-airport-sub">Hudson River, water temperature ~41°F (5.2°C), ebb current 1.4 kts</span><br><span class="nearest-airport-meta">Near Midtown Manhattan / Weehawken, NJ waterfront</span></div>
+          <div><span class="nearest-airport-title">Ditching site</span><br><span class="nearest-airport-sub">Hudson River, water temperature ~41°F (5.2°C), ebb current 1.4 kts</span><br><span class="nearest-airport-meta">Near Midtown Manhattan / Weehawken, NJ waterfront — map centered on Weehawken, NJ (the location NTSB named); exact ditching coordinates were not published.</span></div>
         </div>
       </div>
 
@@ -314,6 +307,7 @@ Contributing to the survivability of the accident was (1) the decision-making of
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="../../assets/script.js"></script>
 </body>
 </html>

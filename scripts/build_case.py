@@ -123,6 +123,22 @@ def build(d):
     desc = (f'NTSB case {d["ntsb_number"]}: {p["subtitle"]}. What happened, probable cause, '
             f'contributing factors, and safety takeaways.')
 
+    lat = d["location"].get("lat")
+    lon = d["location"].get("lon")
+    map_zoom = p["location_card"].get("zoom", 14)
+    has_coords = lat is not None and lon is not None
+    maps_href = f"https://www.google.com/maps?q={lat},{lon}" if has_coords else "#"
+    if has_coords:
+        map_block_desktop = f'<div class="case-map" id="case-map-{ntsb_lower}-d" data-lat="{lat}" data-lon="{lon}" data-zoom="{map_zoom}"></div>'
+        map_block_mobile = f'<div class="case-map" id="case-map-{ntsb_lower}-m" style="height:120px;margin-bottom:8px" data-lat="{lat}" data-lon="{lon}" data-zoom="{map_zoom}"></div>'
+    else:
+        map_block_desktop = ('<div class="case-map" style="display:flex;align-items:center;justify-content:center;'
+                              'background:var(--surface);color:var(--muted);font-size:12px;text-align:center;padding:8px">'
+                              'No precise coordinates published for this site</div>')
+        map_block_mobile = ('<div class="case-map" style="height:120px;margin-bottom:8px;display:flex;align-items:center;'
+                             'justify-content:center;background:var(--surface);color:var(--muted);font-size:12px;text-align:center;padding:8px">'
+                             'No precise coordinates published for this site</div>')
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,6 +150,7 @@ def build(d):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 
@@ -300,12 +317,8 @@ def build(d):
         <div class="accordion-section" data-section>
           <button class="accordion-trigger" type="button"><span class="t">Location</span><svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#34435a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="{CHEVRON_PATH}"></path></svg></button>
           <div class="accordion-panel" hidden>
-            <div class="case-map" style="height:120px;margin-bottom:8px">
-              <div class="case-map-pattern"></div>
-              <div class="case-map-pin"><svg width="20" height="26" viewBox="0 0 24 30"><path d="M12 29s10-10 10-17a10 10 0 0 0-20 0c0 7 10 17 10 17Z" fill="#e0302a" stroke="#fff" stroke-width="1.5"></path><circle cx="12" cy="12" r="3.5" fill="#fff"></circle></svg></div>
-              <span class="case-map-caption">{p["location_card"]["map_caption"]}</span>
-            </div>
-            <span style="display:block;font-size:13px;color:var(--text)">{p["location_card"]["coords_text"]} · <a href="#">Open in Maps →</a></span>
+            {map_block_mobile}
+            <span style="display:block;font-size:13px;color:var(--text)">{p["location_card"]["coords_text"]} · <a href="{maps_href}" target="_blank" rel="noopener">Open in Maps →</a></span>
             <span style="display:block;font-size:13px;color:var(--muted);margin-top:4px">{p["location_card"]["site_sub"]} · {p["location_card"]["site_meta"]}</span>
           </div>
         </div>
@@ -369,15 +382,11 @@ def build(d):
       <div class="side-card" style="padding:0;overflow:hidden">
         <div style="padding:12px;display:flex;flex-direction:column;gap:8px">
           <span class="side-card-title">Location</span>
-          <div class="case-map">
-            <div class="case-map-pattern"></div>
-            <div class="case-map-pin"><svg width="22" height="28" viewBox="0 0 24 30"><path d="M12 29s10-10 10-17a10 10 0 0 0-20 0c0 7 10 17 10 17Z" fill="#e0302a" stroke="#fff" stroke-width="1.5"></path><circle cx="12" cy="12" r="3.5" fill="#fff"></circle></svg></div>
-            <span class="case-map-caption">{p["location_card"]["map_caption"]}</span>
-          </div>
+          {map_block_desktop}
           <div class="case-location-info">
             <span class="primary">{p["location_card"]["primary"]}</span>
             <span class="muted">{p["location_card"]["region"]}</span>
-            <span style="margin-top:2px">{p["location_card"]["coords_text"]} · <a href="#">Open in Maps →</a></span>
+            <span style="margin-top:2px">{p["location_card"]["coords_text"]} · <a href="{maps_href}" target="_blank" rel="noopener">Open in Maps →</a></span>
           </div>
         </div>
         <div class="nearest-airport">
@@ -409,6 +418,7 @@ def build(d):
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="../../assets/script.js"></script>
 </body>
 </html>

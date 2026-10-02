@@ -4,8 +4,8 @@
   "location": {
     "city": "Weehawken",
     "state": "NJ",
-    "lat": null,
-    "lon": null
+    "lat": 40.7795,
+    "lon": -74.0141
   },
   "aircraft": {
     "type": "Airbus A320-214",
@@ -125,7 +125,8 @@
       "coords_text": "Precise coordinates not published by NTSB · site is ~8.5 mi from LaGuardia Airport (LGA)",
       "site_title": "Ditching site",
       "site_sub": "Hudson River, water temperature ~41°F (5.2°C), ebb current 1.4 kts",
-      "site_meta": "Near Midtown Manhattan / Weehawken, NJ waterfront"
+      "site_meta": "Near Midtown Manhattan / Weehawken, NJ waterfront — map centered on Weehawken, NJ (the location NTSB named); exact ditching coordinates were not published.",
+      "zoom": 12
     },
     "docs": {
       "report_label": "NTSB/AAR-10/03",

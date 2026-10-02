@@ -429,15 +429,8 @@ body.has-tabbar{padding-bottom:70px}
 /* sidebar cards (shared desktop aside + mobile accordion content) */
 .side-card{border:1px solid var(--border);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:8px}
 .side-card-title{font-size:16px;font-weight:800}
-.case-map{position:relative;height:130px;border-radius:6px;overflow:hidden;background:#4b5a3f}
-.case-map-pattern{
-  position:absolute;inset:0;
-  background:
-    repeating-linear-gradient(45deg, rgba(255,255,255,.04) 0 2px, transparent 2px 14px),
-    linear-gradient(160deg,#4b5a3f,#36432e);
-}
-.case-map-pin{position:absolute;left:50%;top:44%;transform:translate(-50%,-100%)}
-.case-map-caption{position:absolute;left:0;right:0;top:58%;text-align:center;color:#fff;font-weight:700;font-size:13px;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.case-map{position:relative;height:130px;border-radius:6px;overflow:hidden;background:var(--surface);z-index:0}
+.case-map .leaflet-control-attribution{font-size:9px;padding:0 4px}
 .case-location-info{display:flex;flex-direction:column;gap:2px;font-size:13px}
 .case-location-info .primary{font-weight:600;font-size:14px}
 .case-location-info .muted{color:var(--muted)}
