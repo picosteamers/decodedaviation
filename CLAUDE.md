@@ -17,6 +17,29 @@ Not deployed yet. `git remote -v` is empty on purpose — the user will create
 the GitHub repo and connect Netlify themselves. Commit locally; never push
 or set up a remote unless explicitly asked.
 
+## SEO is a primary goal, not an afterthought
+
+The point of this project is to actually rank and get found — not just look
+like a database. Every structural decision (URLs, schema fields, page
+templates, what gets built now vs. later) should be made with that in mind,
+not bolted on at the end. Concretely, this means:
+
+- URLs are permanent once a page exists (see below) — a case's URL never
+  changes across preliminary → final.
+- Every fact visible on a page must be real text in the HTML, not an icon
+  or an image standing in for it.
+- Entity/hub pages (aircraft type, airport, state, accident category) are
+  the planned path to real long-tail traffic and internal linking — not
+  built yet (not enough cases per entity to avoid thin content), but the
+  data schema should stay friendly to adding slugs for these later without
+  having to touch already-published case pages.
+- Don't scale page count ahead of being able to make each page good
+  (verbatim-but-structured content, real photos, real editorial sections).
+  10 strong pages beat 100 thin ones for SEO, not just for quality.
+- Before launch: sitemap.xml/robots.txt, OG/canonical tags, and cleaning
+  the fictional placeholder rows off the home page are not optional
+  polish — they're launch blockers (see "Known gaps" below).
+
 ## The one hard rule: sourcing
 
 Every fact on a case page must trace back to an NTSB source
