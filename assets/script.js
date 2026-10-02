@@ -37,7 +37,8 @@
         var lon = parseFloat(el.dataset.lon);
         if (isNaN(lat) || isNaN(lon)) return;
         var zoom = parseInt(el.dataset.zoom, 10) || 14;
-        var map = L.map(el, { zoomControl: false, attributionControl: true }).setView([lat, lon], zoom);
+        var map = L.map(el, { zoomControl: false, attributionControl: false }).setView([lat, lon], zoom);
+        L.control.attribution({ prefix: false }).addTo(map);
         L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
           maxZoom: 19,
           attribution: 'Tiles &copy; Esri &mdash; Esri, HERE, Garmin, FAO, NOAA, USGS'
