@@ -1,0 +1,128 @@
+{
+  "ntsb_number": "LAX07FA258",
+  "date": "2007-08-30",
+  "location": {
+    "city": "Cameron Park",
+    "state": "CA",
+    "lat": 38.68389,
+    "lon": -120.98750
+  },
+  "aircraft": {
+    "type": "Raytheon A36 Bonanza",
+    "registration": "N1098F"
+  },
+  "operator": null,
+  "flight_type": "Part 91: Personal",
+  "occupants": 4,
+  "fatalities": 2,
+  "injuries": {
+    "serious": 2,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "The Raytheon A36 Bonanza departed from runway 31 at Cameron Air Park (O61), becoming airborne about two-thirds of the way down the 4,051-foot runway and climbing to approximately 40 feet. Between midfield and the departure end, the wind shifted abruptly — roughly a 10-knot crosswind from the left, possibly with a tailwind component — and the airplane lost lift. It settled back toward the ground, the wings began to wobble, and it came down in rising terrain beyond the runway. The airplane slid about 250 feet, struck a boulder, and flipped onto its back near a fence line about 700 feet past the runway end. A television news crew filming at the airport captured the entire sequence on video. The pilot and front-seat passenger were seriously injured; both rear-seat passengers were killed, and the airplane was substantially damaged.",
+  "probable_cause": "The National Transportation Safety Board determines that the probable cause of this accident was the pilot's inadequate compensation for a sudden wind shift during the initial climb, which resulted in an aerodynamic stall/mush and collision with terrain. Contributing to the accident were the airplane's overweight condition and the high density altitude, which reduced climb performance, and rising terrain beyond the departure end of the runway.",
+  "phase_of_flight": "Initial climb (takeoff), followed by loss of lift and an uncontrolled descent into rising terrain",
+  "weather": "VMC, approximately 96°F, density altitude approximately 4,125 ft (nearly 3,000 ft above field elevation)",
+  "links": {
+    "report": null,
+    "docket": null
+  },
+  "sources_checked": [
+    "https://www.aopa.org/training-and-safety/air-safety-institute/accident-analysis/featured-accidents/film-crew-captures-density-altitude-crash",
+    "https://en.wikipedia.org/wiki/Cameron_Park_Airport"
+  ],
+  "notes": "Unlike the other cases in this dataset, this record was built before the project adopted a strict verbatim-PDF-extraction standard for NTSB final reports. The runway, weight, density-altitude, and sequence-of-events facts were cross-checked against the AOPA Air Safety Institute's accident analysis and the airport's public data (Cameron Park Airport / O61, runway 13/31, 4,051 ft), but the narrative and probable_cause text here are a close paraphrase informed by those sources rather than a direct extraction from the official NTSB final report PDF (report/docket links were not located and verified for this case the way they were for the others - links are null rather than guessed). If this case is revisited, it should be re-verified against ntsb.gov/data.ntsb.gov directly and the links/narrative upgraded to the same verbatim standard as the rest of the dataset. Coordinates are the airport's published coordinates (38.68389, -120.98750), not a specific accident-site lat/lon from a report."
+  ,
+  "page": {
+    "title": "Raytheon A36 Bonanza (N1098F)",
+    "subtitle": "Accident near Cameron Park, California",
+    "datetime_text": "August 30, 2007, 12:35 PDT · Cameron Air Park (O61)",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "2 fatal / 4 aboard",
+    "badge_casualty_sub": "2 serious injuries",
+    "status_meta": "NTSB · Released September 26, 2008",
+    "summary": "On a hot, high-density-altitude afternoon, an overweight Raytheon A36 Bonanza climbed to only about 40 feet after takeoff before an abrupt wind shift took away its lift. The airplane settled into rising terrain beyond the runway, slid into a boulder, and flipped onto its back. A television news crew filming at the airport captured the entire accident on video.",
+    "facts": {
+      "location_value": "Cameron Air Park (O61)",
+      "location_sub": "Cameron Park, California, USA",
+      "route_label": "Departure",
+      "route_value": "Cameron Air Park (O61) · Runway 31",
+      "route_sub": "4,051 ft asphalt runway",
+      "phase_value": "Initial climb (takeoff)",
+      "phase_sub": "",
+      "operation": "Personal (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "VMC, 96°F",
+      "weather_sub": "Density altitude ~4,125 ft"
+    },
+    "narrative_excerpt": "The Raytheon A36 Bonanza departed from runway 31 at Cameron Air Park (O61), becoming airborne about two-thirds of the way down the 4,051-foot runway and climbing to approximately 40 feet. Between midfield and the departure end, the wind shifted abruptly — roughly a 10-knot crosswind from the left, possibly with a tailwind component — and the airplane lost lift. It settled back toward the ground, the wings began to wobble, and it came down in rising terrain beyond the runway. The airplane slid about 250 feet, struck a boulder, and flipped onto its back near a fence line about 700 feet past the runway end. A television news crew filming at the airport captured the entire sequence on video. The pilot and front-seat passenger were seriously injured; both rear-seat passengers were killed, and the airplane was substantially damaged.",
+    "narrative_is_excerpt": false,
+    "contributing_factors": [
+      "Takeoff weight approximately 100 lb above maximum gross weight",
+      "High density altitude (4,125 ft on a 96°F day)",
+      "Abrupt wind shift during the initial climb",
+      "Rising terrain beyond the departure end of the runway",
+      "Pilot's response to the wind shift"
+    ],
+    "safety_takeaways": [
+      "Operate within weight limits for takeoff.",
+      "Calculate takeoff and climb performance, including density altitude.",
+      "Maintain a conservative climb margin, especially with rising terrain.",
+      "Establish a takeoff abort point.",
+      "Be prepared for wind changes and consider delaying departure when conditions are marginal."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-raytheon-a36-bonanza.dcdf205c.webp",
+      "alt": "Raytheon A36 Bonanza, same model as the accident aircraft (file photo, not the accident airplane)",
+      "caption": "Representative A36 · not the accident aircraft",
+      "name": "Raytheon A36 Bonanza",
+      "sub": "Single-engine, low-wing airplane",
+      "specs": [["Year", "1996"], ["Engine", "Continental IO-550 · 300 hp"]]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-runway-departure-end.0509d14d.webp",
+        "alt": "Annotated NTSB photo of the runway 31 departure end, showing the tree line, rising terrain and the wreckage location",
+        "title": "Runway departure end",
+        "meta": "N1098F · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?FileExtension=pdf&FileName=Photo+1-View+of+Runway+Departure+End-Master-Rel.pdf&ID=20022773"
+      },
+      {
+        "photo": "assets/img/incident-main-wreckage-1.33d13005.webp",
+        "alt": "NTSB photo of the main wreckage, with the dislodged boulder marked",
+        "title": "Main wreckage",
+        "meta": "N1098F · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?FileExtension=pdf&FileName=Photo+2-Main+Wreckage+1-Master-Rel.pdf&ID=20021926"
+      },
+      {
+        "photo": "assets/img/incident-main-wreckage-2.3fa4a917.webp",
+        "alt": "NTSB photo of the main wreckage, wider second view",
+        "title": "Main wreckage · second view",
+        "meta": "N1098F · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?FileExtension=pdf&FileName=Photo+3-Main+Wreckage+2-Master-Rel.pdf&ID=20021415"
+      }
+    ],
+    "media_source_label": "Original photographs from investigation LAX07FA258",
+    "location_card": {
+      "map_caption": "Cameron Air Park (O61)",
+      "primary": "Cameron Air Park (O61)",
+      "region": "Cameron Park, California, USA",
+      "coords_text": "38.68389, -120.98750",
+      "site_title": "Accident site",
+      "site_sub": "~700 ft beyond runway 31's departure end",
+      "site_meta": "Within the Cameron Air Park perimeter"
+    },
+    "docs": {
+      "report_label": "Final report",
+      "docket_label": "(20 items)"
+    },
+    "related_cases": [
+      {"title": "Cessna 172 — loss of climb after takeoff", "sub": "Similar factors: high density altitude, terrain", "icon_style": "sky-takeoff rot-up"},
+      {"title": "Piper PA-28 — takeoff accidents", "sub": "Similar factors: weight, density altitude", "icon_style": "sky-takeoff rot-up"},
+      {"title": "General aviation — terrain impact", "sub": "Similar factors: terrain, climb performance", "icon_style": "sky-maneuver rot-side"}
+    ],
+    "about_investigation_type": "Full"
+  }
+}

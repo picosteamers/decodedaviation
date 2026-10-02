@@ -13,6 +13,7 @@
   },
   "operator": "Island Express Helicopters Inc.",
   "flight_type": "Part 135: On-demand charter (VFR)",
+  "occupants": 9,
   "fatalities": 9,
   "injuries": {
     "serious": 0,
@@ -33,5 +34,95 @@
     "https://data.ntsb.gov/Docket/?NTSBNumber=DCA20MA059",
     "https://data.ntsb.gov/Docket/Document/docBLOB?ID=9764444&FileExtension=pdf&FileName=DCA20MA059-Airworthiness%20Factual%20(FINAL)-Rel.pdf"
   ],
-  "notes": "NTSB case DCA20MA059 confirmed directly on ntsb.gov (investigation page shows Status: Completed) and the full final Aircraft Accident Report NTSB/AAR-21/01 ('Rapid Descent Into Terrain, Island Express Helicopters Inc., Sikorsky S-76B, N72EX, Calabasas, California, January 26, 2020'), adopted February 9, 2021, fetched and text-extracted directly from ntsb.gov (the PDF had permissions-only encryption that blocked one extraction tool; a second library, PyMuPDF, opened it cleanly and the text was cross-checked against ntsb.gov's own investigation-summary page, which carries identical 'What Happened' and 'What We Found' (probable cause) language verbatim). The probable_cause field is exact verbatim text from both the Executive Summary and section 3.2 of the report, which are word-for-word identical. The narrative field is verbatim text assembled from report sections 1.1 and 1.1.2 (History of the Flight / Flight Route), lightly stitched with bracketed section headers for readability; no wording was paraphrased. Fatalities: 9 total (1 pilot + 8 passengers, including Kobe Bryant and his daughter Gianna Bryant), all occupants died, so serious/minor injuries are 0 by direct inference from the report stating all 9 aboard were fatally injured (the report does not carry a separate tabular injury-count field, but there is no ambiguity: no survivors). Coordinates: the main Aircraft Accident Report gives only relative/elevation data and no explicit lat/lon (an earlier automated fetch returned a lat/lon that could not be re-verified in the raw HTML and was correctly discarded). However, the docket's separate 'Airworthiness Group Chairman's Factual Report' (docBLOB ID 9764444) includes a wreckage diagram citing the initial impact point as 'N34 08.195 / W118 41.538', converted here to decimal degrees (34.136583, -118.6923). Note this is the initial impact point, not the main-wreckage centroid — the same diagram places the main wreckage about 116-174 ft further along the debris path. links.docket points to the CAROL docket search for this NTSB number (verified HTTP 200); the docket contains dozens of underlying factual-report attachments (performance study, weather, airworthiness, maintenance, ops/human-performance group factual reports, etc.) not individually itemized here, except the airworthiness report now cited above for coordinates and photos."
+  "notes": "NTSB case DCA20MA059 confirmed directly on ntsb.gov (investigation page shows Status: Completed) and the full final Aircraft Accident Report NTSB/AAR-21/01 ('Rapid Descent Into Terrain, Island Express Helicopters Inc., Sikorsky S-76B, N72EX, Calabasas, California, January 26, 2020'), adopted February 9, 2021, fetched and text-extracted directly from ntsb.gov (the PDF had permissions-only encryption that blocked one extraction tool; a second library, PyMuPDF, opened it cleanly and the text was cross-checked against ntsb.gov's own investigation-summary page, which carries identical 'What Happened' and 'What We Found' (probable cause) language verbatim). The probable_cause field is exact verbatim text from both the Executive Summary and section 3.2 of the report, which are word-for-word identical. The narrative field is verbatim text assembled from report sections 1.1 and 1.1.2 (History of the Flight / Flight Route), lightly stitched with bracketed section headers for readability; no wording was paraphrased. Fatalities: 9 total (1 pilot + 8 passengers, including Kobe Bryant and his daughter Gianna Bryant), all occupants died, so serious/minor injuries are 0 by direct inference from the report stating all 9 aboard were fatally injured (the report does not carry a separate tabular injury-count field, but there is no ambiguity: no survivors). Coordinates: the main Aircraft Accident Report gives only relative/elevation data and no explicit lat/lon (an earlier automated fetch returned a lat/lon that could not be re-verified in the raw HTML and was correctly discarded). However, the docket's separate 'Airworthiness Group Chairman's Factual Report' (docBLOB ID 9764444) includes a wreckage diagram citing the initial impact point as 'N34 08.195 / W118 41.538', converted here to decimal degrees (34.136583, -118.6923). Note this is the initial impact point, not the main-wreckage centroid — the same diagram places the main wreckage about 116-174 ft further along the debris path. links.docket points to the CAROL docket search for this NTSB number (verified HTTP 200); the docket contains dozens of underlying factual-report attachments (performance study, weather, airworthiness, maintenance, ops/human-performance group factual reports, etc.) not individually itemized here, except the airworthiness report now cited above for coordinates and photos.",
+  "page": {
+    "title": "Sikorsky S-76B (N72EX)",
+    "subtitle": "Fatal accident near Calabasas, California",
+    "datetime_text": "January 26, 2020, 09:46 PST · hillside terrain near US-101, Calabasas",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "9 fatal / 9 aboard",
+    "badge_casualty_sub": "No survivors",
+    "status_meta": "NTSB · Released February 9, 2021",
+    "summary": "A charter helicopter flying former NBA player Kobe Bryant, his daughter Gianna, and six others to a youth basketball event continued under visual flight rules into clouds over hilly terrain near Calabasas. While attempting to climb above the layer, the helicopter entered a descending left turn and struck a hillside, killing all 9 aboard. The NTSB found the pilot became spatially disoriented after continuing into instrument conditions.",
+    "facts": {
+      "location_value": "Calabasas, California",
+      "location_sub": "Hillside terrain near US-101",
+      "route_label": "Route",
+      "route_value": "John Wayne Airport (SNA) → Camarillo (CMA)",
+      "route_sub": "VFR charter, company flight plan",
+      "phase_value": "En route, climbing left turn",
+      "phase_sub": "Spatial disorientation → uncontrolled descent",
+      "operation": "On-demand charter (Part 135)",
+      "damage": "Destroyed",
+      "weather_value": "Overcast, 2.5 mi visibility",
+      "weather_sub": "Haze, cloud tops ~2,400 ft; fog at accident site"
+    },
+    "narrative_excerpt": "At 0944:34, the pilot communicated on the SCT frequency that the flight was \"gonna go ahead and start our climb to go above the, uh, layers, and, uh, we can stay with you here.\" The helicopter immediately began climbing at a rate of about 1,500 ft per minute and began a gradual left turn while remaining generally over US 101. About 0945:10, it started a left turn away from US 101 and reached its maximum altitude of about 2,370 ft msl (about 1,600 ft agl) about 0945:15 before it began to descend rapidly while remaining in the left turn. At 0945:17, the controller asked the pilot to \"say intentions,\" and the pilot replied that the flight was climbing to 4,000 ft msl — no further communication was received. The last ADS‑B data point was recorded at 0945:36; the accident site was about 500 ft east of this point, at an elevation of about 1,100 ft msl in hilly terrain. A ground witness bicycling nearby, surrounded by mist, heard the helicopter for about 20 seconds before it emerged from the clouds rolling to the left; he saw it for 1–2 seconds before it struck the terrain and erupted into flames about 200 ft from his location.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Continued VFR flight into instrument meteorological conditions (IMC)",
+      "Pilot's spatial disorientation following loss of outside visual reference",
+      "Likely self-induced pressure to complete the flight",
+      "Plan continuation bias (\"get-there-itis\")",
+      "Operator's inadequate safety management oversight"
+    ],
+    "safety_takeaways": [
+      "Set firm personal weather minimums before launch, and hold to them regardless of schedule pressure.",
+      "Recognize plan-continuation bias — build in deliberate go/no-go checkpoints during the flight, not just before it.",
+      "When visibility deteriorates, turning back or landing keeps you in VMC; climbing to \"top the clouds\" on a VFR-only flight does not.",
+      "Spatial disorientation can develop within seconds of losing the horizon — without an instrument scan and currency, trust in \"feel\" is what fails.",
+      "Operators should maintain a functioning safety management system with real authority to question or stop a flight's weather decisions."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-sikorsky-s76b-n72ex.1e937cc0.webp",
+      "alt": "The accident helicopter, N72EX, photographed intact in 2018",
+      "caption": "The accident helicopter, photographed intact in 2018",
+      "name": "Sikorsky S-76B",
+      "sub": "Twin-engine passenger helicopter",
+      "specs": [["Year", "1991"], ["Engine", "2× P&W Canada PT6B-36A"]]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-dca20ma059-wreckage-diagram.c077cd15.webp",
+        "alt": "Annotated aerial diagram of the wreckage site showing the initial impact point and main wreckage path",
+        "title": "Wreckage site diagram",
+        "meta": "N72EX · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=9764444&FileExtension=pdf&FileName=DCA20MA059-Airworthiness%20Factual%20(FINAL)-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-dca20ma059-tail-section.70e983b1.webp",
+        "alt": "Recovered tail section with tail rotor drive shaft segments annotated",
+        "title": "Tail section",
+        "meta": "N72EX · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=9764444&FileExtension=pdf&FileName=DCA20MA059-Airworthiness%20Factual%20(FINAL)-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-dca20ma059-rotor-blades.52567439.webp",
+        "alt": "Recovered main rotor blades laid out for examination",
+        "title": "Main rotor blades",
+        "meta": "N72EX · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=9764444&FileExtension=pdf&FileName=DCA20MA059-Airworthiness%20Factual%20(FINAL)-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB Airworthiness Group Factual Report, DCA20MA059",
+    "location_card": {
+      "map_caption": "Calabasas, CA",
+      "primary": "Calabasas, California",
+      "region": "Los Angeles County, USA",
+      "coords_text": "34.136583, -118.6923 (initial impact)",
+      "site_title": "Accident site",
+      "site_sub": "Hillside terrain, ~1,100 ft elevation (36° slope)",
+      "site_meta": "Near Las Virgenes Rd / US-101, Calabasas"
+    },
+    "docs": {
+      "report_label": "NTSB/AAR-21/01",
+      "docket_label": "(53 items)"
+    },
+    "related_cases": [
+      {"title": "Roy Halladay — ICON A5, Gulf of Mexico", "sub": "Similar factors: low-altitude maneuvering, spatial awareness", "icon_style": "sky-maneuver rot-side"},
+      {"title": "Piper PA-28 — VFR into IMC, Micanopy FL", "sub": "Similar factors: VFR into IMC, spatial disorientation", "icon_style": "sky-landing rot-down"}
+    ],
+    "about_investigation_type": "Full (Board meeting)"
+  }
 }
