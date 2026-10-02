@@ -13,6 +13,7 @@
   },
   "operator": "On file (NTSB report lists both 'Registered Owner' and 'Operator' as \"On file\"; this was a privately owned/operated personal flight, publicly reported elsewhere as owned/piloted by Roy Halladay)",
   "flight_type": "Part 91: General aviation - Personal",
+  "occupants": 1,
   "fatalities": 1,
   "injuries": {
     "serious": 0,
@@ -34,5 +35,114 @@
     "https://my.ntsb.gov/basic (CAROL Basic Search, queried NTSB Number = ANC18FA007)",
     "https://data.ntsb.gov/Docket/Document/docBLOB?FileExtension=.PDF&FileName=Icon+Aircraft+Company+Interviews-Master.PDF&ID=40482395"
   ],
-  "notes": "Case number confirmed as ANC18FA007 directly from the header of the official NTSB docket document ('Icon Aircraft Personnel Interviews', ID=40482395) and from the CAROL basic-search result (data.ntsb.gov / my.ntsb.gov), which lists it as Completed, published 05/19/2020, N922BA, ICON AIRCRAFT INC/A5, Clearwater FL, fatal. The 15-page 'Aviation Investigation Final Report' PDF was fetched directly from NTSB's own report-generation API (data.ntsb.gov/carol-repgen) — not a third-party mirror — and the narrative and probable-cause text above are copied verbatim from that PDF's 'Factual Information' and 'Probable Cause and Findings' sections (page breaks/figure captions omitted; bracketed subheadings added by me to mark where report sub-sections were merged for readability, bracketed text itself is not NTSB's wording). The investigation summary page at web.ntsb.gov independently reproduces the identical 'What Happened' / 'What We Found' text, corroborating the PDF. NTSB's own 'Location' field for this case reads 'Clearwater, Florida', which I used for location.city, but the stated accident-site coordinates (28.218334, -82.769447, explicitly marked '(est)' by NTSB) place the impact point in the Gulf of Mexico off Pasco County, considerably closer to New Port Richey/Hudson than to Clearwater (Pinellas County) — this Clearwater-vs-New-Port-Richey discrepancy appears in NTSB's own data and is not an error on my part; widely-reported media accounts of this accident describe the location as near New Port Richey, consistent with the coordinates. The NTSB report never names the pilot; it refers to him only as 'the pilot' throughout, and the Aircraft/Owner-Operator table lists both 'Registered Owner' and 'Operator' as 'On file' rather than printing a name. The pilot is publicly identified in contemporaneous, non-NTSB news coverage as former MLB pitcher Roy Halladay — this is well documented but is not itself an NTSB-sourced fact, since the report does not name him. No injuries other than the single fatality are reported (no serious/minor injury counts given by NTSB; 0/0 used per schema, meaning none reported, not necessarily independently verified as zero by NTSB beyond the fatal count)."
+  "notes": "Case number confirmed as ANC18FA007 directly from the header of the official NTSB docket document ('Icon Aircraft Personnel Interviews', ID=40482395) and from the CAROL basic-search result (data.ntsb.gov / my.ntsb.gov), which lists it as Completed, published 05/19/2020, N922BA, ICON AIRCRAFT INC/A5, Clearwater FL, fatal. The 15-page 'Aviation Investigation Final Report' PDF was fetched directly from NTSB's own report-generation API (data.ntsb.gov/carol-repgen) — not a third-party mirror — and the narrative and probable-cause text above are copied verbatim from that PDF's 'Factual Information' and 'Probable Cause and Findings' sections (page breaks/figure captions omitted; bracketed subheadings added by me to mark where report sub-sections were merged for readability, bracketed text itself is not NTSB's wording). The investigation summary page at web.ntsb.gov independently reproduces the identical 'What Happened' / 'What We Found' text, corroborating the PDF. NTSB's own 'Location' field for this case reads 'Clearwater, Florida', which I used for location.city, but the stated accident-site coordinates (28.218334, -82.769447, explicitly marked '(est)' by NTSB) place the impact point in the Gulf of Mexico off Pasco County, considerably closer to New Port Richey/Hudson than to Clearwater (Pinellas County) — this Clearwater-vs-New-Port-Richey discrepancy appears in NTSB's own data and is not an error on my part; widely-reported media accounts of this accident describe the location as near New Port Richey, consistent with the coordinates. The NTSB report never names the pilot; it refers to him only as 'the pilot' throughout, and the Aircraft/Owner-Operator table lists both 'Registered Owner' and 'Operator' as 'On file' rather than printing a name. The pilot is publicly identified in contemporaneous, non-NTSB news coverage as former MLB pitcher Roy Halladay — this is well documented but is not itself an NTSB-sourced fact, since the report does not name him. No injuries other than the single fatality are reported (no serious/minor injury counts given by NTSB; 0/0 used per schema, meaning none reported, not necessarily independently verified as zero by NTSB beyond the fatal count).",
+  "page": {
+    "title": "ICON A5 (N922BA)",
+    "subtitle": "Fatal accident in the Gulf of Mexico near New Port Richey, Florida",
+    "datetime_text": "November 7, 2017, 12:04 EST · Gulf of Mexico near New Port Richey, FL",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "1 fatal / 1 aboard",
+    "badge_casualty_sub": "No survivors",
+    "status_meta": "NTSB · Released May 19, 2020",
+    "summary": "On November 7, 2017, a privately owned ICON A5 light-sport amphibious airplane crashed into the Gulf of Mexico near New Port Richey, Florida, killing the pilot — publicly identified in news coverage, though never named in the NTSB report itself, as former Cy Young-winning MLB pitcher Roy Halladay. Flight-recorder data showed the airplane repeatedly flying at very low altitude over open water before the pilot entered a climbing turn with a dangerously high angle of attack, cut engine power, and descended steeply into the water. The NTSB found the pilot was impaired by multiple psychoactive substances at the time of the accident.",
+    "facts": {
+      "location_value": "New Port Richey, Florida",
+      "location_sub": "Open water, Gulf of Mexico (NTSB lists the location as Clearwater, FL)",
+      "route_label": "Departure",
+      "route_value": "Island Ford Lake, Odessa, FL",
+      "route_sub": "17-minute personal flight, no filed destination",
+      "phase_value": "Low-altitude maneuvering over water",
+      "phase_sub": "Loss of control during a climbing turn",
+      "operation": "Personal (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "Clear, 10 mi visibility",
+      "weather_sub": "VMC, day; temp 28°C / dew point 19°C"
+    },
+    "narrative_excerpt": "Multiple witnesses in the area stated that they saw the airplane flying very low, between 5 and 300 ft, over the water as the airplane maneuvered south close to the shoreline. Some witnesses reported that the airplane was making steep turns and high-pitch climbs up to about 500 ft and that the engine sounded normal. A witness provided an image of the airplane over the water. A commercial fisherman stated that the airplane flew over his vessel at an altitude that was less than 300 ft. Another commercial fisherman, who was located about 900 ft north of the accident site, stated that he observed the airplane flying from the north \"really close\" to houses. The airplane then flew south past his position, descended briefly, and climbed. After entering a steep climb, the airplane descended on an easterly heading in a steep nose-down attitude; the airplane's pitch attitude decreased as the airplane continued to descend. The witness reported that the airplane impacted the water in a 45° nose-down, wings-level attitude.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Pilot's improper decision to perform aggressive, low-altitude maneuvers over open water",
+      "Pilot impairment from the use of multiple psychoactive substances",
+      "Resulting loss of control of the airplane"
+    ],
+    "safety_takeaways": [
+      "Low-altitude maneuvering over water leaves no margin to recover from a stall or loss of control — there is no altitude buffer between a mistake and impact.",
+      "An angle-of-attack indicator reading in the caution or warning bands during a climbing turn is a stall warning, not a performance target to push toward.",
+      "Never fly under the influence of psychoactive medications, prescribed or otherwise — impairment degrades judgment and reaction time before a pilot can recognize it in themselves.",
+      "Retarding the throttle while already at a high angle of attack and low airspeed removes the one resource — power — that could arrest a developing stall.",
+      "A stall or loss of control at a few hundred feet over open water is no more survivable than one over land; low-altitude \"sightseeing\" maneuvers deserve the same respect as any other low-altitude flight regime."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-icon-a5-n924ba.5f3333f5.webp",
+      "alt": "An ICON A5, the same model as the accident aircraft, registration N924BA (file photo, not the accident airplane)",
+      "caption": "Representative ICON A5 · not the accident aircraft",
+      "name": "ICON A5",
+      "sub": "Light-sport amphibious airplane",
+      "specs": [
+        [
+          "Engine",
+          "Rotax 912 iS"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-anc18fa007-wreckage-water.17eeac7a.webp",
+        "alt": "Inverted wreckage of N922BA floating in the Gulf of Mexico shortly after the accident, with the registration visible on the tail",
+        "title": "Wreckage at the accident scene",
+        "meta": "N922BA · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40482401&FileExtension=.PDF&FileName=Photographs-Master.PDF"
+      },
+      {
+        "photo": "assets/img/incident-anc18fa007-wreckage-recovery-yard.b391fbbe.webp",
+        "alt": "Recovered wreckage laid out for examination at a recovery yard, fuselage and wings separated into sections",
+        "title": "Wreckage during examination",
+        "meta": "N922BA · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40482401&FileExtension=.PDF&FileName=Photographs-Master.PDF"
+      },
+      {
+        "photo": "assets/img/incident-anc18fa007-rotax-engine-exam.0a14e297.webp",
+        "alt": "The airplane's Rotax 912 iS engine during post-accident examination",
+        "title": "Engine examination",
+        "meta": "N922BA · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40482401&FileExtension=.PDF&FileName=Photographs-Master.PDF"
+      }
+    ],
+    "media_source_label": "NTSB docket photographs, ANC18FA007",
+    "location_card": {
+      "map_caption": "New Port Richey, FL (Gulf of Mexico)",
+      "primary": "Gulf of Mexico, near New Port Richey, Florida",
+      "region": "Pasco County, Florida, USA",
+      "coords_text": "28.218334, -82.769447 (est.)",
+      "site_title": "Accident site",
+      "site_sub": "Open water, Gulf of Mexico, close to shoreline",
+      "site_meta": "NTSB lists the location as Clearwater, FL; estimated coordinates place the site off Pasco County, near New Port Richey"
+    },
+    "docs": {
+      "report_label": "Final report",
+      "docket_label": "(18 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Sikorsky S-76B — Kobe Bryant, VFR into IMC, Calabasas CA",
+        "sub": "Similar factors: low-altitude flight, loss of control near terrain",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA20MA059"
+      },
+      {
+        "title": "PiperSport — stall/spin after go-around, Santa Monica CA",
+        "sub": "Similar factors: aggressive maneuvering, aerodynamic stall",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "WPR22FA338"
+      },
+      {
+        "title": "Cessna 172 — go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: low-altitude loss of control",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "CEN23LA348"
+      }
+    ],
+    "about_investigation_type": "Full"
+  }
 }

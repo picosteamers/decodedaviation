@@ -13,6 +13,7 @@
   },
   "operator": "US Airways",
   "flight_type": "14 CFR Part 121 scheduled domestic passenger service, IFR flight plan (LaGuardia Airport, NY to Charlotte Douglas International Airport, NC)",
+  "occupants": 155,
   "fatalities": 0,
   "injuries": {
     "serious": 5,
@@ -32,5 +33,124 @@
     "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1003.pdf",
     "https://data.ntsb.gov/Docket/?NTSBNumber=DCA09MA026"
   ],
-  "notes": "NTSB Number DCA09MA026; published report number is NTSB/AAR-10/03 (adopted May 4, 2010). probable_cause is quoted verbatim from Section 3.2 of the PDF report (confirmed via direct text extraction, layout mode, from the official ntsb.gov-hosted PDF). narrative is a verbatim assembly of the Section 1.1 'History of Flight' text from the same PDF -- all CVR dialogue quotes and factual sentences are reproduced exactly as printed, with only footnote markers and footnote text stripped out for readability. Injuries: the official injury table (Section 1.2) lists Fatal 0, Serious 5 (1 cabin crew + 4 passengers), Minor 95, None 55, Total 155 (2 flight crew + 3 cabin crew + 150 passengers, including one lap-held child). No precise latitude/longitude for the ditching site was found in the accident report, the NTSB investigation summary page, or the public docket page; the report identifies the location only as 'Weehawken, New Jersey' (title/header) and the ditching point as 'about 8.5 miles from LaGuardia Airport' on the Hudson River -- lat/lon left null rather than estimated from secondary sources. phase_of_flight is a descriptive paraphrase, not a verbatim NTSB field/taxonomy code, since the extracted report text does not tabulate a discrete phase-of-flight classification. aviation-safety.net and Wikipedia were not used as factual sources -- they surfaced only in general web search results used to locate the case number (DCA09MA026) and report number (AAR-10/03), which were then independently confirmed against ntsb.gov and data.ntsb.gov pages, and every fact in this record was verified against the NTSB PDF/report or data.ntsb.gov pages listed in sources_checked."
+  "notes": "NTSB Number DCA09MA026; published report number is NTSB/AAR-10/03 (adopted May 4, 2010). probable_cause is quoted verbatim from Section 3.2 of the PDF report (confirmed via direct text extraction, layout mode, from the official ntsb.gov-hosted PDF). narrative is a verbatim assembly of the Section 1.1 'History of Flight' text from the same PDF -- all CVR dialogue quotes and factual sentences are reproduced exactly as printed, with only footnote markers and footnote text stripped out for readability. Injuries: the official injury table (Section 1.2) lists Fatal 0, Serious 5 (1 cabin crew + 4 passengers), Minor 95, None 55, Total 155 (2 flight crew + 3 cabin crew + 150 passengers, including one lap-held child). No precise latitude/longitude for the ditching site was found in the accident report, the NTSB investigation summary page, or the public docket page; the report identifies the location only as 'Weehawken, New Jersey' (title/header) and the ditching point as 'about 8.5 miles from LaGuardia Airport' on the Hudson River -- lat/lon left null rather than estimated from secondary sources. phase_of_flight is a descriptive paraphrase, not a verbatim NTSB field/taxonomy code, since the extracted report text does not tabulate a discrete phase-of-flight classification. aviation-safety.net and Wikipedia were not used as factual sources -- they surfaced only in general web search results used to locate the case number (DCA09MA026) and report number (AAR-10/03), which were then independently confirmed against ntsb.gov and data.ntsb.gov pages, and every fact in this record was verified against the NTSB PDF/report or data.ntsb.gov pages listed in sources_checked.",
+  "page": {
+    "title": "Airbus A320-214 (N106US)",
+    "subtitle": "Dual-engine failure and ditching on the Hudson River, New York",
+    "datetime_text": "January 15, 2009, 15:27 EST · Hudson River near Weehawken, NJ",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Successful ditching, no fatalities",
+    "badge_casualty": "0 fatal / 155 aboard",
+    "badge_casualty_sub": "5 serious, 95 minor injuries — all 155 survived",
+    "status_meta": "NTSB · Released May 4, 2010",
+    "summary": "Shortly after departing LaGuardia Airport, US Airways Flight 1549 struck a flock of Canada geese that disabled both engines of the Airbus A320. With no power to reach any airport, Captain Chesley “Sully” Sullenberger and First Officer Jeffrey Skiles glided the airliner to a controlled ditching on the Hudson River. All 150 passengers and 5 crewmembers evacuated onto the wings and into rafts; five people were seriously injured and none were killed. The NTSB credited the flight crew’s decision-making and crew resource management, the airplane’s overwater emergency equipment, and the speed of the ferry and emergency response for an outcome widely known as the “Miracle on the Hudson.”",
+    "facts": {
+      "location_value": "Weehawken, New Jersey (Hudson River)",
+      "location_sub": "About 8.5 miles from LaGuardia Airport",
+      "route_label": "Route",
+      "route_value": "LaGuardia (LGA) → Charlotte Douglas Intl (CLT)",
+      "route_sub": "Scheduled Part 121 passenger service, IFR flight plan",
+      "phase_value": "Initial climb → forced ditching",
+      "phase_sub": "Dual-engine bird strike at 2,818 ft agl, ~2 min after takeoff",
+      "operation": "Scheduled domestic passenger service (Part 121)",
+      "damage": "Substantial",
+      "weather_value": "VMC, 10 mi visibility",
+      "weather_sub": "Broken ceiling 3,700 ft; Hudson River water temp ~41°F (5.2°C)"
+    },
+    "narrative_excerpt": "At 1527:10.4, the captain stated, “birds.” One second later, the CVR recorded the sound of thumps and thuds followed by a shuddering sound. The bird encounter occurred when the airplane was at 2,818 feet agl, about 4.5 miles north-northwest of LaGuardia, and both engines’ fan and core speeds immediately began to decelerate. At 1527:14, the first officer stated, “uh oh,” and the captain responded, “we got one rol- both of ‘em rolling back.” At 1527:23, the captain took over control of the airplane, stating, “my aircraft.” At 1527:33, he reported the emergency to the LaGuardia departure controller: “mayday mayday mayday…this is…Cactus fifteen thirty nine hit birds, we’ve lost thrust in both engines, we’re turning back towards LaGuardia.” At 1528:05, when the controller asked if he could reach runway 13, the captain replied, “we’re unable. we may end up in the Hudson [River].” Offers of Teterboro and other nearby runways followed, each declined as the captain determined the airplane could not reach any airport. At 1529:11, he announced over the public address system, “this is the Captain, brace for impact.” The CVR recording ended at 1530:43.7 with the captain stating, “we’re gonna brace.”",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Ingestion of large birds (Canada geese) into both engines during initial climb, causing an almost total loss of thrust",
+      "FAA approval of ditching certification without determining whether pilots could meet ditching parameters without engine thrust",
+      "Industry-wide lack of flight crew training and guidance on ditching techniques",
+      "Captain’s difficulty maintaining his intended approach airspeed due to task saturation during the emergency",
+      "Resulting fuselage damage made the aft slide/rafts unavailable during the evacuation"
+    ],
+    "safety_takeaways": [
+      "When both engines fail with no altitude or time to reach a runway, committing early to the best available off-airport site (even a river) preserves energy and options better than stretching toward a marginal runway.",
+      "Train and rehearse the dual-engine-failure and ditching checklists specifically — the emergencies practiced most often (single-engine failure, runway landings) are not the ones that save you when both engines quit at low altitude.",
+      "Clear crew resource management — one pilot flying while the other runs checklists and talks to ATC — keeps decision-making sound even under extreme task saturation with no time to brief.",
+      "Ditching performance depends on parameters (pitch, airspeed, wings level, minimal sink rate) most transport pilots never fly without engine thrust; simulator ditching scenarios close that gap before a real one happens.",
+      "A survivable touchdown still needs a trained cabin crew and the right equipment — overwater life rafts and slides, and rehearsed evacuation procedures, are what turn a successful landing into zero fatalities."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-us-airways-a320-n106us.7cba32c9.webp",
+      "alt": "The accident aircraft, N106US, in US Airways livery, photographed on approach at Philadelphia International Airport in April 2008, about nine months before the accident",
+      "caption": "N106US, photographed at Philadelphia International Airport, April 2008 — about 9 months before the accident",
+      "name": "Airbus A320-214",
+      "sub": "Twin-engine narrow-body airliner",
+      "specs": [
+        [
+          "Manufactured",
+          "1999 (delivered new to US Airways, Aug. 1999)"
+        ],
+        [
+          "Engines",
+          "2× CFM International CFM56-5B4/P"
+        ],
+        [
+          "Seating",
+          "150 passengers (12 first, 138 economy)"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-dca09ma026-floating-hudson-river.65d58742.webp",
+        "alt": "N106US afloat on the Hudson River at dusk shortly after ditching, surrounded by ferries and rescue boats",
+        "title": "Aircraft afloat on the Hudson, shortly after ditching",
+        "meta": "N106US · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40313057&FileExtension=.PDF&FileName=Structures+7A+-+Factual+Report+of+Group+Chairman-Master.PDF"
+      },
+      {
+        "photo": "assets/img/incident-dca09ma026-recovery-barge-crane.ca543b07.webp",
+        "alt": "The wreckage of N106US being lifted by crane onto a barge at night, with the Manhattan skyline in the background",
+        "title": "Wreckage recovery onto barge",
+        "meta": "N106US · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40313057&FileExtension=.PDF&FileName=Structures+7A+-+Factual+Report+of+Group+Chairman-Master.PDF"
+      },
+      {
+        "photo": "assets/img/incident-dca09ma026-fuselage-damage-closeup.bae8c0e4.webp",
+        "alt": "Close-up of the lower forward fuselage of N106US showing torn skin and impact damage near the registration marking",
+        "title": "Lower fuselage impact damage",
+        "meta": "N106US · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40313690&FileExtension=.PDF&FileName=Structures+7F+-+Addendum+1+Attachment+2+Photos-Master.PDF"
+      }
+    ],
+    "media_source_label": "NTSB Structures Group Chairman's Factual Report, DCA09MA026",
+    "location_card": {
+      "map_caption": "Weehawken, NJ (Hudson River)",
+      "primary": "Hudson River, near Weehawken, New Jersey",
+      "region": "New York City / Weehawken, NJ, USA",
+      "coords_text": "Precise coordinates not published by NTSB · site is ~8.5 mi from LaGuardia Airport (LGA)",
+      "site_title": "Ditching site",
+      "site_sub": "Hudson River, water temperature ~41°F (5.2°C), ebb current 1.4 kts",
+      "site_meta": "Near Midtown Manhattan / Weehawken, NJ waterfront"
+    },
+    "docs": {
+      "report_label": "NTSB/AAR-10/03",
+      "docket_label": "(123 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Colgan Air 3407 — Dash 8 Q400, Buffalo NY",
+        "sub": "Contemporaneous major transport-category NTSB investigation",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA09MA027"
+      },
+      {
+        "title": "Cirrus SR22 — water-contaminated fuel, CAPS deployment",
+        "sub": "Similar factor: in-flight power loss, the safety system worked",
+        "icon_style": "sky-cruise rot-side",
+        "ntsb": "WPR24LA106"
+      },
+      {
+        "title": "Roy Halladay — ICON A5, Gulf of Mexico",
+        "sub": "Similar factor: low-altitude flight over water",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "ANC18FA007"
+      }
+    ],
+    "about_investigation_type": "Full (Board meeting)"
+  }
 }

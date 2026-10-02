@@ -80,11 +80,13 @@ def takeaway_item(text):
 
 
 def related_item(r, thumb_size=22, wrap_size=56):
-    return (f'<div class="related-item"><div class="related-thumb" style="width:{wrap_size}px;height:{round(wrap_size*0.93)}px">'
+    href = f'../{r["ntsb"].lower()}/' if r.get("ntsb") else "#"
+    return (f'<a class="related-item" href="{href}" style="text-decoration:none;color:inherit">'
+            f'<div class="related-thumb" style="width:{wrap_size}px;height:{round(wrap_size*0.93)}px">'
             f'<div class="ac-thumb {r["icon_style"]}" style="height:100%">'
             f'<svg viewBox="0 0 24 24" fill="#2c3e52" width="{thumb_size}" height="{thumb_size}"><path d="{PLANE_PATH}"/></svg>'
             f'</div></div><div><span class="related-title">{r["title"]}</span><br>'
-            f'<span class="related-sub">{r["sub"]}</span></div></div>')
+            f'<span class="related-sub">{r["sub"]}</span></div></a>')
 
 
 def media_item_desktop(m):

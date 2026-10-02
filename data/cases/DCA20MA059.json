@@ -120,8 +120,8 @@
       "docket_label": "(53 items)"
     },
     "related_cases": [
-      {"title": "Roy Halladay — ICON A5, Gulf of Mexico", "sub": "Similar factors: low-altitude maneuvering, spatial awareness", "icon_style": "sky-maneuver rot-side"},
-      {"title": "Piper PA-28 — VFR into IMC, Micanopy FL", "sub": "Similar factors: VFR into IMC, spatial disorientation", "icon_style": "sky-landing rot-down"}
+      {"title": "Roy Halladay — ICON A5, Gulf of Mexico", "sub": "Similar factors: low-altitude maneuvering, spatial awareness", "icon_style": "sky-maneuver rot-side", "ntsb": "ANC18FA007"},
+      {"title": "Piper PA-28 — VFR into IMC, Micanopy FL", "sub": "Similar factors: VFR into IMC, spatial disorientation", "icon_style": "sky-landing rot-down", "ntsb": "ERA24FA036"}
     ],
     "about_investigation_type": "Full (Board meeting)"
   }

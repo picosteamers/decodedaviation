@@ -8,11 +8,12 @@
     "lon": -77.025069
   },
   "aircraft": {
-    "type": "Aircraft 1 (A1): Mitsubishi Heavy Industries (MHI) RJ Aviation (formerly Bombardier) CL-600-2C10 (CRJ700) regional jet, s/n 10165, 80 seats, manufactured 2004. Aircraft 2 (A2): Sikorsky UH-60L Black Hawk military helicopter, s/n 702614, US Army tail number 00-26860, twin GE T700-GE-701D turboshaft engines.",
-    "registration": "A1: N709PS (registered owner UMB Bank NA Trustee). A2: UNREG — US military aircraft, not FAA-registered; identified by US Army tail number 00-26860 / serial number 702614, operating under callsign PAT25."
+    "type": "Bombardier CRJ700 (A1) & Sikorsky UH-60L Black Hawk (A2)",
+    "registration": "N709PS (A1) · Army 00-26860 (A2, callsign PAT25)"
   },
-  "operator": "A1: PSA Airlines, Inc., operating as American Airlines / American Eagle flight 5342 (Part 121 flag/scheduled carrier). A2: United States Army, Department of Defense (Priority Air Transport flight, callsign PAT25); registered owner and operator both listed as Army Department of Defense.",
-  "flight_type": "A1: Part 121 air carrier — scheduled domestic passenger flight, Wichita Dwight D. Eisenhower National Airport (ICT), Kansas, to Ronald Reagan Washington National Airport (DCA); IFR flight plan. A2: Armed Forces / military flight — US Army annual pilot standardization evaluation flight using night vision goggles (NVGs), Davison Army Airfield (DAA), Fort Belvoir, VA, transiting published DC-area helicopter Routes 1 and 4; filed as Military VFR.",
+  "operator": "PSA Airlines, operating as American Eagle Flight 5342 (A1) · United States Army (A2)",
+  "flight_type": "A1: Part 121 scheduled passenger (ICT–DCA) · A2: Military training/evaluation flight (NVG proficiency check)",
+  "occupants": 67,
   "fatalities": 67,
   "injuries": {
     "serious": 0,
@@ -36,5 +37,104 @@
     "https://data.ntsb.gov/Docket/?NTSBNumber=DCA25MA108",
     "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/199620/pdf"
   ],
-  "notes": "Investigation is CLOSED/FINAL, not preliminary. NTSB adopted its final Aviation Investigation Report at a public Board meeting on January 27, 2026 (report number AIR-26-02, 419 pages, downloaded and text-extracted directly from ntsb.gov for this record). The report carries a notice that it 'was reissued on February 25, 2026, to correct the Board member concurrence on page 313 by adding the DC Metropolitan Police Department, which had been inadvertently omitted' — a clerical correction, not a change to findings or probable cause. The CAROL-generated 8-page summary report (data.ntsb.gov, ProjectID 199620, 'Original Publish Date: February 17, 2026') was used to source the structured fields (registrations, injuries, weather, coordinates) and corroborates the full report's narrative/probable-cause text verbatim. An earlier preliminary narrative (ntsb.gov /investigations/Documents/DCA25MA108 Prelim.pdf, 20 pages, carries a 'DRAFT -- NOT FOR PUBLIC RELEASE' watermark despite being hosted on the public ntsb.gov domain) and an urgent safety recommendation report (AIR-25-01, issued March 2025, 'Deconflict Airplane and Helicopter Traffic in the Vicinity of Ronald Reagan Washington National Airport') preceded the final report; both are superseded by AIR-26-02 and are listed here only as corroborating/historical sources, not as the basis for probable_cause.\n\nTwo-aircraft structure: this schema has single aircraft/operator/flight_type/registration fields, so both aircraft (A1 = PSA Airlines CRJ700, A2 = US Army UH-60L) are encoded together in each of those fields, labeled 'A1'/'A2' to match NTSB's own labeling convention in the CAROL report, rather than splitting into two separate case files.\n\nFatalities: 67 total (64 aboard the airplane: 2 pilots, 2 flight attendants, 60 passengers; 3 aboard the helicopter), confirmed on both the preliminary materials and the final report/CAROL summary — matches the figure widely reported in initial news coverage. No survivors; NTSB records no serious or minor injuries for this accident (injuries field is all-fatal).\n\nCoordinates (38.842594, -77.025069) are the NTSB CAROL system's own recorded accident-site latitude/longitude (identical value listed for both aircraft, i.e. the single collision/impact point over the Potomac River); the narrative text in both the preliminary and final reports describes the location only qualitatively ('about 0.5 miles southeast of DCA... impacted the Potomac River'), so these coordinates come from CAROL's structured 'Wreckage and Impact Information' fields, not from narrative text.\n\nConfidence: high. All facts above were drawn directly from PDFs hosted on ntsb.gov and data.ntsb.gov (final report AIR-26-02, CAROL summary report, preliminary materials), fetched and text-extracted in this session rather than taken from news summaries. News/Wikipedia-style sources were not used as citations, only (implicitly, via search) as leads to locate the correct NTSB URLs."
+  "notes": "Investigation is CLOSED/FINAL, not preliminary. NTSB adopted its final Aviation Investigation Report at a public Board meeting on January 27, 2026 (report number AIR-26-02, 419 pages, downloaded and text-extracted directly from ntsb.gov for this record). The report carries a notice that it 'was reissued on February 25, 2026, to correct the Board member concurrence on page 313 by adding the DC Metropolitan Police Department, which had been inadvertently omitted' — a clerical correction, not a change to findings or probable cause. The CAROL-generated 8-page summary report (data.ntsb.gov, ProjectID 199620, 'Original Publish Date: February 17, 2026') was used to source the structured fields (registrations, injuries, weather, coordinates) and corroborates the full report's narrative/probable-cause text verbatim. An earlier preliminary narrative (ntsb.gov /investigations/Documents/DCA25MA108 Prelim.pdf, 20 pages, carries a 'DRAFT -- NOT FOR PUBLIC RELEASE' watermark despite being hosted on the public ntsb.gov domain) and an urgent safety recommendation report (AIR-25-01, issued March 2025, 'Deconflict Airplane and Helicopter Traffic in the Vicinity of Ronald Reagan Washington National Airport') preceded the final report; both are superseded by AIR-26-02 and are listed here only as corroborating/historical sources, not as the basis for probable_cause.\n\nTwo-aircraft structure: this schema has single aircraft/operator/flight_type/registration fields, so both aircraft (A1 = PSA Airlines CRJ700, A2 = US Army UH-60L) are encoded together in each of those fields, labeled 'A1'/'A2' to match NTSB's own labeling convention in the CAROL report, rather than splitting into two separate case files.\n\nFatalities: 67 total (64 aboard the airplane: 2 pilots, 2 flight attendants, 60 passengers; 3 aboard the helicopter), confirmed on both the preliminary materials and the final report/CAROL summary — matches the figure widely reported in initial news coverage. No survivors; NTSB records no serious or minor injuries for this accident (injuries field is all-fatal).\n\nCoordinates (38.842594, -77.025069) are the NTSB CAROL system's own recorded accident-site latitude/longitude (identical value listed for both aircraft, i.e. the single collision/impact point over the Potomac River); the narrative text in both the preliminary and final reports describes the location only qualitatively ('about 0.5 miles southeast of DCA... impacted the Potomac River'), so these coordinates come from CAROL's structured 'Wreckage and Impact Information' fields, not from narrative text.\n\nConfidence: high. All facts above were drawn directly from PDFs hosted on ntsb.gov and data.ntsb.gov (final report AIR-26-02, CAROL summary report, preliminary materials), fetched and text-extracted in this session rather than taken from news summaries. News/Wikipedia-style sources were not used as citations, only (implicitly, via search) as leads to locate the correct NTSB URLs.",
+  "page": {
+    "title": "CRJ700 / UH-60 Black Hawk Midair Collision",
+    "subtitle": "American Eagle Flight 5342 and a U.S. Army helicopter, Washington, D.C.",
+    "datetime_text": "January 29, 2025, night · over the Potomac River near Ronald Reagan Washington National Airport (DCA)",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Mid-air collision",
+    "badge_casualty": "67 fatal / 67 aboard",
+    "badge_casualty_sub": "No survivors, both aircraft",
+    "status_meta": "NTSB · Final report (AIR-26-02) adopted January 27, 2026",
+    "summary": "On short final to DCA, American Eagle Flight 5342 — a PSA Airlines CRJ700 arriving from Wichita with 64 people aboard — collided with a U.S. Army UH-60L Black Hawk helicopter flying a night-vision training route with 3 soldiers aboard. Both aircraft went down in the Potomac River; there were no survivors. The NTSB's final report assigns the probable cause primarily to the FAA's placement and oversight of the helicopter route itself, not to pilot error on either aircraft, alongside an overloaded control tower and an Army training gap on altimeter accuracy.",
+    "facts": {
+      "location_value": "Potomac River, Washington, D.C.",
+      "location_sub": "Near Ronald Reagan Washington National Airport (DCA)",
+      "route_label": "Flights",
+      "route_value": "AA5342: Wichita (ICT) → DCA · PAT25: Davison AAF (Fort Belvoir) training route",
+      "route_sub": "CRJ700 on final approach to runway 33; Black Hawk on Helicopter Route 4",
+      "phase_value": "CRJ700: final approach · Black Hawk: en route, night vision goggles",
+      "phase_sub": "Mid-air collision",
+      "operation": "A1: Part 121 scheduled airline · A2: Military training flight",
+      "damage": "Both aircraft destroyed",
+      "weather_value": "VMC, clear night",
+      "weather_sub": "Weather was not a factor"
+    },
+    "narrative_excerpt": "American Eagle Flight 5342, a PSA Airlines CRJ700 (N709PS) arriving from Wichita, Kansas, was on final approach to runway 33 at Ronald Reagan Washington National Airport (DCA). A U.S. Army UH-60L Black Hawk helicopter (callsign PAT25, tail number 00-26860), conducting a night-vision-goggle training and evaluation flight along published Helicopter Route 4, was transiting the area at an altitude that placed it in conflict with the approach path. The two aircraft collided over the Potomac River; both were destroyed, and there were no survivors among the 64 people aboard the airplane and the 3 aboard the helicopter.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "FAA's placement of a helicopter route in close proximity to a DCA runway approach path",
+      "FAA's failure to review helicopter-route risk data or act on prior recommendations to mitigate midair-collision risk near DCA",
+      "Air traffic system's overreliance on visual separation (\"see-and-avoid\") without accounting for its limitations",
+      "Helicopter crew's ineffective visual separation from the approaching airliner",
+      "DCA tower's loss of situational awareness under a high-workload, combined helicopter/local-control position",
+      "No real-time risk-assessment process at the tower to flag the developing conflict",
+      "Army's failure to train pilots on barometric-altimeter error tolerances, allowing flight above the published helicopter-route altitude",
+      "Limitations of both aircraft's traffic-awareness/collision-alerting systems",
+      "Unsustainable DCA arrival rate and air traffic control staffing strain"
+    ],
+    "safety_takeaways": [
+      "\"See-and-avoid\" is not a substitute for procedural separation where a busy approach path crosses a published helicopter route — the route's existence was itself the hazard, independent of either crew's performance.",
+      "A single controller position combining helicopter and local control duties at a high-traffic airport is a workload design problem, not just an individual-performance one — staffing and position design need their own periodic risk review.",
+      "Military aircrews flying published civilian-airspace routes need explicit training on the limits of their own instruments (here, barometric altimeter error tolerance) relative to the altitude restrictions those routes depend on.",
+      "Known collision-risk recommendations (here, from earlier NTSB work on DCA helicopter traffic) need a tracked path to implementation, not just acknowledgment — a recommendation that sits unactioned provides no protection.",
+      "Operators and regulators should treat near-miss and risk data (route proximity, traffic volume growth, fleet mix changes) as leading indicators requiring action, not retrospective explanations after a collision."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-crj700-n709ps.736a4401.webp",
+      "alt": "The accident airplane, American Eagle (PSA Airlines) CRJ700 N709PS, photographed before the accident",
+      "caption": "The accident airplane, photographed before the accident",
+      "name": "Bombardier CRJ700",
+      "sub": "PSA Airlines, operating as American Eagle",
+      "specs": [
+        [
+          "Registration",
+          "N709PS"
+        ],
+        [
+          "Operator",
+          "PSA Airlines"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/aircraft-uh60-blackhawk-0026860.870a38a5.webp",
+        "alt": "The accident helicopter, U.S. Army UH-60L Black Hawk, tail number 00-26860, photographed before the accident",
+        "title": "US Army UH-60L Black Hawk (00-26860)",
+        "meta": "The helicopter involved · file photo, pre-accident",
+        "link": "https://commons.wikimedia.org/wiki/File:Sikorsky_UH-60L_Black_Hawk_00-26860_10_30_18.jpg"
+      }
+    ],
+    "media_source_label": "Reference photos of the two accident aircraft, pre-accident (Wikimedia Commons)",
+    "location_card": {
+      "map_caption": "Potomac River, near DCA",
+      "primary": "Potomac River, near Ronald Reagan Washington National Airport",
+      "region": "Washington, D.C., USA",
+      "coords_text": "38.842594, -77.025069",
+      "site_title": "Collision site",
+      "site_sub": "Over the Potomac River, short final to DCA runway 33",
+      "site_meta": "Near Ronald Reagan Washington National Airport (DCA)"
+    },
+    "docs": {
+      "report_label": "Final report (AIR-26-02, 419 pages)",
+      "docket_label": "(full docket)"
+    },
+    "related_cases": [
+      {
+        "title": "Colgan Air 3407 — icing/stall, Buffalo NY",
+        "sub": "Similar scale: major transport-category NTSB Board investigation",
+        "icon_style": "sky-cruise rot-side",
+        "ntsb": "DCA09MA027"
+      },
+      {
+        "title": "US Airways 1549 — dual engine failure, Hudson River",
+        "sub": "Similar setting: a scheduled airliner over a major river near a DC-area-class airport",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA09MA026"
+      }
+    ],
+    "about_investigation_type": "Full (Board meeting)"
+  }
 }

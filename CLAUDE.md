@@ -154,17 +154,16 @@ break every indexed URL.
 
 ## Known gaps / before going live
 
-- **The home page's incident list is a mix of real and fictional rows.**
-  Only the first row (Kobe Bryant) is real; the other five are leftover
-  placeholder data from the original design mockup (fake registrations,
-  fake NTSB-style summaries). This needs to be cleaned up — either
-  generate the whole list from `data/cases/*.json` or hand-replace the
-  fictional rows — **before this site is public**. Mixing fabricated
-  "incidents" with real NTSB-sourced ones on a safety site is a real
-  trust/E-E-A-T problem, not just cosmetic.
+- ~~The home page's incident list mixes real and fictional rows~~ **Fixed.**
+  All 10 rows in "Latest aviation incidents" are now real cases, generated
+  from `data/cases/*.json`, sorted by date, each with a real aircraft photo
+  thumbnail and linking to its real `/cases/<ntsb>/` page.
 - **"Explore by aircraft" / map / accident-type sections on the home page
-  are still non-functional mockup content** (`href="#"`, fake stats).
-  Fine for now; needs real listing pages or removal before launch.
+  are still non-functional mockup content** (`href="#"`, fake stats like
+  "236,000+ accidents"). This is the next home-page gap to close — ideally
+  by building the entity hub pages (`/aircraft/<type>/`, `/airports/<icao>/`,
+  etc. — see the SEO section above) and pointing these sections at them,
+  rather than just deleting the sections.
 - **No sitemap.xml / robots.txt yet** — can't be generated correctly
   without a known domain (sitemap URLs must be absolute). Once the
   domain is live:
@@ -172,15 +171,20 @@ break every indexed URL.
   Re-run this after adding new case pages, before each deploy.
 - **No Open Graph / canonical / JSON-LD tags yet** in `scripts/build_case.py`'s
   template. Worth adding once there's a real domain to point canonical URLs at.
-- 9 of the 12 researched cases have data but no `page` block yet (no
-  written contributing-factors/safety-takeaways/photos): `ANC18FA007`
-  (Roy Halladay), `CEN23LA348` (Cessna 172), `DCA09MA026` (US Airways 1549),
-  `DCA09MA027` (Colgan Air 3407), `DCA25MA108` (DCA midair collision —
-  also flagged for a second accuracy pass given how fast and sensitive
-  this one is), `ERA24FA036` (Piper PA-28), `WPR22FA338` (Santa Monica
-  Flyers spin), `WPR24LA106` (Cirrus SR22), `WPR26MA063` (Greg Biffle,
-  preliminary — no page until a final report exists), plus the Chatsworth
-  NewsChopper4 case (no confirmed NTSB number yet, `pending`).
+- **10 of 12 researched cases now have a full `page` block and a live
+  generated page**: `LAX07FA258`, `DCA20MA059`, `ANC18FA007`, `CEN23LA348`,
+  `DCA09MA026`, `DCA09MA027`, `DCA25MA108`, `ERA24FA036`, `WPR22FA338`,
+  `WPR24LA106`. The remaining 2 are intentionally data-only, not missing:
+  `WPR26MA063` (Greg Biffle) is still `preliminary` — no probable cause
+  exists yet, so there is nothing honest to put in a "Why it happened"
+  section until NTSB publishes a final report. The Chatsworth NewsChopper4
+  case is `pending` with no confirmed NTSB case number at all. Don't build
+  pages for either until their `report_status` changes — revisit
+  periodically rather than forcing content that doesn't exist yet.
+- `DCA25MA108`'s page content should get a second look before launch given
+  how sensitive and procedurally fast this case was (final report adopted
+  about a year after the accident) — not because anything here is known to
+  be wrong, just because it's the highest-stakes case in the set.
 - 40 more cases (of the planned 50) haven't been picked yet.
 
 ## Conventions carried over from the design mockup

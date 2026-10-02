@@ -13,6 +13,7 @@
   },
   "operator": "On file (NTSB report lists both 'Registered Owner' and 'Operator' as \"On file\"; FAA records show the pilot purchased the airplane on October 31, 2023, consistent with personal ownership/operation)",
   "flight_type": "Part 91: General aviation - Personal",
+  "occupants": 1,
   "fatalities": 1,
   "injuries": {
     "serious": 0,
@@ -32,5 +33,120 @@
     "https://data.ntsb.gov/Docket?ProjectID=193387",
     "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateFactualReport/193387/pdf"
   ],
-  "notes": "Case number ERA24FA036 independently re-verified: the NTSB docket page at https://data.ntsb.gov/Docket?ProjectID=193387 confirms Accident Number ERA24FA036, Piper PA-28-180, N7806W, Micanopy FL, November 14, 2023, and the 12-page 'Aviation Investigation Final Report' PDF fetched directly from NTSB's own report-generation API (data.ntsb.gov/carol-repgen, ProjectID 193387) carries the identical case number in its header on every page. Report status is 'final' (NTSB's own header labels it 'Aviation Investigation Final Report'; Original Publish Date October 22, 2025; no Last Revision Date given). The narrative and probable_cause fields above are copied verbatim from the PDF's 'Factual Information', 'Wreckage and Impact Information', 'Medical and Pathological Information', and 'Probable Cause and Findings' sections, including the pilot's quoted radio reports ('mayday', 'lost in weather', 'mistakenly flew into weather', 'it's completely white', 'upside down') exactly as NTSB quoted them; bracketed subheadings (e.g. '[Pilot Information]') were added by me only to mark where report subsections were merged into one narrative field for readability — that bracketed text itself is not NTSB's wording, everything else is verbatim including punctuation and em/en dashes as rendered in the source PDF. Accident site coordinates (29.525833, -82.283056) and elevation (100 ft msl) are taken directly from the report's 'Wreckage and Impact Information' table, which did not mark them as estimated. The 'Findings' section (not duplicated elsewhere in this JSON) lists: Personnel issues - Decision making/judgment - Pilot; Environmental issues - Below VFR minima - Decision related to condition; Personnel issues - Weather planning - Pilot; Personnel issues - Spatial disorientation - Pilot. The report also notes the pilot's toxicology showed carboxy-delta-9-THC (a non-psychoactive THC metabolite) but no active delta-9-THC, which NTSB's own analysis states means the pilot was likely not experiencing acute cannabis impairment at the time of the accident — this is not cited as a cause or contributing factor in the probable cause statement. No serious/minor injuries beyond the single fatality are reported by NTSB (only occupant was the pilot); 0/0 used per schema to mean none reported, not independently verified beyond the fatal count."
+  "notes": "Case number ERA24FA036 independently re-verified: the NTSB docket page at https://data.ntsb.gov/Docket?ProjectID=193387 confirms Accident Number ERA24FA036, Piper PA-28-180, N7806W, Micanopy FL, November 14, 2023, and the 12-page 'Aviation Investigation Final Report' PDF fetched directly from NTSB's own report-generation API (data.ntsb.gov/carol-repgen, ProjectID 193387) carries the identical case number in its header on every page. Report status is 'final' (NTSB's own header labels it 'Aviation Investigation Final Report'; Original Publish Date October 22, 2025; no Last Revision Date given). The narrative and probable_cause fields above are copied verbatim from the PDF's 'Factual Information', 'Wreckage and Impact Information', 'Medical and Pathological Information', and 'Probable Cause and Findings' sections, including the pilot's quoted radio reports ('mayday', 'lost in weather', 'mistakenly flew into weather', 'it's completely white', 'upside down') exactly as NTSB quoted them; bracketed subheadings (e.g. '[Pilot Information]') were added by me only to mark where report subsections were merged into one narrative field for readability — that bracketed text itself is not NTSB's wording, everything else is verbatim including punctuation and em/en dashes as rendered in the source PDF. Accident site coordinates (29.525833, -82.283056) and elevation (100 ft msl) are taken directly from the report's 'Wreckage and Impact Information' table, which did not mark them as estimated. The 'Findings' section (not duplicated elsewhere in this JSON) lists: Personnel issues - Decision making/judgment - Pilot; Environmental issues - Below VFR minima - Decision related to condition; Personnel issues - Weather planning - Pilot; Personnel issues - Spatial disorientation - Pilot. The report also notes the pilot's toxicology showed carboxy-delta-9-THC (a non-psychoactive THC metabolite) but no active delta-9-THC, which NTSB's own analysis states means the pilot was likely not experiencing acute cannabis impairment at the time of the accident — this is not cited as a cause or contributing factor in the probable cause statement. No serious/minor injuries beyond the single fatality are reported by NTSB (only occupant was the pilot); 0/0 used per schema to mean none reported, not independently verified beyond the fatal count.",
+  "page": {
+    "title": "Piper PA-28-180 (N7806W)",
+    "subtitle": "Fatal accident near Micanopy, Florida",
+    "datetime_text": "November 14, 2023, 14:09 EST · wooded terrain near Micanopy, FL",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "1 fatal / 1 aboard",
+    "badge_casualty_sub": "No survivors",
+    "status_meta": "NTSB · Released October 22, 2025",
+    "summary": "A non-instrument-rated private pilot departed Kissimmee Gateway Airport as weather deteriorated toward his destination near Micanopy, Florida. About an hour into the flight the airplane entered a cloud layer; the pilot began erratic climbs, descents, and tight turns and radioed air traffic control that his attitude indicator and turn-and-bank indicator had failed and that he could not see outside. The airplane entered a steep, tightening descent and struck wooded terrain, killing the pilot. The NTSB found he had not obtained a weather briefing or filed a flight plan before departure.",
+    "facts": {
+      "location_value": "Micanopy, Florida",
+      "location_sub": "Heavily wooded terrain, ~100 ft elevation",
+      "route_label": "Route",
+      "route_value": "Kissimmee Gateway Airport (ISM) → near Micanopy, FL",
+      "route_sub": "Personal VFR flight; route loaded in ForeFlight, no flight plan filed",
+      "phase_value": "Enroute, loss of control in flight",
+      "phase_sub": "VFR encounter with IMC → spatial disorientation",
+      "operation": "Personal (Part 91)",
+      "damage": "Destroyed",
+      "weather_value": "IMC, 2 mi visibility",
+      "weather_sub": "Broken ceiling 1,800 ft agl; moderate rain and mist"
+    },
+    "narrative_excerpt": "Review of air traffic control communications revealed that during the erratic maneuvering, the pilot called \"mayday\" and stated he \"was lost in weather.\" During this period, ATC attempted to provide the pilot with radar vectors toward an area with better weather and also suggested control inputs when the ADS-B data showed he was flying off course or beginning a descent or climb. During the conversation, the pilot reported multiple times that multiple instruments had failed, specifically the vacuum-driven attitude indicator and the electrically-driven turn and bank indicator. The pilot also reported that he \"mistakenly flew into weather,\" \"it's completely white,\" and he could not see anything outside. At one point, the pilot reported to ATC that he thought he was \"upside down.\"",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Non-instrument-rated pilot's improper inflight decision making",
+      "Continued flight into instrument meteorological conditions (IMC)",
+      "Spatial disorientation following loss of outside visual reference",
+      "Subsequent loss of airplane control",
+      "Inadequate preflight weather planning"
+    ],
+    "safety_takeaways": [
+      "Get an actual weather briefing before every flight, not just a route loaded into an app — the pilot had programmed the flight into ForeFlight but never filed a flight plan or pulled a briefing that day.",
+      "Treat a missing instrument rating as a hard VFR limit: ceilings reported as broken at 800–1,000 ft agl and 2 miles visibility along the route are IFR, not marginal VFR — this flight should not have launched.",
+      "Set personal weather minimums in advance and hold to them, especially soon after buying an unfamiliar airplane with no logged time in type.",
+      "The instant outside visual references disappear, a prompt 180-degree turn back to known VMC is almost always safer than continuing on course or climbing to top a layer.",
+      "Confirm known discrepancies are actually fixed before flying: a pre-buy inspection had already found the attitude indicator failed, with no logbook entry showing it was repaired before the accident."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-piper-pa28-180.f32996a7.webp",
+      "alt": "A Piper PA-28-180 Cherokee of the same type, a different registration, in flight",
+      "caption": "A Piper PA-28-180 Cherokee of the same type (not the accident aircraft, N7806W)",
+      "name": "Piper PA-28-180",
+      "sub": "Single-engine, fixed-gear light airplane",
+      "specs": [
+        [
+          "Engine",
+          "Lycoming O-360, 180 hp"
+        ],
+        [
+          "Seats",
+          "4"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-era24fa036-accident-site-overview.24dfc2f4.webp",
+        "alt": "Overview of the wreckage in heavily wooded terrain at the accident site",
+        "title": "Accident site overview",
+        "meta": "N7806W · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18593572&FileExtension=pdf&FileName=Investigative%20Photos-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era24fa036-attitude-indicator-gyro.c1c92dae.webp",
+        "alt": "Attitude indicator gyroscope after disassembly, showing rotational scoring",
+        "title": "Attitude indicator gyro, disassembled",
+        "meta": "N7806W · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18593572&FileExtension=pdf&FileName=Investigative%20Photos-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era24fa036-engine-overview.d9e9bb70.webp",
+        "alt": "Recovered engine and propeller assembly at the recovery facility",
+        "title": "Engine overview",
+        "meta": "N7806W · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18593572&FileExtension=pdf&FileName=Investigative%20Photos-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB Investigative Photographs, ERA24FA036",
+    "location_card": {
+      "map_caption": "Micanopy, FL",
+      "primary": "Micanopy, Florida",
+      "region": "Alachua County, USA",
+      "coords_text": "29.525833, -82.283056 (accident site)",
+      "site_title": "Accident site",
+      "site_sub": "Heavily wooded terrain, ~100 ft elevation",
+      "site_meta": "Near Micanopy, Alachua County, FL"
+    },
+    "docs": {
+      "report_label": "NTSB Final Report (ERA24FA036)",
+      "docket_label": "(16 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Sikorsky S-76B — Kobe Bryant, Calabasas CA",
+        "sub": "Similar factors: VFR into IMC, spatial disorientation",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA20MA059"
+      },
+      {
+        "title": "PiperSport — stall/spin after go-around, Santa Monica CA",
+        "sub": "Similar factors: single-engine GA, loss of control in flight",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "WPR22FA338"
+      },
+      {
+        "title": "Cessna 172 — go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: single-engine GA, loss of control in flight",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "CEN23LA348"
+      }
+    ],
+    "about_investigation_type": "Full"
+  }
 }

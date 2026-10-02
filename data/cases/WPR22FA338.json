@@ -13,6 +13,7 @@
   },
   "operator": "Santa Monica Flyers Inc.",
   "flight_type": "Part 91: General aviation - Instructional (introductory/discovery flight)",
+  "occupants": 2,
   "fatalities": 2,
   "injuries": {
     "serious": 0,
@@ -31,5 +32,109 @@
     "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105890/pdf",
     "https://data.ntsb.gov/Docket?ProjectID=105890"
   ],
-  "notes": "NTSB final report (12 pages) fetched directly from data.ntsb.gov's report-generation API and text-extracted with PyMuPDF; narrative and probable_cause are verbatim from the 'History of Flight' and 'Probable Cause and Findings' sections. Original publish date July 10, 2024 (about 22 months after the accident); Investigation Class 3. Findings list (NTSB's own categorized findings, separate from the prose probable cause): Pitch control - Incorrect use/operation; Airspeed - Not attained/maintained; Angle of attack - Capability exceeded; Aircraft control - Passenger; Anxiety/panic - Passenger; Expectation/assumption - Instructor/check pilot. Important terminology note: the NTSB report consistently calls the second occupant the 'passenger,' not a 'student pilot' - he held no pilot certificate and the flight was an introductory/discovery flight (a gift from family, per the report), not formal flight training of an enrolled student. The report also notes he was seated in the left (pilot) seat and the instructor in the right (co-pilot) seat, and that the 'let go' transmissions were picked up on the passenger's microphone because he was inadvertently holding the push-to-talk switch on his control stick, which also blocked the instructor's own transmissions during the emergency. Names of the instructor and passenger (Christian West and Jackson Nazario) are not given anywhere in the NTSB report itself - they come from contemporaneous news coverage (Santa Monica Daily Press, ABC7, etc.), not the official record, consistent with how prior cases in this dataset (e.g. ANC18FA007) handle unnamed-in-report individuals. Exact accident coordinates (34.017882, -118.44801) are NTSB's own stated lat/lon, not derived or estimated by this research pass. Operator field: registered owner/operator is 'SANTA MONICA FLYERS INC'; the report's structured 'Operator' field itself just says 'On file' and 'Operating Certificate(s) Held: None' (it operated under Part 61/91 as a flight school, not a certificated Part 135/141 operation)."
+  "notes": "NTSB final report (12 pages) fetched directly from data.ntsb.gov's report-generation API and text-extracted with PyMuPDF; narrative and probable_cause are verbatim from the 'History of Flight' and 'Probable Cause and Findings' sections. Original publish date July 10, 2024 (about 22 months after the accident); Investigation Class 3. Findings list (NTSB's own categorized findings, separate from the prose probable cause): Pitch control - Incorrect use/operation; Airspeed - Not attained/maintained; Angle of attack - Capability exceeded; Aircraft control - Passenger; Anxiety/panic - Passenger; Expectation/assumption - Instructor/check pilot. Important terminology note: the NTSB report consistently calls the second occupant the 'passenger,' not a 'student pilot' - he held no pilot certificate and the flight was an introductory/discovery flight (a gift from family, per the report), not formal flight training of an enrolled student. The report also notes he was seated in the left (pilot) seat and the instructor in the right (co-pilot) seat, and that the 'let go' transmissions were picked up on the passenger's microphone because he was inadvertently holding the push-to-talk switch on his control stick, which also blocked the instructor's own transmissions during the emergency. Names of the instructor and passenger (Christian West and Jackson Nazario) are not given anywhere in the NTSB report itself - they come from contemporaneous news coverage (Santa Monica Daily Press, ABC7, etc.), not the official record, consistent with how prior cases in this dataset (e.g. ANC18FA007) handle unnamed-in-report individuals. Exact accident coordinates (34.017882, -118.44801) are NTSB's own stated lat/lon, not derived or estimated by this research pass. Operator field: registered owner/operator is 'SANTA MONICA FLYERS INC'; the report's structured 'Operator' field itself just says 'On file' and 'Operating Certificate(s) Held: None' (it operated under Part 61/91 as a flight school, not a certificated Part 135/141 operation).",
+  "page": {
+    "title": "PiperSport (N126WK)",
+    "subtitle": "Stall and spin after a go-around at Santa Monica Airport",
+    "datetime_text": "September 8, 2022, 16:26 PDT · Santa Monica Municipal Airport (SMO)",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "2 fatal / 2 aboard",
+    "badge_casualty_sub": "No survivors",
+    "status_meta": "NTSB · Released July 10, 2024",
+    "summary": "An introductory flight lesson at Santa Monica Flyers ended when a hard landing led the instructor to attempt a go-around. The airplane pitched up almost vertically, climbed, then stalled and spun to the left before striking the ground. Both the flight instructor and the passenger — who was taking his first flight, a gift from family, and held no pilot certificate — were killed. The investigation found the passenger was inadvertently pressing his microphone button while gripping the controls, which may have kept the instructor from being heard as he tried to recover.",
+    "facts": {
+      "location_value": "Santa Monica, California",
+      "location_sub": "Santa Monica Municipal Airport (SMO), runway 21",
+      "route_label": "Flight type",
+      "route_value": "Introductory/discovery flight along the coast",
+      "route_sub": "Local flight, Santa Monica Flyers",
+      "phase_value": "Go-around after a hard landing",
+      "phase_sub": "Abrupt pitch-up, stall, left spin",
+      "operation": "Instructional (Part 91)",
+      "damage": "Destroyed",
+      "weather_value": "VMC, clear, 10 mi visibility",
+      "weather_sub": "Wind 7 kt from 250° — weather was not a factor"
+    },
+    "narrative_excerpt": "Multiple witnesses observed the airplane land on runway 21, with one describing the landing as \"hard.\" The witnesses stated that the airplane then began to aggressively pitch up and climb while the engine made a sound consistent with it going to full power. All the witnesses provided similar accounts of the airplane continuing to climb in a nose-up attitude before leveling off at the apex of the climb, about 100-200 ft agl, then spinning to the left, descending, and colliding with the ground.\n\nA security video camera located on the southeast side of the airport captured the final landing approach segment. As the airplane came into view, the main landing gear was already on the ground and the airplane then began to climb in a slightly nose-up attitude. Over the next three seconds, the airplane pitched up to an almost vertical attitude and climbed out of the camera's field of view. The shadow of the airplane on the runway surface indicated that it continued to climb for another two seconds before descending and striking the ground about 5 seconds later.\n\nAudio recording of the airport's CTAF captured the flight instructor responding that it was to be a full-stop landing, and a few seconds later the audio captured him screaming, \"let go, let go……. let go, let go, let go.\"",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Hard landing leading to an abrupt go-around",
+      "Passenger's excessive aft control input during the go-around",
+      "Airplane exceeding its critical angle of attack and entering an aerodynamic stall",
+      "Passenger inadvertently holding the push-to-talk switch, which blocked the instructor's radio calls and may have delayed recognition of the emergency",
+      "Instructor's inability to regain control before ground impact"
+    ],
+    "safety_takeaways": [
+      "On introductory/discovery flights, agree explicitly on who holds the controls during the critical landing and go-around phases — don't assume a passenger will let go on command once control forces build up.",
+      "Anxious first-time flyers can grip the controls far harder than expected — the FAA's own guidance warns learners can be \"incredibly strong\" and react inappropriately under stress; brief this risk before every introductory flight, not just experienced-student flights.",
+      "A positive exchange of flight controls (\"I have the flight controls,\" confirmed verbally) should be practiced and enforced on every flight with a non-pilot aboard, especially during a go-around.",
+      "Be aware that intercom/PTT design can let a panicking occupant's grip on the stick silence the pilot's own transmissions at the exact moment communication matters most — know your aircraft's intercom behavior.",
+      "A go-around after a hard landing is already a high-workload maneuver; with an unbriefed or startled passenger on the controls, be prepared to take over immediately and firmly rather than attempt to talk them off the controls first."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-pipersport-sportcruiser.d636de9e.webp",
+      "alt": "A Czech Sport Aircraft SportCruiser/PiperSport, the same model as the accident aircraft (file photo, not the accident airplane)",
+      "caption": "Representative PiperSport · not the accident aircraft",
+      "name": "PiperSport (CZAW SportCruiser)",
+      "sub": "2-seat light-sport aircraft",
+      "specs": [
+        [
+          "Operator",
+          "Santa Monica Flyers Inc."
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-wpr22fa338-pitch-up-sequence.b6180821.webp",
+        "alt": "NTSB final report figure: composite security-camera image showing the airplane's abrupt pitch-up during the go-around",
+        "title": "Pitch-up maneuver (security camera)",
+        "meta": "N126WK · NTSB final report, Figure 1",
+        "link": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105890/pdf"
+      },
+      {
+        "photo": "assets/img/incident-wpr22fa338-final-moment.18bb44c8.webp",
+        "alt": "NTSB final report figure: security-camera image of the airplane in a near-vertical attitude just before it climbed out of frame and crashed",
+        "title": "Final moments before impact (security camera)",
+        "meta": "N126WK · NTSB final report, Figure 2",
+        "link": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105890/pdf"
+      }
+    ],
+    "media_source_label": "NTSB final report figures, WPR22FA338",
+    "location_card": {
+      "map_caption": "Santa Monica Municipal Airport (SMO)",
+      "primary": "Santa Monica Municipal Airport (SMO)",
+      "region": "Santa Monica, California, USA",
+      "coords_text": "34.017882, -118.44801",
+      "site_title": "Accident site",
+      "site_sub": "Taxiway B/B4 intersection, ~375 ft south of runway 21",
+      "site_meta": "Within the Santa Monica Municipal Airport perimeter"
+    },
+    "docs": {
+      "report_label": "Final report (12 pages)",
+      "docket_label": "(see docket)"
+    },
+    "related_cases": [
+      {
+        "title": "Cessna 172 — go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: abrupt pitch-up during a go-around, loss of control",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "CEN23LA348"
+      },
+      {
+        "title": "Raytheon A36 Bonanza — wind shift on takeoff, Cameron Park CA",
+        "sub": "Similar factors: low-altitude aerodynamic stall near the runway",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "LAX07FA258"
+      },
+      {
+        "title": "ICON A5 — low-altitude maneuvering, Gulf of Mexico FL",
+        "sub": "Similar factors: aggressive pitch, aerodynamic stall at low altitude",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "ANC18FA007"
+      }
+    ],
+    "about_investigation_type": "Class 3"
+  }
 }

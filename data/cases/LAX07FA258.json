@@ -119,9 +119,9 @@
       "docket_label": "(20 items)"
     },
     "related_cases": [
-      {"title": "Cessna 172 — loss of climb after takeoff", "sub": "Similar factors: high density altitude, terrain", "icon_style": "sky-takeoff rot-up"},
-      {"title": "Piper PA-28 — takeoff accidents", "sub": "Similar factors: weight, density altitude", "icon_style": "sky-takeoff rot-up"},
-      {"title": "General aviation — terrain impact", "sub": "Similar factors: terrain, climb performance", "icon_style": "sky-maneuver rot-side"}
+      {"title": "Cessna 172 — go-around loss of control, Philadelphia PA", "sub": "Similar factors: abrupt pitch-up, stall near the ground", "icon_style": "sky-takeoff rot-up", "ntsb": "CEN23LA348"},
+      {"title": "Piper PA-28 — VFR into IMC, Micanopy FL", "sub": "Similar factors: weather-driven loss of control", "icon_style": "sky-landing rot-down", "ntsb": "ERA24FA036"},
+      {"title": "PiperSport — stall/spin after go-around, Santa Monica", "sub": "Similar factors: abrupt climb, aerodynamic stall", "icon_style": "sky-maneuver rot-side", "ntsb": "WPR22FA338"}
     ],
     "about_investigation_type": "Full"
   }

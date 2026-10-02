@@ -13,6 +13,7 @@
   },
   "operator": "On file",
   "flight_type": "Part 91: General aviation - Personal",
+  "occupants": 3,
   "fatalities": 0,
   "injuries": {
     "serious": 0,
@@ -31,5 +32,123 @@
     "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/193914/pdf",
     "https://data.ntsb.gov/Docket?ProjectID=193914"
   ],
-  "notes": "NTSB number WPR24LA106 independently re-verified on data.ntsb.gov (Docket?ProjectID=193914 confirms Accident Number WPR24LA106, Whitethorn CA, March 8 2024). Final Aviation Investigation Final Report (8 pages, Original Publish Date July 16, 2025, Investigator In Charge Basti, Paymaun) was fetched directly from the NTSB CAROL report-generation API as a PDF and read in full; probable_cause and narrative above are transcribed verbatim from that PDF (OCR of a text-based PDF, not paraphrased), including both the 'History of Flight' factual narrative and the 'Analysis' section (both included since each contains details not fully duplicated in the other, e.g. the 26-gallon fuel recovery and SAR-GEL water test appear in both and are consistent). Registered owner and operator fields are both listed as 'On file' in the NTSB report itself (NTSB redacts/does not disclose individual owner/operator names in these public final-report PDFs for personal/GA flights) — this is the verbatim NTSB value, not a missing-data placeholder. The report lists the destination as 'Santa Rosa, WA (KSTS)' verbatim — KSTS is actually Santa Rosa, CA (Sonoma County Airport); this appears to be a data-entry error in the NTSB source report itself and is reproduced as-is rather than silently corrected, since it does not affect any schema field here (location fields reflect the accident site, Whitethorn, CA, not the destination). Latitude/longitude (39.975161, -123.97834) are explicitly marked '(est)' by NTSB in the report's Wreckage and Impact Information table. Injuries per the report: pilot 1 Minor, one passenger 1 Minor, one passenger None (2 Minor, 1 None total; 0 fatalities, 0 serious) — the schema's injuries object only has serious/minor fields, so minor is recorded as 2 and the 1 'None' occupant is not separately representable but is noted here. Weather is transcribed from the report's Meteorological Information table (nearest official observation, KUKI, 12 nm from the accident site, since there is no on-site weather station)."
+  "notes": "NTSB number WPR24LA106 independently re-verified on data.ntsb.gov (Docket?ProjectID=193914 confirms Accident Number WPR24LA106, Whitethorn CA, March 8 2024). Final Aviation Investigation Final Report (8 pages, Original Publish Date July 16, 2025, Investigator In Charge Basti, Paymaun) was fetched directly from the NTSB CAROL report-generation API as a PDF and read in full; probable_cause and narrative above are transcribed verbatim from that PDF (OCR of a text-based PDF, not paraphrased), including both the 'History of Flight' factual narrative and the 'Analysis' section (both included since each contains details not fully duplicated in the other, e.g. the 26-gallon fuel recovery and SAR-GEL water test appear in both and are consistent). Registered owner and operator fields are both listed as 'On file' in the NTSB report itself (NTSB redacts/does not disclose individual owner/operator names in these public final-report PDFs for personal/GA flights) — this is the verbatim NTSB value, not a missing-data placeholder. The report lists the destination as 'Santa Rosa, WA (KSTS)' verbatim — KSTS is actually Santa Rosa, CA (Sonoma County Airport); this appears to be a data-entry error in the NTSB source report itself and is reproduced as-is rather than silently corrected, since it does not affect any schema field here (location fields reflect the accident site, Whitethorn, CA, not the destination). Latitude/longitude (39.975161, -123.97834) are explicitly marked '(est)' by NTSB in the report's Wreckage and Impact Information table. Injuries per the report: pilot 1 Minor, one passenger 1 Minor, one passenger None (2 Minor, 1 None total; 0 fatalities, 0 serious) — the schema's injuries object only has serious/minor fields, so minor is recorded as 2 and the 1 'None' occupant is not separately representable but is noted here. Weather is transcribed from the report's Meteorological Information table (nearest official observation, KUKI, 12 nm from the accident site, since there is no on-site weather station).",
+  "page": {
+    "title": "Cirrus SR22 (N2824M)",
+    "subtitle": "Engine failure and parachute deployment near Whitethorn, California",
+    "datetime_text": "March 8, 2024, 13:25 PST · densely wooded terrain near Whitethorn, CA",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Survived — CAPS deployed",
+    "badge_casualty": "0 fatal / 3 aboard",
+    "badge_casualty_sub": "2 minor injuries, 1 uninjured",
+    "status_meta": "NTSB · Released July 16, 2025",
+    "summary": "A Cirrus SR22 lost total engine power during the initial climb out of Shelter Cove Airport, California, after water-contaminated fuel reached the engine. Unable to restore power despite switching tanks and working the boost pump and mixture, the pilot deployed the airplane's Cirrus Airframe Parachute System (CAPS). The airplane descended into densely tree-covered terrain, hung briefly in the branches, then fell to the ground inverted — substantially damaging the airframe but leaving all three occupants alive, with only two minor injuries. The NTSB could not determine how or when the water entered the fuel system.",
+    "facts": {
+      "location_value": "Whitethorn, California",
+      "location_sub": "Remote, densely tree-covered terrain near the Lost Coast",
+      "route_label": "Route",
+      "route_value": "Shelter Cove Airport (0Q5) → Santa Rosa, CA (KSTS)",
+      "route_sub": "Personal flight, VFR (Part 91)",
+      "phase_value": "Initial climb",
+      "phase_sub": "Total power loss at ~2,600 ft msl, about a minute after departure",
+      "operation": "Personal (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "VMC, clear, 10 mi visibility",
+      "weather_sub": "Winds calm; 17°C/4°C temperature/dew point (KUKI, 12 nm away)"
+    },
+    "narrative_excerpt": "As the airplane was climbing through 2,600 ft mean sea level (msl), the engine sputtered and lost total power. The pilot stated that he switched fuel tanks, activated the electric boost pump, and manipulated the mixture and throttle controls to restore engine power.\n\nUnable to restore engine power, he deployed the Cirrus Airframe Parachute System (CAPS). The airplane descended under parachute canopy into densely tree-covered terrain and became suspended amongst the tree limbs. Subsequently, the airplane fell from the trees and impacted the ground inverted. The airplane sustained substantial damage to the fuselage and empennage.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Water-contaminated fuel reaching the engine's fuel injection system",
+      "Total loss of engine power consistent with fuel contamination, not a mechanical failure (no preaccident airframe or engine defects found)",
+      "Pilot could not recall whether a fuel sample was taken during the preflight inspection",
+      "NTSB could not determine how or when water entered the fuel system"
+    ],
+    "safety_takeaways": [
+      "Sump every fuel tank and the gascolator before every flight — a visual check of fuel quantity through the filler cap will not catch water sitting at the bottom of the tank.",
+      "Let fuel settle after refueling or overnight parking before sampling; water is denser than avgas and needs a few minutes to migrate to the sump drain.",
+      "Be especially deliberate about sumping after rain, big temperature swings, or any time the airplane's fuel history or cap seals are unknown to you.",
+      "Know your aircraft's emergency systems cold before you need them — this pilot's quick decision to deploy CAPS after a failed restart attempt, rather than stretching a dead-stick approach into trees, is very likely why all three aboard survived with only minor injuries.",
+      "Rehearse the specific altitude/time gates for your aircraft's emergency checklist (restart attempts vs. parachute deployment) so the decision is already made before an actual power loss leaves little time to think."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-cirrus-sr22-generic.8d925d2b.webp",
+      "alt": "A Cirrus SR22 in flight — a different airframe than the accident aircraft, N2824M",
+      "caption": "Representative Cirrus SR22 in flight — not the accident aircraft; no pre-accident photo of N2824M could be found",
+      "name": "Cirrus SR22",
+      "sub": "Single-engine piston, factory-equipped with CAPS whole-airframe parachute",
+      "specs": [
+        [
+          "Serial number",
+          "1144"
+        ],
+        [
+          "Engine",
+          "Continental IO-550-N"
+        ],
+        [
+          "Safety system",
+          "Cirrus CAPS (deployed during accident)"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-wpr24la106-recovered-airframe.3418612d.webp",
+        "alt": "The recovered Cirrus SR22 airframe at the examination yard, showing the open doors and overall accident damage",
+        "title": "Recovered airframe",
+        "meta": "N2824M · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18609971&FileExtension=pdf&FileName=Airframe%20and%20Engine%20Examination_Redacted-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-wpr24la106-empennage-damage.1db931e7.webp",
+        "alt": "Close-up of the Cirrus SR22's damaged tail section and empennage after the tree-suspended descent and ground impact",
+        "title": "Empennage damage",
+        "meta": "N2824M · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18609971&FileExtension=pdf&FileName=Airframe%20and%20Engine%20Examination_Redacted-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-wpr24la106-fuel-manifold.dde508c9.webp",
+        "alt": "The disassembled fuel flow manifold assembly examined by investigators, which tested positive for water with SAR-GEL paste",
+        "title": "Fuel flow manifold",
+        "meta": "N2824M · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18609971&FileExtension=pdf&FileName=Airframe%20and%20Engine%20Examination_Redacted-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB Airframe and Engine Examination, WPR24LA106",
+    "location_card": {
+      "map_caption": "Whitethorn, CA",
+      "primary": "Whitethorn, California",
+      "region": "Humboldt County, USA",
+      "coords_text": "39.975161, -123.97834 (est., accident site)",
+      "site_title": "Accident site",
+      "site_sub": "Densely tree-covered terrain; airplane hung in the trees under canopy before falling to the ground inverted",
+      "site_meta": "Near Whitethorn, Humboldt County, CA"
+    },
+    "docs": {
+      "report_label": "Final report",
+      "docket_label": "(10 items)"
+    },
+    "related_cases": [
+      {
+        "title": "US Airways 1549 — dual engine failure, Hudson ditching",
+        "sub": "Similar factors: total engine power loss handled by a well-executed emergency procedure",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA09MA026"
+      },
+      {
+        "title": "Raytheon A36 Bonanza — Cameron Park, CA",
+        "sub": "Similar factors: general aviation accident, California",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "LAX07FA258"
+      },
+      {
+        "title": "PiperSport — stall/spin after go-around, Santa Monica",
+        "sub": "Similar factors: single-engine piston, loss of control in flight",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "WPR22FA338"
+      }
+    ],
+    "about_investigation_type": "Full"
+  }
 }
