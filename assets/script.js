@@ -38,9 +38,9 @@
         if (isNaN(lat) || isNaN(lon)) return;
         var zoom = parseInt(el.dataset.zoom, 10) || 14;
         var map = L.map(el, { zoomControl: false, attributionControl: true }).setView([lat, lon], zoom);
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        L.tileLayer("https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png", {
           maxZoom: 19,
-          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         L.marker([lat, lon]).addTo(map);
         maps[el.id] = map;
