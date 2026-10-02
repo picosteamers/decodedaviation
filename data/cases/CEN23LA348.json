@@ -1,0 +1,35 @@
+{
+  "ntsb_number": "CEN23LA348",
+  "date": "2023-08-03",
+  "location": {
+    "city": "Philadelphia",
+    "state": "PA",
+    "lat": 40.081911,
+    "lon": -75.012372
+  },
+  "aircraft": {
+    "type": "Cessna 172 S",
+    "registration": "N860TW"
+  },
+  "operator": "TAILWINDS LLC, doing business as Tailwinds Flight School",
+  "flight_type": "Part 91: General aviation - Instructional",
+  "fatalities": 0,
+  "injuries": {
+    "serious": 0,
+    "minor": 1
+  },
+  "report_status": "final",
+  "narrative": "The pilot receiving instruction reported that while on final approach, the airspeed became slow so he lowered the airplane nose to increase the airspeed. The airplane landed firmly at the runway threshold and bounced. During the recovery from the bounce, the flight instructor commanded a go-around maneuver. During the go-around, the airplane's nose rose high, and the airplane yawed and rolled to the left. The airplane impacted the ground alongside the runway and nosed over. Post accident examination revealed that the vertical stabilizer, rudder, empennage, and left wing sustained substantial damage.\n\nThere were no preaccident mechanical malfunctions or failures with the airplane that would have precluded normal operation.",
+  "probable_cause": "The National Transportation Safety Board determines the probable cause(s) of this accident to be: The pilot receiving instruction's failure to maintain control during a go-around. Contributing to the accident was the flight instructor's inadequate supervision of the flight.",
+  "phase_of_flight": "Landing-flare/touchdown; Abnormal runway contact; Landing-aborted after touchdown (attempted remediation/recovery); Approach-VFR go-around; Loss of control in flight (Defining event); Other (nose over/nose down)",
+  "weather": "Conditions at Accident Site: Visual (VMC), Day. Observation facility: KPNE, 108 ft msl, 0 nautical miles from accident site, observed 10:54 Local, direction 85°. Lowest cloud condition: Clear. Visibility: 10 miles. Wind: 200° at 6 knots, gusting 14 knots. Altimeter setting: 30.12 inches Hg. Temperature/Dew point: 25°C / 16°C. No obscuration; no precipitation. Airport: Northeast Philadelphia (PNE), runway 15, asphalt, dry, 4999 ft x 150 ft, Class D airspace.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/192801/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=192801"
+  },
+  "sources_checked": [
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/192801/pdf",
+    "https://data.ntsb.gov/Docket?ProjectID=192801"
+  ],
+  "notes": "Case number CEN23LA348 independently reconfirmed via the NTSB Docket Management System page at data.ntsb.gov/Docket?ProjectID=192801, which carries the NTSB number, accident date (2023-08-03) and location (Philadelphia, PA) in its header, matching the final report. The 6-page 'Aviation Investigation Final Report' PDF was fetched directly from NTSB's own CAROL report-generation API (data.ntsb.gov/carol-repgen) and its text extracted locally with PyMuPDF (WebFetch's summarizer could not parse the binary PDF directly, so the raw file was read and transcribed verbatim instead). Narrative is the report's 'Analysis' section text verbatim; probable_cause is the 'Probable Cause and Findings' sentence verbatim. This is the short-form CAROL-generated final report (no separate long-form Aircraft Accident Report exists for this GA case), so narrative detail is limited to what NTSB published -- no additional factual-report narrative beyond the Analysis section was available in this document. Coordinates (40.081911, -75.012372) are NTSB's own 'Latitude, Longitude' field under Wreckage and Impact Information, consistent with Northeast Philadelphia Airport (PNE). Flight instructor was age 76 with 7,674 total hours; pilot receiving instruction was a 34-year-old private pilot with 305.7 total hours. Docket (ProjectID 192801) contains 6 items (pilot/operator accident report, witness statements, instructor statement, photographs) per the docket page but was not independently fetched item-by-item beyond confirming the case header."
+}
