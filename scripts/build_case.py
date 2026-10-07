@@ -20,6 +20,8 @@ import os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+BASE_URL = "https://decodedaviation.com"
+
 ICONS = {
     "aircraft": "M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z",
     "registration": "M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2ZM16 2v4M8 2v4M3 10h18",
@@ -122,6 +124,26 @@ def build(d):
     title_tag = f'{p["title"]} — {d["location"]["city"]}, {d["location"]["state"]} | Aviation Safety'
     desc = (f'NTSB case {d["ntsb_number"]}: {p["subtitle"]}. What happened, probable cause, '
             f'contributing factors, and safety takeaways.')
+    canonical_url = f"{BASE_URL}/cases/{ntsb_lower}/"
+    og_image = f'{BASE_URL}/{p["aircraft_card"]["photo"]}'
+
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": p["title"],
+        "description": desc,
+        "datePublished": d["date"],
+        "dateModified": d["date"],
+        "url": canonical_url,
+        "mainEntityOfPage": {"@type": "WebPage", "@id": canonical_url},
+        "image": [og_image],
+        "publisher": {"@type": "Organization", "name": "Aviation Safety", "url": BASE_URL},
+        "about": {
+            "@type": "Thing",
+            "name": f'NTSB case {d["ntsb_number"]}',
+        },
+    }
+    json_ld_script = json.dumps(json_ld, ensure_ascii=False)
 
     lat = d["location"].get("lat")
     lon = d["location"].get("lon")
@@ -146,6 +168,18 @@ def build(d):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title_tag}</title>
 <meta name="description" content="{desc}">
+<link rel="canonical" href="{canonical_url}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Aviation Safety">
+<meta property="og:title" content="{title_tag}">
+<meta property="og:description" content="{desc}">
+<meta property="og:url" content="{canonical_url}">
+<meta property="og:image" content="{og_image}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title_tag}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{og_image}">
+<script type="application/ld+json">{json_ld_script}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
