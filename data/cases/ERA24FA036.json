@@ -147,6 +147,10 @@
         "ntsb": "CEN23LA348"
       }
     ],
-    "about_investigation_type": "Full"
+    "about_investigation_type": "Full",
+    "seo": {
+      "title": "Piper PA-28 VFR-into-IMC Crash, FL",
+      "description": "NTSB case ERA24FA036: a non-instrument-rated pilot flew into clouds near Micanopy, Florida, lost control, and crashed. NTSB findings and takeaways."
+    }
   }
 }

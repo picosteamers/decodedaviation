@@ -141,6 +141,10 @@
         "ntsb": "WPR22FA338"
       }
     ],
-    "about_investigation_type": "Full (Board meeting)"
+    "about_investigation_type": "Full (Board meeting)",
+    "seo": {
+      "title": "Colgan Air Flight 3407 Crash, NY",
+      "description": "NTSB case DCA09MA027: Colgan Air Flight 3407 stalled and crashed near Buffalo, killing 50. The findings behind the Colgan Air Act, explained."
+    }
   }
 }

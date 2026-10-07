@@ -80,7 +80,16 @@
       "caption": "The accident helicopter, photographed intact in 2018",
       "name": "Sikorsky S-76B",
       "sub": "Twin-engine passenger helicopter",
-      "specs": [["Year", "1991"], ["Engine", "2× P&W Canada PT6B-36A"]]
+      "specs": [
+        [
+          "Year",
+          "1991"
+        ],
+        [
+          "Engine",
+          "2× P&W Canada PT6B-36A"
+        ]
+      ]
     },
     "media": [
       {
@@ -120,9 +129,23 @@
       "docket_label": "(53 items)"
     },
     "related_cases": [
-      {"title": "Roy Halladay — ICON A5, Gulf of Mexico", "sub": "Similar factors: low-altitude maneuvering, spatial awareness", "icon_style": "sky-maneuver rot-side", "ntsb": "ANC18FA007"},
-      {"title": "Piper PA-28 — VFR into IMC, Micanopy FL", "sub": "Similar factors: VFR into IMC, spatial disorientation", "icon_style": "sky-landing rot-down", "ntsb": "ERA24FA036"}
+      {
+        "title": "Roy Halladay — ICON A5, Gulf of Mexico",
+        "sub": "Similar factors: low-altitude maneuvering, spatial awareness",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "ANC18FA007"
+      },
+      {
+        "title": "Piper PA-28 — VFR into IMC, Micanopy FL",
+        "sub": "Similar factors: VFR into IMC, spatial disorientation",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "ERA24FA036"
+      }
     ],
-    "about_investigation_type": "Full (Board meeting)"
+    "about_investigation_type": "Full (Board meeting)",
+    "seo": {
+      "title": "Kobe Bryant Crash — Calabasas, CA",
+      "description": "NTSB case DCA20MA059: the Sikorsky S-76B crash that killed Kobe Bryant, Gianna Bryant, and 7 others. NTSB probable cause and safety takeaways."
+    }
   }
 }

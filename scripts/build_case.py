@@ -121,9 +121,12 @@ def build(d):
     narrative_source = ("Source: NTSB Final Report (excerpt)" if p.get("narrative_is_excerpt")
                          else "Source: NTSB Final Report")
 
-    title_tag = f'{p["title"]} — {d["location"]["city"]}, {d["location"]["state"]} | Aviation Safety'
-    desc = (f'NTSB case {d["ntsb_number"]}: {p["subtitle"]}. What happened, probable cause, '
-            f'contributing factors, and safety takeaways.')
+    seo = p.get("seo", {})
+    seo_title = seo.get("title") or f'{p["title"]} — {d["location"]["city"]}, {d["location"]["state"]}'
+    title_tag = f'{seo_title} | Decoded Aviation'
+    desc = seo.get("description") or (
+        f'NTSB case {d["ntsb_number"]}: {p["subtitle"]}. What happened, probable cause, '
+        f'contributing factors, and safety takeaways.')
     canonical_url = f"{BASE_URL}/cases/{ntsb_lower}/"
     og_image = f'{BASE_URL}/{p["aircraft_card"]["photo"]}'
 
@@ -137,7 +140,7 @@ def build(d):
         "url": canonical_url,
         "mainEntityOfPage": {"@type": "WebPage", "@id": canonical_url},
         "image": [og_image],
-        "publisher": {"@type": "Organization", "name": "Aviation Safety", "url": BASE_URL},
+        "publisher": {"@type": "Organization", "name": "Decoded Aviation", "url": BASE_URL},
         "about": {
             "@type": "Thing",
             "name": f'NTSB case {d["ntsb_number"]}',
@@ -170,7 +173,7 @@ def build(d):
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canonical_url}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Aviation Safety">
+<meta property="og:site_name" content="Decoded Aviation">
 <meta property="og:title" content="{title_tag}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canonical_url}">
@@ -192,7 +195,7 @@ def build(d):
   <div class="container header-row">
     <a class="brand" href="../../index.html">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="#0f1b2d"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg>
-      Aviation Safety
+      Decoded Aviation
     </a>
     <nav class="main-nav">
       <a href="#">Accidents</a>

@@ -135,6 +135,10 @@
         "ntsb": "ANC18FA007"
       }
     ],
-    "about_investigation_type": "Class 3"
+    "about_investigation_type": "Class 3",
+    "seo": {
+      "title": "PiperSport Stall-Spin Crash, CA",
+      "description": "NTSB case WPR22FA338: a go-around after a hard landing ended in a stall and spin at Santa Monica Airport, killing both occupants. NTSB findings."
+    }
   }
 }

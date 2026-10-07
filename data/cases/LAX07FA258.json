@@ -5,7 +5,7 @@
     "city": "Cameron Park",
     "state": "CA",
     "lat": 38.68389,
-    "lon": -120.98750
+    "lon": -120.9875
   },
   "aircraft": {
     "type": "Raytheon A36 Bonanza",
@@ -32,8 +32,7 @@
     "https://www.aopa.org/training-and-safety/air-safety-institute/accident-analysis/featured-accidents/film-crew-captures-density-altitude-crash",
     "https://en.wikipedia.org/wiki/Cameron_Park_Airport"
   ],
-  "notes": "Unlike the other cases in this dataset, this record was built before the project adopted a strict verbatim-PDF-extraction standard for NTSB final reports. The runway, weight, density-altitude, and sequence-of-events facts were cross-checked against the AOPA Air Safety Institute's accident analysis and the airport's public data (Cameron Park Airport / O61, runway 13/31, 4,051 ft), but the narrative and probable_cause text here are a close paraphrase informed by those sources rather than a direct extraction from the official NTSB final report PDF (report/docket links were not located and verified for this case the way they were for the others - links are null rather than guessed). If this case is revisited, it should be re-verified against ntsb.gov/data.ntsb.gov directly and the links/narrative upgraded to the same verbatim standard as the rest of the dataset. Coordinates are the airport's published coordinates (38.68389, -120.98750), not a specific accident-site lat/lon from a report."
-  ,
+  "notes": "Unlike the other cases in this dataset, this record was built before the project adopted a strict verbatim-PDF-extraction standard for NTSB final reports. The runway, weight, density-altitude, and sequence-of-events facts were cross-checked against the AOPA Air Safety Institute's accident analysis and the airport's public data (Cameron Park Airport / O61, runway 13/31, 4,051 ft), but the narrative and probable_cause text here are a close paraphrase informed by those sources rather than a direct extraction from the official NTSB final report PDF (report/docket links were not located and verified for this case the way they were for the others - links are null rather than guessed). If this case is revisited, it should be re-verified against ntsb.gov/data.ntsb.gov directly and the links/narrative upgraded to the same verbatim standard as the rest of the dataset. Coordinates are the airport's published coordinates (38.68389, -120.98750), not a specific accident-site lat/lon from a report.",
   "page": {
     "title": "Raytheon A36 Bonanza (N1098F)",
     "subtitle": "Accident near Cameron Park, California",
@@ -79,7 +78,16 @@
       "caption": "Representative A36 · not the accident aircraft",
       "name": "Raytheon A36 Bonanza",
       "sub": "Single-engine, low-wing airplane",
-      "specs": [["Year", "1996"], ["Engine", "Continental IO-550 · 300 hp"]]
+      "specs": [
+        [
+          "Year",
+          "1996"
+        ],
+        [
+          "Engine",
+          "Continental IO-550 · 300 hp"
+        ]
+      ]
     },
     "media": [
       {
@@ -119,10 +127,29 @@
       "docket_label": "(20 items)"
     },
     "related_cases": [
-      {"title": "Cessna 172 — go-around loss of control, Philadelphia PA", "sub": "Similar factors: abrupt pitch-up, stall near the ground", "icon_style": "sky-takeoff rot-up", "ntsb": "CEN23LA348"},
-      {"title": "Piper PA-28 — VFR into IMC, Micanopy FL", "sub": "Similar factors: weather-driven loss of control", "icon_style": "sky-landing rot-down", "ntsb": "ERA24FA036"},
-      {"title": "PiperSport — stall/spin after go-around, Santa Monica", "sub": "Similar factors: abrupt climb, aerodynamic stall", "icon_style": "sky-maneuver rot-side", "ntsb": "WPR22FA338"}
+      {
+        "title": "Cessna 172 — go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: abrupt pitch-up, stall near the ground",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "CEN23LA348"
+      },
+      {
+        "title": "Piper PA-28 — VFR into IMC, Micanopy FL",
+        "sub": "Similar factors: weather-driven loss of control",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "ERA24FA036"
+      },
+      {
+        "title": "PiperSport — stall/spin after go-around, Santa Monica",
+        "sub": "Similar factors: abrupt climb, aerodynamic stall",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "WPR22FA338"
+      }
     ],
-    "about_investigation_type": "Full"
+    "about_investigation_type": "Full",
+    "seo": {
+      "title": "Bonanza A36 Takeoff Crash, CA",
+      "description": "NTSB case LAX07FA258: an overweight Raytheon A36 Bonanza stalled into terrain after takeoff, caught on video by a news crew. Findings and takeaways."
+    }
   }
 }

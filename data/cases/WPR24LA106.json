@@ -149,6 +149,10 @@
         "ntsb": "WPR22FA338"
       }
     ],
-    "about_investigation_type": "Full"
+    "about_investigation_type": "Full",
+    "seo": {
+      "title": "Cirrus SR22 Parachute Save, CA",
+      "description": "NTSB case WPR24LA106: contaminated fuel caused a Cirrus SR22 to lose power on climbout; the pilot deployed the CAPS parachute and all three survived."
+    }
   }
 }
