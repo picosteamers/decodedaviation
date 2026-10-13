@@ -242,7 +242,7 @@ def build(d):
     <div><span class="status-label">Investigation status</span><br><span class="status-value">Final report published</span><br><span class="status-meta">{p["status_meta"]}</span></div>
   </div>
 
-  <div class="case-summary-card case-mobile-only">
+  <div class="case-summary-card">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1d63d8" stroke-width="2" stroke-linejoin="round" style="flex-shrink:0"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M16 13H8M16 17H8"></path></svg>
     <div><h3>Case summary</h3><p>{p["summary"]}</p></div>
   </div>

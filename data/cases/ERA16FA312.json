@@ -44,7 +44,7 @@
     "badge_casualty": "3 fatal / 3 aboard",
     "badge_casualty_sub": "No survivors, both aircraft",
     "status_meta": "NTSB · Final report published December 11, 2017",
-    "summary": "A 79-year-old private pilot flying a Beechcraft Bonanza entered the traffic pattern at non-towered West Georgia Regional Airport without announcing himself on the correct radio frequency. A flight instructor and her 20-year-old student, practicing landings nearby in a Diamond DA20, were making standard position calls exactly as trained — but on a frequency the Bonanza pilot wasn't listening to. On final approach, the faster Bonanza overtook the Diamond from above and behind; its landing gear struck the Diamond's tail, and both airplanes went down short of the runway. All three people aboard were killed. NTSB testing found the Bonanza's radio was still tuned to a CTAF frequency the airport had retired five years earlier.",
+    "summary": "A Bonanza pilot overtook a Diamond on final approach while tuned to a CTAF frequency the airport had retired five years earlier. All three people aboard both airplanes were killed.",
     "facts": {
       "location_value": "Carrollton, Georgia",
       "location_sub": "West Georgia Regional Airport (CTJ)",

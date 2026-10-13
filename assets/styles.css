@@ -477,7 +477,8 @@ svg{display:block}
   .cause-card p,.factors-card ul,.takeaway-item{font-size:14px}
   .mobile-only-accordion{display:none}
   .case-mobile-only{display:none}
-  .case-summary-card,.case-aircraft-card.mobile-only{display:none}
+  .case-aircraft-card.mobile-only{display:none}
+  .case-summary-card{margin-bottom:16px}
 }
 @media (max-width:1079px){
   .case-desktop-only{display:none}
