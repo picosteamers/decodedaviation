@@ -249,7 +249,10 @@ def build(d):
 
   <a class="case-aircraft-card case-mobile-only" href="#" style="text-decoration:none;color:inherit">
     <div class="case-aircraft-thumb"><img src="../../{p["aircraft_card"]["photo"]}" alt="{p["aircraft_card"]["alt"]}" style="width:100%;height:100%;object-fit:cover"></div>
-    <div class="case-aircraft-info"><span class="name">{p["aircraft_card"]["name"]}</span><br><span class="sub">{p["aircraft_card"]["sub"]}</span></div>
+    <div class="case-aircraft-info">
+      <span class="name">{p["aircraft_card"]["name"]}</span><br><span class="sub">{p["aircraft_card"]["sub"]}</span>
+    </div>
+    <span style="display:block;font-size:11px;color:var(--muted);padding:0 12px 10px">{p["aircraft_card"]["caption"]}</span>
   </a>
 
   <div class="case-layout">
