@@ -4,18 +4,24 @@ Guidance for Claude Code when working in this repo.
 
 ## What this is
 
-**Aviation Safety / "FlightCase"** — a real-data aviation-accident case database.
-Plain static HTML/CSS/JS, no framework, no build step at deploy time. A home
-page lists recent cases; each case gets its own page under `/cases/`.
+**Decoded Aviation** (site brand; the project/repo is still internally called
+"FlightCase") — a real-data aviation-accident case database, live at
+**https://decodedaviation.com**. Plain static HTML/CSS/JS, no framework, no
+build step at deploy time. A home page lists recent cases; each case gets
+its own page under `/cases/`.
 
 Originally scaffolded from a Claude Design project (a `.dc.html` mockup
 called "FlightCase"). The first case built from that mockup (`LAX07FA258`,
 a Raytheon A36 Bonanza accident) is a **real** NTSB case, not a fictional
 demo — it's kept and treated the same as every other case.
 
-Not deployed yet. `git remote -v` is empty on purpose — the user will create
-the GitHub repo and connect Netlify themselves. Commit locally; never push
-or set up a remote unless explicitly asked.
+Deployed via Netlify from GitHub (`picosteamers/decodedaviation`),
+auto-deploying on push to `main`. Routine commit-and-push (content fixes,
+new cases, small layout/SEO changes) is the established workflow in this
+project — push after committing without asking each time. Pause and check
+with the user first only for something genuinely risky or unusual (a
+destructive git operation, a major structural/URL change, anything outside
+normal day-to-day site work).
 
 ## SEO is a primary goal, not an afterthought
 
@@ -154,38 +160,78 @@ break every indexed URL.
 
 ## Known gaps / before going live
 
+**Live since 2026-10.** Deployed at **https://decodedaviation.com** via
+Netlify, auto-deploying from `main` on push (GitHub repo
+`picosteamers/decodedaviation`). DNS at Namecheap: ALIAS `@` →
+`apex-loadbalancer.netlify.com`, CNAME `www` → the Netlify site subdomain.
+TLS is Let's Encrypt via Netlify. Domain verified in Google Search Console
+(DNS TXT record), `sitemap.xml` submitted.
+
 - ~~The home page's incident list mixes real and fictional rows~~ **Fixed.**
-  All 10 rows in "Latest aviation incidents" are now real cases, generated
+  All 20 rows in "Latest aviation incidents" are real cases, generated
   from `data/cases/*.json`, sorted by date, each with a real aircraft photo
-  thumbnail and linking to its real `/cases/<ntsb>/` page.
+  thumbnail and linking to its real `/cases/<ntsb>/` page. Re-run the
+  generation whenever cases are added — see git history for the merge
+  script if you need to redo it from scratch; it just needs to produce one
+  `<a class="incident-row">` block per case with both `.incident-mobile`
+  and `.incident-desktop` variants, sorted by `date` descending.
 - **"Explore by aircraft" / map / accident-type sections on the home page
   are still non-functional mockup content** (`href="#"`, fake stats like
   "236,000+ accidents"). This is the next home-page gap to close — ideally
   by building the entity hub pages (`/aircraft/<type>/`, `/airports/<icao>/`,
   etc. — see the SEO section above) and pointing these sections at them,
-  rather than just deleting the sections.
-- **No sitemap.xml / robots.txt yet** — can't be generated correctly
-  without a known domain (sitemap URLs must be absolute). Once the
-  domain is live:
-  `python3 scripts/build_sitemap.py --base-url https://<your-domain>`
-  Re-run this after adding new case pages, before each deploy.
-- **No Open Graph / canonical / JSON-LD tags yet** in `scripts/build_case.py`'s
-  template. Worth adding once there's a real domain to point canonical URLs at.
-- **10 of 12 researched cases now have a full `page` block and a live
-  generated page**: `LAX07FA258`, `DCA20MA059`, `ANC18FA007`, `CEN23LA348`,
-  `DCA09MA026`, `DCA09MA027`, `DCA25MA108`, `ERA24FA036`, `WPR22FA338`,
-  `WPR24LA106`. The remaining 2 are intentionally data-only, not missing:
-  `WPR26MA063` (Greg Biffle) is still `preliminary` — no probable cause
-  exists yet, so there is nothing honest to put in a "Why it happened"
-  section until NTSB publishes a final report. The Chatsworth NewsChopper4
-  case is `pending` with no confirmed NTSB case number at all. Don't build
-  pages for either until their `report_status` changes — revisit
-  periodically rather than forcing content that doesn't exist yet.
-- `DCA25MA108`'s page content should get a second look before launch given
-  how sensitive and procedurally fast this case was (final report adopted
-  about a year after the accident) — not because anything here is known to
-  be wrong, just because it's the highest-stakes case in the set.
-- 40 more cases (of the planned 50) haven't been picked yet.
+  rather than just deleting the sections. Same for the top nav links
+  (Accidents/Aircraft/Airports/Safety) and breadcrumbs on case pages —
+  still `href="#"` except the home-page breadcrumb link, which was pointed
+  at `index.html`.
+- ~~No sitemap.xml / robots.txt~~ **Fixed.** Generated for
+  `https://decodedaviation.com`, 21 URLs. **Re-run
+  `python3 scripts/build_sitemap.py --base-url https://decodedaviation.com`
+  after adding new case pages, before each deploy** — it's not automatic.
+- ~~No Open Graph / canonical / JSON-LD tags~~ **Fixed**, in both
+  `index.html` and `scripts/build_case.py`'s template (`BASE_URL` constant
+  near the top of the script). Every case page also supports an optional
+  `page.seo.{title,description}` override (falls back to an
+  auto-generated title/description if absent) — use it for any case with
+  real public-interest/search-demand nuance (a named public figure, a
+  well-known event name) so the `<title>`/meta description target what
+  people actually search, not just "NTSB case XXXXXXX: ...". Keep
+  `seo.title` + `" | Decoded Aviation"` under 60 characters total and
+  `seo.description` under 155.
+- **20 of 22 researched cases now have a full `page` block and a live
+  generated page.** First 10: `LAX07FA258`, `DCA20MA059`, `ANC18FA007`,
+  `CEN23LA348`, `DCA09MA026`, `DCA09MA027`, `DCA25MA108`, `ERA24FA036`,
+  `WPR22FA338`, `WPR24LA106`. Second batch of 10 (added 2026-10):
+  `DCA22MA193` (Mutiny Bay floatplane), `ERA23FA008` (Newport News,
+  student's first lesson), `ERA16FA312` (Carrollton GA midair),
+  `ERA25LA072` (Pahokee FL midair, no injuries), `CEN21LA057` (Cirrus CAPS
+  deployment), `ERA21LA208` (Gulfstream G150 runway overrun),
+  `ERA22FA207` (Mercy Flight EMS helicopter), `CEN19MA141` (Ketchikan
+  floatplane midair), `ERA18MA099` (FlyNYON East River ditching),
+  `CEN23MA034` (Wings Over Dallas airshow midair). The remaining 2 are
+  intentionally data-only, not missing: `WPR26MA063` (Greg Biffle) is
+  still `preliminary` — no probable cause exists yet, so there is nothing
+  honest to put in a "Why it happened" section until NTSB publishes a
+  final report. The Chatsworth NewsChopper4 case is `pending` with no
+  confirmed NTSB case number at all. Don't build pages for either until
+  their `report_status` changes — revisit periodically rather than
+  forcing content that doesn't exist yet.
+- `DCA25MA108`'s page content should get a second look given how sensitive
+  and procedurally fast this case was (final report adopted about a year
+  after the accident) — not because anything here is known to be wrong,
+  just because it's the highest-stakes case in the set.
+- 30 more cases (of the planned 50) haven't been picked yet. When choosing
+  the next batch, weigh real ranking potential, not just name recognition:
+  very famous cases (celebrities, major news events) are also the most
+  competitive search terms, dominated by high-authority sites (Wikipedia,
+  major news outlets) that a new domain won't outrank soon. Specific,
+  technical, lower-competition cases (a tail number, a specific airport
+  and cause) are more winnable for early organic traffic — mix in a couple
+  of high-recognition anchor cases per batch, but don't load up only on
+  those.
+- **No favicon yet.** Doesn't affect ranking, only shows up in mobile
+  search results and the browser tab — low priority but worth doing
+  eventually.
 
 ## Conventions carried over from the design mockup
 
