@@ -466,7 +466,7 @@ here were all individually opened and confirmed to show "DCA09MA027" /
 
 ## ERA22FA207 — Mercy Flight Bell 429, Elba
 
-- `assets/img/aircraft-bell-429-n505tj-mercyflight.b8f17263.webp` — a direct
+- `assets/img/aircraft-bell-429-n505tj-mercyflight.034668f7.webp` — a direct
   Wikimedia Commons search by the accident aircraft's exact registration
   (N507TJ) returned zero results, so a sister helicopter in the same Mercy
   Flight Western New York Bell 429 fleet was used instead: N505TJ ("Mercy
@@ -475,7 +475,10 @@ here were all individually opened and confirmed to show "DCA09MA027" /
   [8-19-11 NEW 2010 MERCY FLIGHT 5 AT WCCH (6059754533).jpg](https://commons.wikimedia.org/wiki/File:8-19-11_NEW_2010_MERCY_FLIGHT_5_AT_WCCH_(6059754533).jpg)
   by Jim Duell, Wikimedia Commons, CC BY-SA 2.0. Registration shown (N505TJ)
   is not the accident aircraft (N507TJ) — used only as a reference photo of
-  the same operator/model/livery, undamaged.
+  the same operator/model/livery, undamaged. Re-cropped (top sky and bottom
+  pavement trimmed, full width kept) to the aircraft-card thumbnail's own
+  aspect ratio so the automatic `object-fit:cover` crop wouldn't cut off
+  the helicopter's landing skids.
 
 - `assets/img/incident-era22fa207-debris-field-aerial.18c65c72.webp`,
   `assets/img/incident-era22fa207-main-rotor-blades.14cbe765.webp`,
