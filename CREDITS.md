@@ -252,3 +252,368 @@ here were all individually opened and confirmed to show "DCA09MA027" /
   (retrieved via docket index at
   https://data.ntsb.gov/Docket/?NTSBNumber=WPR24LA106).
 
+## DCA22MA193 — de Havilland DHC-3 Otter, Mutiny Bay
+
+- `assets/img/aircraft-dehavilland-dhc3-n725th.58f45bfd.webp` — the actual
+  accident airplane, N725TH, photographed before the accident, parked on
+  its floats/trailer at Renton, Washington (September 2019).
+  [N725TH Renton 4th September 2019.jpg](https://commons.wikimedia.org/wiki/File:N725TH_Renton_4th_September_2019.jpg)
+  by Martin Woolman, Wikimedia Commons, CC BY-SA 2.0. Lightly cropped
+  (top/bottom and sides tightened to reduce excess sky/ground and improve
+  framing) and resized to 900px wide; no other edits. A second real
+  pre-accident photo of the same airframe also exists on Commons —
+  [N725TH-RNT-25-06-2019.jpg](https://commons.wikimedia.org/wiki/File:N725TH-RNT-25-06-2019.jpg)
+  by Steve Barnes, also CC BY-SA 2.0 — not used here, but equally valid if
+  a second angle is ever wanted.
+
+  Note: the NTSB's own final report (AIR-23-01) also contains a
+  pre-accident photo of N725TH (its Figure 2), but that figure is
+  explicitly captioned "(Source: Calvin Bard)" — a named private
+  individual, not an NTSB work product. It was deliberately **not** used
+  as the site's aircraft photo, since a third party's photo appearing
+  inside a government report is not itself a U.S. government work and its
+  license terms for further redistribution are unknown. The clearly
+  CC-BY-SA-licensed Wikimedia Commons photos above were used instead, per
+  the project's stated priority of checking Commons by exact registration
+  first.
+
+- `assets/img/incident-dca22ma193-wreckage-recovered-diagram.e33cb1fe.webp`,
+  `assets/img/incident-dca22ma193-actuator-clamp-separation.614882c2.webp`,
+  `assets/img/incident-dca22ma193-actuator-clamp-nut-closeup.9ecaaf50.webp`
+  — Figures 6, 7, and 10 respectively, extracted directly (via PyMuPDF,
+  not screenshotted) from the Board-adopted NTSB Aviation Investigation
+  Report AIR-23-01 ("Abrupt Loss of Pitch Control and Water Impact, West
+  Isle Air dba Friday Harbor Seaplanes, de Havilland DHC-3, N725TH, Mutiny
+  Bay, Washington, September 4, 2022"), adopted September 29, 2023. U.S.
+  government work / public domain. Source PDF:
+  https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2301.pdf
+  (confirmed "DCA22MA193" appears throughout the fetched document, and
+  independently in the NTSB CAROL short-form report for the same case,
+  ProjectID 105855). Docket index for this case (66 items):
+  https://data.ntsb.gov/Docket/?NTSBNumber=DCA22MA193 — individual docket
+  attachments were not separately re-extracted since the adopted final
+  report's own embedded figures (pre-annotated by NTSB) were higher
+  editorial quality and sufficient for the images used.
+
+  - Figure 6 ("A diagram of the recovered wreckage and flight controls
+    (Source: Viking Air, recreated by NTSB)") — a color-coded line diagram
+    (not a photograph) of which airframe sections and flight-control
+    components were recovered from Mutiny Bay; chosen specifically as a
+    non-graphic way to show the extent of wreckage recovery.
+  - Figure 7 ("Photograph of the clamp nut and barrel separation on the
+    accident airplane") — an NTSB-annotated in-situ photograph of the
+    actual separated horizontal stabilizer trim actuator assembly, labeled
+    "Stabilizer mounting structure," "Actuator top attachment bolt," "Top
+    eye end," "Clamp nut," "Bearings," "Lock ring groove," and "Barrel" —
+    the literal physical finding the probable cause is built on.
+  - Figure 10 ("Photograph of the top eye end and bearing assembly showing
+    three of five holes drilled into the clamp nut") — a studio photo of
+    the recovered assembly after cleaning, annotated with "Eye end,"
+    "Clamp," "Bearings," "Fractured grease fitting," "Square key slot,"
+    "Portion of moisture seal," and "Outer races," including the drilled
+    hole angles (110°, 100°, 90°).
+
+  Editorial note: given the high fatality count (10 dead, no survivors),
+  no photographs of the recovered fuselage, impact scene, or any
+  human-sensitive material were used — all three incident images are
+  clinical/technical component or diagram photography, consistent with
+  this site's established practice on other high-fatality cases (see the
+  DCA09MA027 and DCA25MA108 notes in this file's earlier sections).
+
+## ERA23FA008 — Cessna 172P, Newport News/Williamsburg
+
+- `assets/img/aircraft-cessna-172p-n65842.33e5350f.webp` — cropped/resized from
+  [File:1983 Cessna 172P N65842 (4428978758).jpg](https://commons.wikimedia.org/wiki/File:1983_Cessna_172P_N65842_(4428978758).jpg)
+  by Tomás Del Coro, Wikimedia Commons, CC BY-SA 2.0. Shows a Cessna 172P
+  Skyhawk in ATP Flight School colors (registration N65842) — **not** the
+  accident aircraft (N97883); used only as a representative reference photo
+  of the same model.
+
+- `assets/img/incident-era23fa008-wreckage-front-view.bd26ab52.webp`,
+  `assets/img/incident-era23fa008-wreckage-side-view.dae1e35b.webp` — original
+  investigation photographs for NTSB case ERA23FA008 (N97883, Newport
+  News/Williamsburg International Airport (PHF), Newport News, VA,
+  October 6, 2022), U.S. government work / public domain. Extracted with
+  PyMuPDF from the "Investigation Photos" docket item
+  (`Investigation Photos-Rel.pdf`, docBLOB ID 14568482), retrieved from
+  https://data.ntsb.gov/Docket?ProjectID=106080. Two wide establishing shots
+  of the wreckage in the runway-side drainage ditch were used (front view
+  and a side view showing the airport fire/rescue truck); closer engine,
+  propeller, and cockpit-interior photos from the same docket item were not
+  used, consistent with this site's editorial restraint on fatal-accident
+  wreckage imagery.
+
+## ERA16FA312 — Beech F33A Bonanza & Diamond DA20-C1, Carrollton
+
+- `assets/img/aircraft-beech-f33a-bonanza.81a7c8a1.webp` — resized from
+  [File:G-JOYC Beech F33A Bonanza (10564002104).jpg](https://commons.wikimedia.org/wiki/File:G-JOYC_Beech_F33A_Bonanza_(10564002104).jpg)
+  by Mark Harkin, Wikimedia Commons, CC BY 2.0. Shows a Beechcraft F33A
+  Bonanza (registration G-JOYC) — **not** the accident aircraft (N6027K).
+  Wikimedia Commons, airliners.net, and jetphotos.com were searched directly
+  for "N6027K" and returned no photos of that specific airframe, so this is
+  used only as a representative reference photo of the same model.
+
+- `assets/img/aircraft-diamond-da20c1.15ed97ca.webp` — resized from
+  [File:N634DC 2001 DIAMOND DA20-C1 Katana s n C0134 (52910332567).jpg](https://commons.wikimedia.org/wiki/File:N634DC_2001_DIAMOND_DA20-C1_Katana_s_n_C0134_(52910332567).jpg)
+  by Tomás Del Coro, Wikimedia Commons, CC BY-SA 4.0. Shows a Diamond
+  DA20-C1 (registration N634DC) — **not** the accident aircraft (N85WP).
+  Wikimedia Commons, airliners.net, and jetphotos.com were searched directly
+  for "N85WP" and returned no photos of that specific airframe, so this is
+  used only as a representative reference photo of the same model.
+
+- `assets/img/incident-era16fa312-main-wreckage.857df235.webp`,
+  `assets/img/incident-era16fa312-laminated-freq-card.f946c349.webp` —
+  original investigation photographs for NTSB case ERA16FA312 (N6027K Beech
+  F33A Bonanza and N85WP Diamond DA20-C1, West Georgia Regional Airport
+  (CTJ), Carrollton, GA, September 7, 2016), U.S. government work / public
+  domain. Extracted with PyMuPDF from the "Photo Array" docket item
+  (`Photo Array-Master.PDF`, docBLOB ID 40457940, 14 photos), retrieved from
+  https://data.ntsb.gov/Docket?ProjectID=93964 (confirmed NTSB number
+  ERA16FA312 on the live docket page, which lists "27 Docket Items -
+  ERA16FA312AB"). Used: Photo 1 ("Main Wreckage") — a wide establishing shot
+  of the combined wreckage in the grass field south of the runway 35
+  threshold, with no visible remains — and Photo 14 ("Laminated Card Found
+  in F33A") — the laminated local-area-frequencies card recovered from the
+  Beech's cockpit, dated April 2009, which lists the CTJ CTAF as the
+  outdated 122.7 MHz rather than the correct 122.975 MHz in effect since
+  2011. The second photo was selected deliberately: it is the physical
+  artifact behind the probable cause (the Beech pilot's radio was tuned to
+  this same obsolete frequency). Closer wreckage, engine, propeller, and
+  structural-damage photos from the same docket item were not used,
+  consistent with this site's editorial restraint on fatal-accident
+  wreckage imagery.
+
+## ERA25LA072 — Piper PA-28-181 / Cessna 172S midair collision, Pahokee
+
+- `assets/img/aircraft-piper-pa28-181-generic.df975a3c.webp` — resized from
+  [File:Piper PA-28-181 Archer II AN1148553.jpg](https://commons.wikimedia.org/wiki/File:Piper_PA-28-181_Archer_II_AN1148553.jpg)
+  by Konstantin von Wedelstaedt, Wikimedia Commons, GNU Free Documentation
+  License 1.2. Shows a Piper PA-28-181 Archer II at Bamberg-Breitenau
+  Airport, Germany (registration D-EKAM) — **not** the accident aircraft
+  (N90874); used only as a representative reference photo of the same model.
+
+- `assets/img/aircraft-cessna-172s-generic.69037b30.webp` — reused from the
+  existing CEN23LA348 credit (same file, same model: Cessna 172S Skyhawk
+  SP). Shows registration D-EDDH — **not** the accident aircraft (N497SJ);
+  used only as a representative reference photo of the same model. No new
+  file was added for this; see the CEN23LA348 entry above for the original
+  source/license.
+
+- `assets/img/incident-era25la072-piper-cabin-damage.ff02bda0.webp`,
+  `assets/img/incident-era25la072-cessna-wing-damage.950ab171.webp` —
+  original investigation photographs for NTSB case ERA25LA072 (N90874 and
+  N497SJ, Palm Beach County Glades Airport (PHK), Pahokee, FL,
+  December 9, 2024), courtesy of the FAA, U.S. government work / public
+  domain. Extracted with PyMuPDF from the "Investigation Photographs"
+  docket item (`Investigation Photographs -Rel.pdf`, docBLOB ID 18168707),
+  retrieved from https://data.ntsb.gov/Docket?ProjectID=199402. Both of the
+  docket's two photos were used (Piper cabin roof damage, Cessna left wing
+  damage) — this was a no-injury midair collision with only airframe
+  damage, so there is no "editorial restraint" concern here as with fatal
+  wreckage imagery.
+
+## CEN21LA057 — Cirrus SR22, Tishomingo
+
+- `assets/img/aircraft-cirrus-sr22-generic.8d925d2b.webp` — reused from the
+  WPR24LA106 case (already credited above): [Cirrus SR22 KVGT (3334257735).jpg](https://commons.wikimedia.org/wiki/File:Cirrus_SR22_KVGT_(3334257735).jpg)
+  by "Fast" Eddie Maloney, Wikimedia Commons, CC BY-SA 2.0. Registration
+  shown (N310TN) is not the accident aircraft — used only as a reference
+  photo of the same model, undamaged. A direct Wikimedia Commons API search
+  for the accident registration ("N183V") returned zero file results, so no
+  new photo was sourced for this case; the existing generic Cirrus SR22
+  asset already in this repo was reused instead rather than duplicating it
+  under a new filename.
+
+- `assets/img/incident-cen21la057-accident-site-field.45e748df.webp`,
+  `assets/img/incident-cen21la057-oil-cooler-housing.f704c51a.webp` —
+  original investigation photographs for NTSB case CEN21LA057 (N183V,
+  Tishomingo, OK, October 24, 2020), courtesy of the FAA, U.S. government
+  work / public domain. Extracted with PyMuPDF from the "Photos" docket
+  item (`Photos-Rel.pdf`, docBLOB ID 11942539), retrieved from
+  https://data.ntsb.gov/Docket?ProjectID=102279 (confirmed NTSB number
+  CEN21LA057 in the PDF page headers). Captions per the source PDF:
+  "Photo 1 – Airplane at Accident Site, Courtesy of FAA" and "Photo 2 – Oil
+  Cooler Housing Area, Courtesy of FAA." The airplane photo shows the
+  accident aircraft resting upright in an open field after its parachute
+  descent, with recovery equipment visible; the oil cooler photo shows the
+  damaged oil temperature connector investigators traced the erratic
+  cockpit warnings to, circled in the original image.
+
+## ERA21LA208 — Gulfstream G150, Ridgeland-Claude Dean Airport
+
+- `assets/img/aircraft-gulfstream-g150-generic.201567b2.webp` — cropped/resized
+  from [Gulfstream Aerospace G150 N993AC (cn 265) (4622645828).jpg](https://commons.wikimedia.org/wiki/File:Gulfstream_Aerospace_G150_N993AC_(cn_265)_(4622645828).jpg)
+  by Tomás Del Coro, Wikimedia Commons, CC BY-SA 2.0. Shows a Gulfstream
+  G150 at San Juan's Fernando Luis Ribas Dominicci Airport, Puerto Rico.
+  Registration shown (N993AC) is not the accident aircraft (N22ST) — no
+  photo of N22ST itself was found on Wikimedia Commons, so this is used
+  only as a reference photo of the same model, undamaged.
+
+- `assets/img/incident-era21la208-overrun-marsh.38cfd0c9.webp`,
+  `assets/img/incident-era21la208-tire-marks-runway.29a2b0ee.webp`,
+  `assets/img/incident-era21la208-tail-damage.bd8d8089.webp` — figures from
+  the NTSB Airworthiness and Systems Factual Report for case ERA21LA208
+  (N22ST, Ridgeland, SC, May 5, 2021), docket item retrieved from
+  data.ntsb.gov/Docket/?NTSBNumber=ERA21LA208 (docBLOB ID 15825442,
+  `ERA21LA208_Airworthiness Factual Report-Rel.pdf`). U.S. government
+  work / public domain. Extracted with PyMuPDF from the report PDF: the
+  overrun-marsh photo shows the accident airplane (registration N22ST
+  visible on the tail) resting in wet marshland past the runway 36
+  departure end; the tire-marks photo shows investigator-annotated
+  touchdown/braking evidence on the runway; the tail-damage photo shows
+  the aft fuselage and engine nacelles documented during wreckage
+  recovery.
+
+## ERA22FA207 — Mercy Flight Bell 429, Elba
+
+- `assets/img/aircraft-bell-429-n505tj-mercyflight.b8f17263.webp` — a direct
+  Wikimedia Commons search by the accident aircraft's exact registration
+  (N507TJ) returned zero results, so a sister helicopter in the same Mercy
+  Flight Western New York Bell 429 fleet was used instead: N505TJ ("Mercy
+  Flight 5"), in the identical paint scheme/livery, parked on a hospital
+  helipad in Warsaw, NY.
+  [8-19-11 NEW 2010 MERCY FLIGHT 5 AT WCCH (6059754533).jpg](https://commons.wikimedia.org/wiki/File:8-19-11_NEW_2010_MERCY_FLIGHT_5_AT_WCCH_(6059754533).jpg)
+  by Jim Duell, Wikimedia Commons, CC BY-SA 2.0. Registration shown (N505TJ)
+  is not the accident aircraft (N507TJ) — used only as a reference photo of
+  the same operator/model/livery, undamaged.
+
+- `assets/img/incident-era22fa207-debris-field-aerial.18c65c72.webp`,
+  `assets/img/incident-era22fa207-main-rotor-blades.14cbe765.webp`,
+  `assets/img/incident-era22fa207-tail-rotor-shaft-cover.20c03bef.webp` —
+  original investigation photographs for NTSB case ERA22FA207 (N507TJ, Bell
+  429 GlobalRanger, Elba, NY, April 26, 2022), U.S. government work / public
+  domain (one image, the aerial debris-field view, is separately credited
+  in the source document to the New York State Police, whose UAV captured
+  it during the investigation). Extracted with PyMuPDF from the "Accident
+  Site, Damage and Examination Photos" docket item (18 pages, docBLOB ID
+  16435173), retrieved from https://data.ntsb.gov/Docket?ProjectID=105004
+  (confirmed NTSB number ERA22FA207 printed in the page header of every
+  page). Captions per the source PDF: "Photograph 11 – UAV aerial view of
+  debris field from about 300 feet. (Courtesy of NY State Police)",
+  "Photograph 13 – View of all 4 main rotor blades during examination.
+  (NTSB)", and "Photograph 16 – Closeup view of sliced tail rotor shaft
+  cover prior to being shipped to Bell. (NTSB)". These three were chosen
+  deliberately, out of 17 photographs in the source document, for direct
+  relevance to the probable cause (main rotor blade contact with the tail
+  boom) and because — unlike several other images in the same docket item —
+  they do not depict the fuselage impact point, cockpit, or any indication
+  of human remains; this is a fatal accident with an in-flight breakup and
+  the selection was made with that in mind.
+
+## CEN19MA141 — DHC-2 / DHC-3 Midair Collision, Ketchikan
+
+- `assets/img/aircraft-dhc2-beaver-n952db.f247a66a.webp` — the actual accident
+  airplane, N952DB, in Mountain Air Service livery, photographed before the
+  accident. Figure 3 of the NTSB final report (NTSB/AAR-21/04, "Midair
+  Collision over George Inlet," CEN19MA141), credited in the report caption
+  as "Source: Mr. John Leach." Extracted with PyMuPDF from the report PDF
+  (https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf,
+  page 6), resized to 900px wide and re-encoded as WebP. Included in an
+  adopted NTSB Aircraft Accident Report; treated as a U.S. government work /
+  public domain per this site's established handling of report-embedded
+  figures, consistent with the DCA20MA059 and CEN23LA348 entries above.
+
+- `assets/img/aircraft-dhc3-otter-n959pa.945eb153.webp` — the actual accident
+  airplane, N959PA, in Taquan Air livery, photographed before the accident
+  at the Ketchikan Harbor Seaplane Base dock. Figure 6 of the same NTSB
+  final report, credited in the report caption as "Source: Mr. Kelly
+  Thomas." Extracted with PyMuPDF from the report PDF (page 8), resized and
+  re-encoded as WebP. Same sourcing/licensing basis as above.
+
+- `assets/img/incident-cen19ma141-flight-track-diagram.d900add0.webp` —
+  Figure 2 of the NTSB final report: an annotated satellite map showing
+  both airplanes' ADS-B flight tracks, timestamps, altitudes, and the
+  midair collision point over George Inlet. U.S. government work / public
+  domain. Extracted with PyMuPDF from the report PDF (page 3).
+
+- `assets/img/incident-cen19ma141-foreflight-traffic-alert-example.3b44b9d8.webp`
+  — Figure 5 of the NTSB final report: an illustrative ForeFlight cockpit
+  screenshot showing what a working traffic-alert pop-up looks like
+  (labeled by NTSB as "Example of a ForeFlight visual traffic alert with a
+  traffic pop-up display"), used on the page to show readers the kind of
+  warning both accident airplanes' systems failed to produce. The pop-up
+  text happens to reference N959PA (the accident DHC-3), but NTSB's own
+  caption describes it as an example/demonstration figure, not a literal
+  recording from the accident flight — captioned on the site accordingly.
+  U.S. government work / public domain. Extracted with PyMuPDF from the
+  report PDF (page 8).
+
+  Editorial note: no wreckage, recovery, or autopsy imagery was sourced for
+  this case given the fatality count (6 dead, 9 seriously injured) — only
+  pre-accident reference photos of the two actual aircraft and two
+  non-graphic investigative diagrams/screenshots from the report are used.
+
+## ERA18MA099 — FlyNYON East River Helicopter Crash, N350LH
+
+- `assets/img/aircraft-as350-b2-generic-temsco.6f976cd3.webp` — no
+  free-licensed photo of the actual accident helicopter (N350LH) could be
+  found (JetPhotos and airplane-pictures.net listings exist but are
+  all-rights-reserved). [Eurocopter AS350 B2 Ecureuil (N145TH).jpg](https://commons.wikimedia.org/wiki/File:Eurocopter_AS350_B2_Ecureuil_(N145TH).jpg)
+  by Fletcher6 (Matthew Hill), Wikimedia Commons, CC BY-SA 3.0. Shows a
+  different Airbus/Eurocopter AS350 B2 (N145TH, a TEMSCO sightseeing
+  helicopter photographed at Skagway, Alaska) — used only as a reference
+  photo of the same helicopter model; not the accident aircraft and not
+  shown in doors-off configuration.
+
+- `assets/img/incident-era18ma099-fsol-floor-mounted-controls.9cd21089.webp`,
+  `assets/img/incident-era18ma099-float-activation-handle.9cfebd9a.webp`,
+  `assets/img/incident-era18ma099-passenger-tether-carabiner.becba82f.webp`
+  — Figures 5, 6, and 14 of the NTSB final report (NTSB/AAR-19/04,
+  "Inadvertent Activation of the Fuel Shutoff Lever and Subsequent
+  Ditching," ERA18MA099), adopted December 10, 2019. All three are NTSB
+  investigation photographs of the actual accident helicopter (N350LH,
+  visible on an interior placard in the float-activation-handle image) or
+  actual hardware recovered from the accident flight (the front
+  passenger's own tether and locking carabiner). U.S. government work /
+  public domain. Fetched directly from
+  https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1904.pdf
+  (confirmed "ERA18MA099" in the report's own body text) and extracted with
+  PyMuPDF, resized to 900px wide and re-encoded as WebP.
+
+  Editorial note: given 5 fatalities, no wreckage-recovery or scene imagery
+  was sourced for this case. The three incident photos selected are
+  deliberately non-graphic, equipment-focused images that are directly
+  germane to the probable cause (the fuel shutoff lever and the tether that
+  caught on it) and the harness/egress safety issue central to the report's
+  findings — not the ditching or capsizing itself.
+
+## CEN23MA034 — Boeing B-17G & Bell P-63F, Wings Over Dallas
+
+- `assets/img/aircraft-boeing-b17g-n7227c.33a8930c.webp` — the actual
+  accident airplane, Boeing B-17G N7227C ("Texas Raiders"), photographed
+  pre-accident on the ground at Sun 'n Fun, Lakeland, FL, April 4, 2014.
+  Resized from [File:Boeing B-17G-95-DL Flying Fortress Texas Raiders
+  44-83872 N7227C RSide SNF 04April2014 (14585615742).jpg](https://commons.wikimedia.org/wiki/File:Boeing_B-17G-95-DL_Flying_Fortress_Texas_Raiders_44-83872_N7227C_RSide_SNF_04April2014_(14585615742).jpg)
+  by Valder137 (via Flickr), Wikimedia Commons, CC BY 2.0.
+
+- `assets/img/aircraft-bell-p63f-n6763.ea1e8b2c.webp` — the actual accident
+  airplane, Bell P-63F N6763 (serial 43-11719, the only P-63F ever built),
+  photographed pre-accident, October 27, 2019. Resized from [File:Bell
+  P-63F-1-BE Kingcobra 'X - 311719' (N6763) (50909030776).jpg](https://commons.wikimedia.org/wiki/File:Bell_P-63F-1-BE_Kingcobra_%E2%80%98X_-_311719%E2%80%99_(N6763)_(50909030776).jpg)
+  by Alan Wilson (via Flickr), Wikimedia Commons, CC BY-SA 2.0.
+
+- `assets/img/incident-cen23ma034-ntsb-flightpath-diagram.c91712e5.webp` —
+  the NTSB's own schematic diagram (not a photograph) showing the B-17G's
+  and P-63F's recorded ADS-B/position-derived flight paths and relative
+  timing (1321:20–1321:53 CST) during the final repositioning turn before
+  the collision, overlaid on an aerial view of Dallas Executive Airport.
+  Sourced from [File:DallasAirshowNTSBGraphic.png](https://commons.wikimedia.org/wiki/File:DallasAirshowNTSBGraphic.png),
+  Wikimedia Commons, public domain (U.S. government work — NTSB), itself a
+  figure from the NTSB's final report, AIR-24-07.
+
+Note on photo selection: the NTSB docket (ProjectID 106276, 53 items)
+includes an "Airworthiness Group Chair's Factual Report" with pre-accident
+photos of both airframes (its Figures 1–2), but each is captioned only "CAF
+photo" (i.e., credited to the Commemorative Air Force as a third party, not
+a public-domain government work) — those were not used here; the
+independently-licensed Wikimedia Commons photos above were used instead.
+The docket also contains a 30-photo "Airworthiness Image Review" item,
+explicitly described elsewhere in the same factual report as including
+"pre- and post-collision photos" — this was deliberately not opened or
+sourced from, given the severity of this accident and the extensively
+circulated graphic video of the in-flight collision itself. No wreckage,
+post-collision, or collision-sequence imagery of any kind was used on this
+page; only pre-accident reference photos of the two actual accident
+airframes and the NTSB's own schematic (line-diagram) flight-path figure
+appear, consistent with the editorial restraint already applied to
+DCA25MA108.

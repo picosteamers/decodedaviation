@@ -1,0 +1,162 @@
+{
+  "ntsb_number": "ERA22FA207",
+  "date": "2022-04-26",
+  "location": {
+    "city": "Elba",
+    "state": "NY",
+    "lat": 43.063838,
+    "lon": -78.139356
+  },
+  "aircraft": {
+    "type": "Bell 429 GlobalRanger",
+    "registration": "N507TJ"
+  },
+  "operator": "Mercy Flight Inc.",
+  "flight_type": "Part 91: General aviation - Instructional (recurrent helicopter flight training)",
+  "occupants": 2,
+  "fatalities": 2,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "On April 26, 2022, at 1300 eastern daylight time, a Bell Helicopter Textron Canada, 429, N507TJ, was substantially damaged when it was involved in an accident near Elba, New York. The flight instructor and pilot receiving instruction were fatally injured. The helicopter was operated as a Title 14 Code of Federal Regulations Part 91 instructional flight.\n\nA representative of the operator stated that the instructional flight was recurrent training being conducted by the helicopter manufacturer's flight instructor with multiple training flights planned throughout the day; the accident flight was the second flight of the day. The first pilot who received training from the flight instructor on the morning of the accident flight stated that during their flight they entered vortex ring state (VRS) with a very high descent rate, which was confirmed by the flight data recovered from the accident helicopter. While in VRS, the pilot stated that he didn't know why they were going so deep into VRS and that the instructor was just sitting there, \"hands on his lap.\" So, the pilot, feeling uncomfortable at that point, had to exit this very high descent rate on his own rather than waiting for further guidance from the instructor pilot.\n\nThe helicopter was equipped with an Electronic Data Recorder (EDR) within its Display Unit (DU), also known as the Pilot Flight Display and Multi-Function Display, that recorded flight, navigation, engine, and usage parameters every half second. It was also equipped with a SKYTRAC transceiver that facilitated real-time fleet awareness, group communications, and systems performance trending and analysis. The accident flight was also recorded by automatic dependent surveillance-broadcast (ADS-B).\n\nADS-B data, combined with the DU and SKYTRAC data sources, revealed that the accident pilot and the flight instructor departed Genesee County Airport (GVQ) Batavia, New York at 1111, and performed multiple maneuvers in the immediate vicinity of the airport before departing to the east. About 20 minutes later, the helicopter returned to the airport and performed additional maneuvers in the airport traffic pattern for about 30 minutes before again departing the traffic pattern. From about 1223 to 12:55, the pilot and instructor practiced single-engine training and dual-engine failure training with autorotations. These training maneuvers were completed about 4 minutes and 30 seconds before the accident occurred.\n\nAbout 12:56, the helicopter was flying over the airport and turned north. About 12:58, the helicopter was approximately 2 nm north-northeast of the airport and began a clockwise circular pattern. From 12:59:26 to 12:59:44 (18 seconds), the helicopter was operating in an envelope conducive to VRS. At 12:59:47 there were multiple abrupt control inputs; the cyclic was nearly full forward and to the left with right antitorque pedal input applied. The collective lever position was in the full down position; the airspeed was decreasing from 26 knots to 9 knots with the helicopter's vertical descent rate increasing from -800 to -1,300 fpm.\n\nSeveral eyewitnesses observed and heard the helicopter flying overhead before the accident and throughout the accident sequence. One stated that he observed the helicopter \"almost stationary\" after it flew over, and then as it started to fly away, he heard a loud \"bang\", and the helicopter began to descend out of control. An additional witness stated that the helicopter was hovering before it \"fell apart\" with the fuselage falling separately, and another witness stated she did not see the helicopter but heard what sounded like an engine making a \"whooshing\" sound, and then \"three loud and rapid cracks\" in succession. She further stated that she heard the helicopter impact the ground and heard the rotor blades striking the ground rapidly.",
+  "probable_cause": "The pilots' inappropriate flight control inputs while in vortex ring state, which resulted in main rotor blade contact with the tail boom and a subsequent in-flight breakup. Also causal was the flight instructor's inadequate monitoring of the flight.",
+  "phase_of_flight": "Maneuvering - vortex ring state (VRS) training entry, followed by abrupt flight control inputs, main rotor blade contact with the tail boom, and an in-flight breakup",
+  "weather": "Visual meteorological conditions (VMC) at the accident site. Nearest weather observation was Greater Rochester International Airport (ROC), elevation 540 ft msl, 21 nautical miles from the accident site, observed at 1254 local: wind 290 degrees at 10 knots, visibility 10 statute miles, broken ceiling at 3,400 ft agl, temperature 12 degrees C, dew point 4 degrees C, altimeter 30.07 inches Hg, no obscuration and no precipitation. The NTSB report does not identify weather as a factor in the accident.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105004/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=105004"
+  },
+  "sources_checked": [
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105004/pdf",
+    "https://www.wivb.com/wp-content/uploads/sites/97/2023/12/Report_ERA22FA207_105004_12_13_2023-8_12_50-AM.pdf",
+    "https://data.ntsb.gov/Docket?ProjectID=105004",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=16435173&FileExtension=pdf&FileName=Accident+Site,+Damage+and+Exam+Photographs_N507TJ-Rel.pdf",
+    "https://commons.wikimedia.org/wiki/Category:N505TJ_(aircraft)",
+    "https://commons.wikimedia.org/wiki/File:8-19-11_NEW_2010_MERCY_FLIGHT_5_AT_WCCH_(6059754533).jpg",
+    "https://www.wkbw.com/news/local-news/national-transportation-safety-board-releases-final-report-on-mercy-flight-helicopter-crash-in-2022",
+    "https://13wham.com/news/local/ntsb-releases-final-report-on-fatal-mercy-flight-helicopter-crash-in-elba-genesee-county-james-sauer-stewart-dietrick-wny",
+    "https://buffalonews.com/news/local/mercy-flight-fatal-crash-james-sauer-stewart-dietrick-ntsb-report/article_ad010d9c-9847-11ee-aae4-c31243a57f17.html"
+  ],
+  "notes": "NTSB case number confirmed as ERA22FA207 via web search cross-referencing (ASN wikibase entry, NTSB docket listing, and news coverage) and then verified directly: the case number appears in the page header of every page of the fetched final report PDF and matches the CAROL docket (ProjectID=105004) listing at https://data.ntsb.gov/Docket?ProjectID=105004, which independently lists the same accident (N507TJ, Bell 429, Elba NY, April 26, 2022). The final report PDF itself was not fetchable by direct curl from data.ntsb.gov's report-generation API (returned an IIS/Cloudflare 403 'Forbidden' page, not the actual document, under automated fetching) -- it was instead retrieved from a news outlet's (WIVB) hosted mirror of the identical NTSB-generated PDF (same filename pattern 'Report_ERA22FA207_105004_...pdf', same 12 pages, same text), and the PDF itself confirms ERA22FA207 printed in the header of all 12 pages. The accident-site/examination photographs PDF (docket item, docBLOB ID 16435173, 18 pages) WAS fetchable directly from data.ntsb.gov and also prints ERA22FA207 on every page, corroborating the WIVB mirror. Both PDFs were text/image-extracted with PyMuPDF.\n\nnarrative is verbatim text from the 'Factual Information / History of Flight' section of the final report (the auto-generated NTSB event-category labels that precede the prose -- 'Maneuvering / Settling with power/vortex ring state', 'Maneuvering / Inflight upset', etc. -- were omitted as boilerplate classification tags, not narrative prose, consistent with how other cases in this dataset handle them). probable_cause is verbatim from the 'Probable Cause and Findings' section. Both were cross-checked against the separate 'Analysis' section of the same report, which restates the same facts and the identical probable-cause sentence.\n\nThe press account supplied for this research (pilot James E. Sauer, Bell flight instructor Stewart M. Dietrick, vortex ring state recovery practice, main rotor blade contact with the tail boom, in-flight breakup, final report issued December 2023) matches the NTSB document closely on every checkable fact: accident date/time (April 26, 2022, 1300 EDT), aircraft (Bell 429, N507TJ), operator (Mercy Flight Inc.), the VRS-practice scenario, the 'hands on his lap' detail from the earlier flight, the abrupt-control-input and main-rotor/tail-boom-contact mechanism, the in-flight breakup, and the report's original publish date of December 8, 2023 (press reports say 'around December 6-13, 2023' depending on outlet and whether they mean public release vs. internal publish date; the report's own 'Original Publish Date' field says December 8, 2023, used here). One mismatch worth flagging: the NTSB report itself never names either occupant -- it refers throughout to 'the flight instructor' and 'the pilot receiving instruction' / 'the accident pilot.' The names James E. Sauer and Stewart M. Dietrick come only from contemporaneous news coverage (WKBW, 13WHAM, Buffalo News, WIVB), not from the NTSB document, so per this dataset's convention they are used only in the editorial 'page' block below, not attributed to NTSB anywhere. Note also that the NTSB report's two personnel tables are both headed with the same certificate description ('Airline transport; Commercial; Flight instructor') for both occupants -- both men held flight instructor certificates -- but the report's own table headers and the narrative text make clear which man served as instructor-for-the-flight (seated left, giving the recurrent training) and which was the pilot receiving that day's instruction (seated right); press coverage identifies the Bell Helicopter company instructor as Dietrick and the Mercy Flight pilot receiving training as Sauer, consistent with Dietrick's listed employer (Bell Helicopter, per news coverage) functioning as 'the helicopter manufacturer's flight instructor' described in the report.\n\nAircraft type: the report's structured field reads 'Aircraft Make: BELL HELICOPTER TEXTRON CANADA, Model/Series: 429 NO SERIES'; this file uses the aircraft's common/marketing designation, 'Bell 429 GlobalRanger,' consistent with Wikimedia Commons categorization and manufacturer/press usage. Operator: registered owner/operator per the report is 'MERCY FLIGHT INC', holding an on-demand air taxi (Part 135) certificate for its EMS operations generally, but this specific flight was conducted and classified by NTSB as a Part 91 instructional flight (recurrent training, no patient aboard), which is reflected in flight_type here. Coordinates (43.063838, -78.139356) are the report's own stated latitude/longitude for the accident site. Weather observation is the report's own nearest-station data (Rochester, 21 nm away, 21 minutes before the accident) -- the report does not independently characterize conditions at the accident site itself beyond noting 'Conditions at Accident Site: Visual (VMC)'.\n\nPhotos: no photograph of the actual accident helicopter (N507TJ) could be found on Wikimedia Commons despite a dedicated search by registration, consistent with CLAUDE.md's required check-first step. A sister aircraft in the same Mercy Flight Western New York Bell 429 fleet, N505TJ ('Mercy Flight 5'), in the same paint scheme/livery, was found on Commons (Category:N505TJ (aircraft), CC BY-SA 2.0, photographer Jim Duell) and is used here as a clearly-disclaimed representative photo of the same operator/model, not the accident airframe. Three investigation photographs were extracted with PyMuPDF from the NTSB docket's 'Accident Site, Damage and Examination Photos' document (docBLOB ID 16435173): an aerial debris-field view, the four recovered main rotor blades during examination, and a close-up of the sliced tail-rotor driveshaft cover -- all chosen for direct relevance to the probable cause (main rotor blade contact with the tail boom) and for not depicting the fuselage impact point, cockpit, or any indication of human remains; several more graphic wreckage photographs in the same docket item were deliberately not used.",
+  "page": {
+    "title": "Mercy Flight Bell 429 Crash — Elba, New York",
+    "subtitle": "Vortex ring state training exercise led to main rotor blade contact with the tail boom and an in-flight breakup",
+    "datetime_text": "April 26, 2022, 13:00 EDT · open field near Genesee County Airport (GVQ), Elba, New York",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "2 fatal / 2 aboard",
+    "badge_casualty_sub": "No survivors",
+    "status_meta": "NTSB · Released December 8, 2023",
+    "summary": "A Mercy Flight Bell 429 air-ambulance helicopter, flown by a company pilot under recurrent training from a Bell Helicopter factory instructor, was practicing recovery from vortex ring state near its Batavia, New York base when multiple abrupt flight control inputs caused the main rotor blades to strike the tail boom. The helicopter broke apart in flight and crashed into a field in the Town of Elba, killing both the instructor and the pilot. No patients were aboard. The NTSB found the pilots' inappropriate control inputs while in vortex ring state caused the accident, and that the instructor's inadequate monitoring of the flight was also causal.",
+    "facts": {
+      "location_value": "Elba, New York",
+      "location_sub": "Open field, Genesee County",
+      "route_label": "Route",
+      "route_value": "Genesee County Airport (GVQ) → local training area → GVQ",
+      "route_sub": "Local recurrent-training flight, no flight plan",
+      "phase_value": "Maneuvering, vortex ring state training",
+      "phase_sub": "Abrupt control inputs → rotor/tail-boom contact → breakup",
+      "operation": "Part 91 instructional (recurrent training)",
+      "damage": "Substantial (in-flight breakup)",
+      "weather_value": "VMC, 10 mi visibility",
+      "weather_sub": "Broken ceiling 3,400 ft agl, wind 10 kt"
+    },
+    "narrative_excerpt": "About 12:56, the helicopter was flying over the airport and turned north. About 12:58, the helicopter was approximately 2 nm north-northeast of the airport and began a clockwise circular pattern. From 12:59:26 to 12:59:44 (18 seconds), the helicopter was operating in an envelope conducive to vortex ring state (VRS). At 12:59:47 there were multiple abrupt control inputs; the cyclic was nearly full forward and to the left with right antitorque pedal input applied. The collective lever position was in the full down position; the airspeed was decreasing from 26 knots to 9 knots with the helicopter's vertical descent rate increasing from -800 to -1,300 fpm.\n\nSeveral eyewitnesses observed and heard the helicopter flying overhead before the accident and throughout the accident sequence. One stated that he observed the helicopter \"almost stationary\" after it flew over, and then as it started to fly away, he heard a loud \"bang\", and the helicopter began to descend out of control. An additional witness stated that the helicopter was hovering before it \"fell apart\" with the fuselage falling separately, and another witness stated she did not see the helicopter but heard what sounded like an engine making a \"whooshing\" sound, and then \"three loud and rapid cracks\" in succession.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Multiple abrupt flight control inputs applied while the helicopter was deep in vortex ring state",
+      "Main rotor blade contact with the tail boom, causing an in-flight structural breakup",
+      "The flight instructor's inadequate monitoring of the flight during the VRS training maneuver",
+      "Likely inadequate briefing by the instructor on how VRS training would be conducted, including how it would be identified, entered, and exited",
+      "No mechanical malfunction or failure of the helicopter that would have precluded a normal recovery from vortex ring state"
+    ],
+    "safety_takeaways": [
+      "Vortex ring state training is inherently high-risk: it should only be introduced and practiced with altitude margin that allows time to recognize, diagnose, and recover before the descent rate becomes unrecoverable.",
+      "A flight instructor's job during a deliberately induced unstable condition is active, continuous monitoring and a defined point at which they take the controls — not passive observation from the other seat.",
+      "Before any VRS (or other upset) training maneuver begins, the instructor and pilot should brief exactly how the state will be entered, how it will be recognized, and who initiates recovery and when.",
+      "Abrupt, large-amplitude control inputs during an already unstable condition can themselves cause structural contact between the main rotor and the airframe — the standard recovery techniques (lowering collective, gaining airspeed, or the Vuichard technique) call for deliberate, not abrupt, inputs.",
+      "A near-miss on an earlier flight that same day — an uncomfortably deep VRS entry the student had to exit on his own — is a stop-and-reset signal, not a data point to normalize and repeat without changing the plan."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-bell-429-n505tj-mercyflight.b8f17263.webp",
+      "alt": "N505TJ, a sister Bell 429 in the Mercy Flight Western New York fleet, in the same livery as the accident helicopter N507TJ",
+      "caption": "N505TJ, a sister helicopter in the Mercy Flight Western New York fleet — not the accident aircraft (N507TJ), shown for livery/model reference",
+      "name": "Bell 429 GlobalRanger",
+      "sub": "Twin-engine light helicopter, EMS/air-ambulance configuration",
+      "specs": [
+        [
+          "Year built",
+          "2017"
+        ],
+        [
+          "Engines",
+          "2× Pratt & Whitney Canada PW207"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-era22fa207-debris-field-aerial.18c65c72.webp",
+        "alt": "Aerial drone view of the debris field in the Elba field, looking down from about 300 feet, with evidence markers placed by investigators",
+        "title": "Debris field, aerial view",
+        "meta": "N507TJ · Courtesy NY State Police · Open PDF",
+        "link": "https://data.ntsb.gov/Docket?ProjectID=105004"
+      },
+      {
+        "photo": "assets/img/incident-era22fa207-main-rotor-blades.14cbe765.webp",
+        "alt": "The four recovered main rotor blades (orange, blue, green, red) laid out during post-accident examination",
+        "title": "Main rotor blades during examination",
+        "meta": "N507TJ · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket?ProjectID=105004"
+      },
+      {
+        "photo": "assets/img/incident-era22fa207-tail-rotor-shaft-cover.20c03bef.webp",
+        "alt": "Close-up of the tail rotor drive shaft cover showing an angled slice line consistent with main rotor blade contact",
+        "title": "Sliced tail rotor shaft cover",
+        "meta": "N507TJ · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket?ProjectID=105004"
+      }
+    ],
+    "media_source_label": "NTSB Docket, Accident Site, Damage and Examination Photographs, ERA22FA207",
+    "location_card": {
+      "map_caption": "Elba, NY",
+      "primary": "Elba, New York",
+      "region": "Genesee County, USA",
+      "coords_text": "43.063838, -78.139356",
+      "site_title": "Accident site",
+      "site_sub": "Open field, elevation ~1,220 ft msl",
+      "site_meta": "~2 nm north-northeast of Genesee County Airport (GVQ), Batavia"
+    },
+    "docs": {
+      "report_label": "NTSB ERA22FA207",
+      "docket_label": "(19 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Kobe Bryant Helicopter Crash — Sikorsky S-76B, Calabasas, CA",
+        "sub": "Similar factors: helicopter loss of control in flight",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "DCA20MA059"
+      },
+      {
+        "title": "Piper Sport — Instructional flight, Santa Monica, CA",
+        "sub": "Similar factors: instructor failed to intervene in time during a loss of control",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "WPR22FA338"
+      },
+      {
+        "title": "Roy Halladay — ICON A5, Gulf of Mexico",
+        "sub": "Similar factors: low-altitude maneuvering, loss of control",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "ANC18FA007"
+      }
+    ],
+    "about_investigation_type": "Regional (Class 3)",
+    "seo": {
+      "title": "Mercy Flight Bell 429 Crash — Elba, NY",
+      "description": "NTSB ERA22FA207: Mercy Flight's Bell 429 broke apart during vortex ring state training near Elba, NY, killing both pilots. Probable cause and takeaways."
+    }
+  }
+}

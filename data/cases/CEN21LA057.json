@@ -1,0 +1,153 @@
+{
+  "ntsb_number": "CEN21LA057",
+  "date": "2020-10-24",
+  "location": {
+    "city": "Tishomingo",
+    "state": "OK",
+    "lat": 34.19,
+    "lon": -96.6
+  },
+  "aircraft": {
+    "type": "Cirrus SR22",
+    "registration": "N183V"
+  },
+  "operator": "Leatherneck Oilfield Service Inc",
+  "flight_type": "Part 91: General aviation - Personal",
+  "occupants": 4,
+  "fatalities": 0,
+  "injuries": {
+    "serious": 0,
+    "minor": 4
+  },
+  "report_status": "final",
+  "narrative": "On October 24, 2020, about 1200 central daylight time, a Cirrus SR22 airplane, N183V, was substantially damaged when it was involved in an accident near Tishomingo, Oklahoma. The pilot and the three passengers sustained minor injuries. The airplane was operated as a Title 14 Code of Federal Regulations Part 91 personal flight.\n\nDuring a postaccident interview, the pilot recalled that, while the airplane was descending toward its destination (Atoka Municipal Airport, Atoka, Oklahoma), he was alerted to high oil temperature indications and noted a loss of engine power. The pilot stated that he attempted to restore engine power by adjusting the air-fuel mixture and throttle but was unable to do so. Download of the airplane's remote data module revealed that, while the airplane was approaching its destination at an altitude of about 900 ft above ground level, erratic high engine oil temperatures (from 314°C to 801°C) were recorded for 5 seconds. The engine oil temperature returned to normal for the next 7 seconds, which was followed by erratic high temperatures for the remainder of the flight. According to (source), engine oil temperatures greater than 240°C triggered a flashing red warning cockpit annunciator and an aural chime every 1.5 seconds.\n\nThe downloaded data from the remote data module also showed that, about 5 seconds after high oil temperatures began, decreases in fuel flow, manifold pressure, and engine rpm were recorded, which were consistent with throttle movement to idle power. About 3 seconds later, manifold pressure increased, consistent with a throttle increase, but fuel flow indications remained near 3 to 5 gallons per hour. The manifold pressure subsequently decreased and increased twice with no corresponding change in fuel flow.\n\nThe pilot then assessed the available locations for a forced landing and determined that the options were unsuitable. As a result, he activated the Cirrus Airframe Parachute System. The downloaded data showed that the parachute activation occurred about 45 seconds after the high oil temperatures began and that the airplane's airspeed at the time of activation was about 85 knots. The airplane descended under the parachute and impacted terrain, resulting in substantial damage to an airframe engine mount.\n\nPostaccident examination of the engine revealed normal mechanical continuity. The fuel inlet filters were clear of debris, and no anomalies were noted with the ignition leads, spark plugs, magnetos, fuel servo, flow divider, or fuel injectors. The oil reservoir was empty, with the several holes in the oil pan due to impact damage.\n\nThe oil temperature connector and back shell were damaged, and the back shell was disconnected from the connector. The accident flight was the first flight after maintenance was performed to address high engine oil consumption during previous flights. The logbook entry for this maintenance included replacement of crush gaskets on the oil cooler housing. One of the crush gaskets that was replaced was adjacent to the damaged oil temperature connector.\n\nAccording to a Federal Aviation Administration Safety Team (FAAST) publication:\n\nGeneral aviation accidents often result from inappropriate responses to unexpected events. Humans are subject to a \"startle response\" when they are faced with unexpected emergency situations and may delay action or initiate inappropriate action in response to the emergency. Training and preparation can reduce startle response time and promote more effective and timely responses.\n\n[Analysis section] The private pilot and three passengers departed on a personal flight in visual conditions. As the airplane approached its destination while at an altitude of about 900 ft above ground level, the pilot received cockpit indications of erratic high engine oil temperature. About 5 seconds after the indications began, the pilot moved the throttle to idle power and likely adjusted the fuel-air mixture.\n\nAbout 3 seconds after moving the throttle to idle power, the pilot advanced the throttle to a cruise power setting, but the fuel flow and engine power did not increase. The pilot made additional throttle movements, but the fuel flow and engine power did not correspond to throttle movements most likely because the pilot had adjusted the fuel-air mixture toward a lean setting. Thus, the pilot's actions in response to the high engine oil indications led to the loss of engine power. Without engine power, the airplane's airspeed decreased to about 85 knots, and the pilot successfully deployed the airplane's parachute system.\n\nPostaccident examination revealed no anomalies that would have precluded normal engine power. The oil temperature connector and back shell were damaged, with the back shell disconnected from the oil temperature connector. The accident flight was the first after maintenance work during which a crush gasket adjacent to the damaged oil temperature connector was replaced. The oil temperature connector was most likely damaged during this maintenance and resulted in erratic indications of high engine oil temperature during the accident flight.",
+  "probable_cause": "The pilot's improper adjustment of the engine mixture control, which resulted in a total loss of engine power. Contributing to the accident was a disconnected oil temperature connector, which was likely damaged during maintenance before the accident flight and provided erratic indications during the flight.",
+  "phase_of_flight": "En route descent, approaching destination (Defining event: total loss of engine power)",
+  "weather": "Conditions at Accident Site: Visual (VMC). Condition of Light: Day. Observation Facility, Elevation: KADM, 725 ft msl. Distance from Accident Site: 15 Nautical Miles. Observation Time: 11:55 Local. Direction from Accident Site: 300°. Lowest Cloud Condition: Clear. Visibility 10 miles. Lowest Ceiling: None. Wind Speed/Gusts: none reported. Turbulence Type/Severity Forecast/Actual: None/None, N/A/N/A. Altimeter Setting: 30.17 inches Hg. Temperature/Dew Point: 10°C / 2°C. Precipitation and Obscuration: No Obscuration; No Precipitation.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/102279/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=102279"
+  },
+  "sources_checked": [
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/102279/pdf",
+    "https://data.ntsb.gov/Docket?ProjectID=102279",
+    "https://data.ntsb.gov/Docket/?NTSBNumber=CEN21LA057",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=11942539&FileExtension=pdf&FileName=Photos-Rel.pdf"
+  ],
+  "notes": "IMPORTANT correction to the research lead: the task brief described this as a case where 'all occupants survived uninjured.' That is NOT what the verified NTSB report says. The actual final report (CEN21LA057, 7 pages, Original Publish Date July 7, 2022, Investigator In Charge Michael Folkerts) states Injuries: 4 Minor (1 crew + 3 passengers), 0 Fatal, 0 Serious — i.e. everyone survived, but all four occupants were injured (minor), not uninjured. The 'uninjured' framing from the lead was not forced into this file; badges/summary below honestly reflect '4 minor injuries,' not 'no injuries.' Separately, a first search-engine-suggested docBLOB report (ProjectID 104579, 'Page 1 of 12... Location: Hutchinson, Minnesota') was fetched and confirmed to be a DIFFERENT, unrelated case (CEN22FA111, a fatal Cirrus SR22 CAPS accident, 1 fatal/1 serious) before being discarded — exactly the kind of docket mismatch CLAUDE.md warns about. The correct report was found and verified at ProjectID 102279 ('Page 1 of 7... Location: Tishomingo, Oklahoma'), which has 'CEN21LA057' printed on every page header and matches the registration (N183V) and story (Cirrus SR22, CAPS deployment, survived) from the original lead. Registration N183V, independently reconfirmed from the NTSB report's own 'Aircraft and Owner/Operator Information' table — the Cirrus Pilots Association's secondary-source registration was correct in this instance, but this was verified from the primary NTSB document, not assumed. The 'CAPS Save #100' framing is NOT something the NTSB report itself says or counts — it is the Cirrus Owners and Pilots Association's (COPA) own informal tally of CAPS deployments, used here only as a lead/hook and explicitly attributed to COPA in the page copy (summary), never presented as an NTSB-sourced fact and never used in the narrative/probable_cause fields. Notably, COPA (represented by Richard Beach) is listed in the NTSB report's own 'Additional Participating Persons' as a party to this investigation, which is the only NTSB-documented connection between COPA and this case. Operator/registered owner 'Leatherneck Oilfield Service Inc' is the verbatim value from the report's Aircraft and Owner/Operator Information table (both fields identical). Narrative includes both the 'History of Flight' factual section and the bracketed '[Analysis section]' verbatim, matching this project's established convention (see WPR24LA106) since each contains some details not duplicated in the other. One verbatim artifact is preserved as-is: the source PDF literally reads 'According to (source), engine oil temperatures...' — '(source)' appears to be a dead/unrendered hyperlink citation in the original NTSB document, not a transcription error introduced here. Destination was Atoka Municipal Airport (KAQR), Atoka, OK; departure was Odessa, TX (KODO) at 1005 local — these route endpoints are from the report's Meteorological Information and Flight Plan table and the History of Flight narrative. Latitude/longitude (34.19, -96.6) are explicitly marked '(est)' by NTSB in the Wreckage and Impact Information table. The report's Passenger Information tables list ages/sexes for the three passengers (41F, 11F, 8M) but do not state a family relationship or give names; that detail is not asserted here beyond what the report itself documents. Docket (9 items, retrieved from data.ntsb.gov/Docket/?NTSBNumber=CEN21LA057 and data.ntsb.gov/Docket?ProjectID=102279) includes a 2-page 'Photos' PDF (docBLOB ID 11942539) with two images confirmed on their own captioned pages to belong to this case: 'Photo 1 – Airplane at Accident Site, Courtesy of FAA' and 'Photo 2 – Oil Cooler Housing Area, Courtesy of FAA' — both extracted directly with PyMuPDF (not screenshotted) and used as the case's incident photos. No pre-accident photo of N183V could be found on Wikimedia Commons (direct API search for 'N183V' returned zero file results), so the aircraft_card reuses this site's existing generic Cirrus SR22 reference photo (assets/img/aircraft-cirrus-sr22-generic.8d925d2b.webp, already credited in CREDITS.md) rather than sourcing a new one.",
+  "page": {
+    "title": "Cirrus SR22 (N183V)",
+    "subtitle": "Engine power loss and parachute deployment near Tishomingo, Oklahoma",
+    "datetime_text": "October 24, 2020, 12:00 CDT · open field near Tishomingo, OK",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Survived — CAPS deployed",
+    "badge_casualty": "0 fatal / 4 aboard",
+    "badge_casualty_sub": "4 minor injuries (pilot and 3 passengers)",
+    "status_meta": "NTSB · Released July 7, 2022",
+    "summary": "A Cirrus SR22 carrying a pilot and three passengers lost engine power while descending toward Atoka Municipal Airport, Oklahoma, after erratic high oil-temperature warnings led the pilot to adjust the mixture and throttle in a way that choked off fuel flow. Unable to restore power and judging the terrain below unsuitable for a forced landing, the pilot deployed the Cirrus Airframe Parachute System (CAPS). The airplane descended under canopy into an open field, substantially damaging the airframe but leaving all four aboard alive, each with only minor injuries. The NTSB traced the erratic oil-temperature readings to an oil temperature connector most likely damaged during maintenance performed just before the accident flight — not an actual engine problem. The Cirrus Owners and Pilots Association (COPA), which participated in the investigation, has informally counted this event among its own tally of CAPS \"saves\"; that count is COPA's own record-keeping, not something the NTSB report itself tracks.",
+    "facts": {
+      "location_value": "Tishomingo, Oklahoma",
+      "location_sub": "Open field, about 900 ft agl when the engine lost power",
+      "route_label": "Route",
+      "route_value": "Odessa, TX (KODO) → Atoka, OK (KAQR)",
+      "route_sub": "Personal flight, VFR (Part 91)",
+      "phase_value": "En route descent",
+      "phase_sub": "Total engine power loss approaching the destination, about 900 ft agl",
+      "operation": "Personal (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "VMC, clear, 10 mi visibility",
+      "weather_sub": "Winds calm; 10°C/2°C temperature/dew point (KADM, 15 nm away)"
+    },
+    "narrative_excerpt": "During a postaccident interview, the pilot recalled that, while the airplane was descending toward its destination (Atoka Municipal Airport, Atoka, Oklahoma), he was alerted to high oil temperature indications and noted a loss of engine power. The pilot stated that he attempted to restore engine power by adjusting the air-fuel mixture and throttle but was unable to do so.\n\nThe pilot then assessed the available locations for a forced landing and determined that the options were unsuitable. As a result, he activated the Cirrus Airframe Parachute System. The downloaded data showed that the parachute activation occurred about 45 seconds after the high oil temperatures began and that the airplane's airspeed at the time of activation was about 85 knots. The airplane descended under the parachute and impacted terrain, resulting in substantial damage to an airframe engine mount.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "The pilot's improper adjustment of the engine mixture control in response to erratic cockpit oil-temperature warnings, which produced a total loss of engine power",
+      "A disconnected oil temperature connector, most likely damaged during maintenance performed just before the accident flight, which generated the erratic high oil-temperature readings that triggered the pilot's response",
+      "No evidence of any actual engine mechanical fault — postaccident examination found normal mechanical continuity throughout the engine, fuel system, and ignition components",
+      "A startle response to an unexpected cockpit warning, per the FAA Safety Team material the NTSB cites in its report"
+    ],
+    "safety_takeaways": [
+      "An abnormal instrument indication is not automatically an engine problem — this engine had no mechanical fault at all; the loss of power was caused by the pilot's own mixture and throttle inputs made in response to a false alarm from a damaged sensor connector.",
+      "After any maintenance near fuel, oil, or sensor lines, treat the next flight as a test flight: brief for it, stay close to a suitable landing option, and be ready for a spurious warning that traces back to the work just performed.",
+      "When a warning appears, resist the urge to immediately yank the mixture and throttle around — a brief pause to cross-check the indication against other engine parameters can prevent turning a sensor glitch into a real power loss.",
+      "This pilot's CAPS decision-making was sound: he evaluated the terrain, judged it unsuitable for a forced landing, and pulled the handle with time and altitude to spare — exactly the kind of early, decisive call CAPS training emphasizes.",
+      "A whole-airframe parachute converts a forced landing with unknown terrain into a controlled, survivable descent — all four aboard, including two children, walked away from an engine failure that in an aircraft without CAPS could have ended very differently."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-cirrus-sr22-generic.8d925d2b.webp",
+      "alt": "A Cirrus SR22 in flight — a different airframe than the accident aircraft, N183V",
+      "caption": "Representative Cirrus SR22 in flight — not the accident aircraft; no pre-accident photo of N183V could be found",
+      "name": "Cirrus SR22",
+      "sub": "Single-engine piston, factory-equipped with CAPS whole-airframe parachute",
+      "specs": [
+        [
+          "Serial number",
+          "3125"
+        ],
+        [
+          "Engine",
+          "Continental IO-550-N"
+        ],
+        [
+          "Safety system",
+          "Cirrus CAPS (deployed during accident)"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-cen21la057-accident-site-field.45e748df.webp",
+        "alt": "The accident aircraft, N183V, resting upright in an open field after descending under its parachute, with recovery equipment visible nearby",
+        "title": "Airplane at accident site",
+        "meta": "N183V · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=11942539&FileExtension=pdf&FileName=Photos-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-cen21la057-oil-cooler-housing.f704c51a.webp",
+        "alt": "Close-up of the oil cooler housing area with the damaged oil temperature connector and adjacent fitting circled by investigators",
+        "title": "Oil cooler housing area",
+        "meta": "N183V · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=11942539&FileExtension=pdf&FileName=Photos-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB docket Photos, CEN21LA057",
+    "location_card": {
+      "map_caption": "Tishomingo, OK",
+      "primary": "Tishomingo, Oklahoma",
+      "region": "Johnston County, USA",
+      "coords_text": "34.19, -96.6 (est., accident site)",
+      "site_title": "Accident site",
+      "site_sub": "Open field; airplane descended under parachute canopy and came to rest upright",
+      "site_meta": "Near Tishomingo, Johnston County, OK"
+    },
+    "docs": {
+      "report_label": "Final report (7 pages)",
+      "docket_label": "(9 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Cirrus SR22 — engine failure and CAPS deployment, Whitethorn, CA",
+        "sub": "Similar factors: same aircraft type, same CAPS parachute system deployed after engine power loss",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "WPR24LA106"
+      },
+      {
+        "title": "US Airways 1549 — dual engine failure, Hudson ditching",
+        "sub": "Similar factors: total loss of engine power met with a well-executed emergency procedure",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA09MA026"
+      },
+      {
+        "title": "Piper PA-28 — VFR into IMC, Micanopy FL",
+        "sub": "Similar factors: pilot response to an in-flight indication drove the outcome",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "ERA24FA036"
+      }
+    ],
+    "about_investigation_type": "Class 3",
+    "seo": {
+      "title": "Cirrus SR22 Parachute Save, OK",
+      "description": "NTSB case CEN21LA057: a Cirrus SR22 lost engine power over Oklahoma. The pilot deployed CAPS; all four aboard survived with minor injuries."
+    }
+  }
+}

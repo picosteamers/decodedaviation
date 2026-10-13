@@ -1,0 +1,156 @@
+{
+  "ntsb_number": "ERA18MA099",
+  "date": "2018-03-11",
+  "location": {
+    "city": "New York",
+    "state": "NY",
+    "lat": 40.78,
+    "lon": -73.939
+  },
+  "aircraft": {
+    "type": "Airbus Helicopters AS350 B2",
+    "registration": "N350LH"
+  },
+  "operator": "Liberty Helicopters Inc. (FlyNYON-branded flight, operated per contractual agreement with NYONair)",
+  "flight_type": "Part 91: Revenue passenger-carrying \"doors-off\" aerial photography flight (FlyNYON), conducted under the 14 CFR 119.1(e)(4)(iii) aerial-photography exception; the FAA determined during the investigation that the flight was actually a nonstop commercial air tour operated under Part 91",
+  "occupants": 6,
+  "fatalities": 5,
+  "injuries": {
+    "serious": 0,
+    "minor": 1
+  },
+  "report_status": "final",
+  "narrative": "1.1 History of Flight\n\nOn March 11, 2018, about 1908 eastern daylight time, an Airbus Helicopters AS350 B2, N350LH, lost engine power during cruise flight, and the pilot performed an autorotative descent and ditching on the East River in New York, New York. The pilot sustained minor injuries, the five passengers drowned, and the helicopter was substantially damaged. The FlyNYON-branded flight was operated by Liberty Helicopters Inc. (Liberty), per a contractual agreement with NYONair; both companies considered the flight to be an aerial photography flight operated under the provisions of Title 14 Code of Federal Regulations (CFR) Part 91. Visual flight rules (VFR) weather conditions prevailed, and no flight plan was filed for the intended 30-minute local flight, which departed from Helo Kearny Heliport (65NJ), Kearny, New Jersey, about 1850.\n\n1.1.1 Background Information\n\nThe accident flight (like other FlyNYON doors-off flights) was marketed by NYONair as an aerial photography flight in which passengers were allowed to take photographs while extending their feet outside of the helicopter's open doorways during portions of the flight. For the accident flight (and other FlyNYON flights Liberty operated per contract with NYONair), Liberty removed the helicopter's two right doors and front left door and locked the left sliding door in the open position.\n\nBefore departure, each passenger on board the accident flight was fitted with a NYONair-provided body harness that was secured via a NYONair-provided tether (harness/tether system) to an anchor point in the cabin. Each passenger was also secured into his/her respective seat using the helicopter's installed, Federal Aviation Administration (FAA)-approved lap belt and shoulder harness (installed, FAA-approved restraint). The pilot (who wore only an installed, FAA-approved restraint) was seated in the front right seat, one passenger occupied the front left dual-position bench (seated in the outboard seat), and four passengers were seated on the two rear dual-position benches. Each passenger wore a headset that enabled them to hear instructions from the pilot.\n\nThe standard operating procedures (SOPs) used by Liberty (and NYONair) pilots specified that, to extend their feet outside the helicopter, the passengers seated in the rear inboard seats were allowed to remove their installed, FAA-approved restraints (when directed by the pilot), move to the cabin floor, and sit on the door sills. Per the SOPs, passengers in the front and rear outboard seats were allowed to rotate outboard in their seats.\n\n1.1.2 Flightpath and Event Sequence\n\nAccording to the pilot, after the flight departed, it traveled south toward the Statue of Liberty at altitudes between 300 and 500 ft above ground level (agl), then flew near the statue to allow the passengers to take photographs. A National Transportation Safety Board (NTSB) review of videos and photographs captured by onboard image recorders, including a ceiling-mounted camera, found that, by the time the helicopter flew near the statue (about 1859:08), the two passengers who had been seated in the rear inboard seats had removed their installed, FAA-approved restraints (after being told by the pilot to do so) and were seated on the cabin floor (wearing their harness/tether systems).\n\nThe flight proceeded past other landmarks, then began to travel north up the East River. A transcript of air traffic control (ATC) communications showed that, at 1903:46, the pilot contacted the ATC tower controller at LaGuardia Airport (LGA), New York, New York, and requested a route up the East River to the north end of Central Park. The controller provided a clearance for the pilot to proceed and for the flight to remain at or below 2,000 ft above mean sea level (msl).\n\nATC radar data showed that the helicopter then proceeded north along the East River and climbed to an altitude of 1,900 ft msl. At 1905:44, the flight track turned left then proceeded northwest over Manhattan.\n\nOnboard video showed that, between 1900:15 and 1905:40, the front passenger leaned back several times to take photographs using a smartphone. At one time, the front passenger leaned back such that his head was above the helicopter's center pedestal. Two other times, he was lying back in a recumbent position with his body angled horizontally such that his right shoulder contacted the helicopter's glareshield and his feet pointed diagonally aft out the open doorway. Each time the front passenger leaned back, the tail of the tether attached to the back of his harness hung down loosely near the helicopter's floor-mounted controls.\n\nAt 1905:51, the front passenger resumed a more upright seated position, and his tether tail appeared taut and was extended toward the helicopter's floor-mounted controls. At 1906:08, when the front passenger pulled on the hand grip (mounted on the helicopter's left door frame) to adjust his seating position, his tether tail remained taut but appeared to pop upward. Audio from the onboard video captured a reduction in ambient engine sounds about 2 seconds later.\n\nATC radar data showed that, while the helicopter was tracking northwest toward Central Park, it began to descend at 1906:11 (from an altitude of 1,900 ft msl). The pilot said he heard a low rotor rpm alert and saw the cockpit warning lights for engine oil pressure and fuel pressure illuminate. In response to the apparent loss of engine power, he lowered the collective to maintain rotor rpm and initiated an autorotative descent. He briefly considered landing in Central Park, but there were too many people, so he turned the helicopter toward the East River. He yelled for the passengers to get back into their seats.\n\nThe pilot said the helicopter had a slow airspeed, and he was not sure if it could make it to the river, so he reduced the rotor rpm so it could glide farther. ATC radar data showed the helicopter began a right turn toward the East River at 1906:30 at 1,200 ft msl. The pilot said that, during the established glide in the autorotative descent, he engaged the engine starter, but the engine did not relight. He also checked the fuel flow control lever (FFCL, one of three floor-mounted control levers) and found it secure in its detent.\n\nThe pilot said that, when the helicopter was about 600 ft above the river, he was \"committed to impact\" and reached down to activate the fuel shutoff lever (FSOL, another floor-mounted control) but \"could tell something was wrong because it was [already] in the up position.\" He noticed the tail of the front passenger's tether had caught on the FSOL and pulled it up. The pilot \"slammed\" down the FSOL, engaged the engine starter, and saw an immediate rise in engine temperature, but the helicopter was too low over the water to allow sufficient time to restart the engine. At 1906:58, the pilot made a \"mayday, mayday, mayday\" call to ATC.\n\nThe pilot said that, once he felt sure that the helicopter could reach the river, he activated the emergency float system. According to the onboard video, a \"click\" sound followed by noise associated with float deployment occurred at 1907:02. An NTSB aircraft performance study determined that the helicopter was about 100 ft agl at that time. The pilot said that, when he activated the system, he took his left hand off of the collective and placed it on top of the cyclic control (to brace it), gripped the activation handle with his right hand, and \"pulled it back fully and completely.\" He heard a \"pop\" sound, which to him indicated that the float system had deployed; he also saw parts of the left and right front floats and noticed extra drag.\n\nThe pilot stated that, when the helicopter was descending through 100 ft to 50 ft agl, he began the cyclic flare in an extended glide configuration but \"did not get a lot of rpm back.\" He performed a flare reduction, and the helicopter touched down on the water. The aircraft performance study determined that the helicopter was flared at 1907:11 and touched down on the water at 1907:15.\n\nShore witnesses' videos showed that the helicopter touched down upright in a slightly shallow flare attitude. The helicopter then immediately began to roll to the right, and, within about 5 seconds of touchdown, the rotor blades began striking the water. The right roll continued such that, within about 11 seconds of touchdown, the helicopter was completely inverted and submerged with only the floats visible above the surface.\n\nThe pilot said the landing was \"not a giant jolt,\" but water quickly flooded the cabin floor. He started to try to release the front passenger's tether, but the helicopter rolled to the right such that the pilot was fully under water before he released the buckle on his own installed, FAA-approved restraint to egress.\n\nCrewmembers from a tugboat (which was the first boat to arrive) retrieved the pilot, who was in the water and clinging to the inverted helicopter. Emergency response resources, including a helicopter and a boat from the New York City Police Department (NYPD) and a boat from the Fire Department of the City of New York (FDNY), responded and deployed divers. Divers first entered the water about 1925 to recover the passengers.",
+  "probable_cause": "The NTSB determines the probable cause of this accident was Liberty Helicopters Inc.'s use of a NYONair-provided passenger harness/tether system, which caught on and activated the floor-mounted engine fuel shutoff lever and resulted in the in-flight loss of engine power and the subsequent ditching. Contributing to this accident were (1) Liberty's and NYONair's deficient safety management, which did not adequately mitigate foreseeable risks associated with the harness/tether system interfering with the floor-mounted controls and hindering passenger egress; (2) Liberty allowing NYONair to influence the operational control of Liberty's FlyNYON flights; and (3) the Federal Aviation Administration's inadequate oversight of Title 14 Code of Federal Regulations Part 91 revenue passenger-carrying operations. Contributing to the severity of the accident were (1) the rapid capsizing of the helicopter due to partial inflation of the emergency flotation system and (2) Liberty and NYONair's use of the harness/tether system that hindered passenger egress.",
+  "phase_of_flight": "Cruise flight (northbound over the East River, then northwest over Manhattan toward Central Park at 1,900 ft msl) — inadvertent fuel shutoff/loss of engine power, followed by an autorotative descent and a ditching/emergency landing on the East River; the helicopter then capsized and fully inverted within about 11 seconds of touchdown",
+  "weather": "Visual meteorological conditions (VMC) prevailed; no flight plan was required or filed. The closest weather observation, at LaGuardia Airport (LGA, about 3 nm east of the accident location), reported wind from 300° at 5 knots, visibility 10 statute miles or more, scattered clouds at 25,000 ft agl, temperature 44°F, dew point 21°F, and an altimeter setting of 30.05 inches of mercury, about 17 minutes before the accident. The closest water-temperature observation, from a National Weather Service buoy at Battery Park about 5 miles south-southwest of the accident site, reported a water temperature of 39.7°F; the helicopter and its occupants became submerged in water about 40°F. The accident flight was the pilot's fifth flight of the day, a 30-minute sunset flight departing about 1850 EDT with the ditching occurring about 1908 EDT.",
+  "links": {
+    "report": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1904.pdf",
+    "docket": "https://data.ntsb.gov/Docket/?NTSBNumber=ERA18MA099"
+  },
+  "sources_checked": [
+    "https://www.ntsb.gov/investigations/Pages/ERA18MA099.aspx",
+    "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1904.pdf",
+    "https://data.ntsb.gov/Docket/?NTSBNumber=ERA18MA099"
+  ],
+  "notes": "NTSB case number ERA18MA099 confirmed directly in the body text of the official report PDF (appears twice, including in the public-docket citation instructions), fetched from ntsb.gov and text-extracted with PyMuPDF. This is a long-form Aircraft Accident Report, NTSB/AAR-19/04 ('Inadvertent Activation of the Fuel Shutoff Lever and Subsequent Ditching, Liberty Helicopters Inc., Operating a FlyNYON Doors-Off Flight, Airbus Helicopters AS350 B2, N350LH, New York, New York, March 11, 2018'), adopted at a Board meeting on December 10, 2019 — not a short CAROL-generated report, same category as DCA20MA059 and DCA09MA027 in this project. One oddity worth flagging: the PDF's own embedded metadata 'Keywords' field reads 'ERA19MA099' (an apparent typo/artifact in the document properties, likely confusing the accident year with the AAR publication-number year), but the case number printed in the report's own running text and public-docket citation is unambiguously ERA18MA099, matching the NTSB.gov investigation-page URL and the data.ntsb.gov docket (79 items, confirmed by fetching the docket search page). The 'narrative' field is verbatim text from report sections 1.1, 1.1.1, and 1.1.2 ('History of Flight' / 'Background Information' / 'Flightpath and Event Sequence'), with inline footnote reference numbers and parenthetical cross-references to figures/sections removed for readability; no wording was paraphrased. This project's convention (set by DCA20MA059 and DCA09MA027) is to source the 'narrative' field from the report's chronological History of Flight section rather than the Analysis section, which reads as investigative discussion rather than a narrative account; the Analysis section (2.1-2.7) and Findings (3.1) were used instead as the verbatim basis for probable_cause and contributing_factors. The 'probable_cause' field is exact verbatim text from the Executive Summary's 'Probable Cause' subsection, which is word-for-word identical to report section 3.2. Occupants/fatalities: 6 occupants (1 pilot + 5 passengers); the 5 passengers died (cause of death 'drowning' per autopsies, section 1.7.2); the pilot survived and sustained only minor injuries (bruises to his right palm and superficial cuts to his left knuckles, section 1.7.1) — hence injuries.serious: 0, injuries.minor: 1. Coordinates: the report body gives no explicit latitude/longitude for the ditching site. The approximate coordinates used here (40.78, -73.939) are derived by cross-referencing section 1.4's statement that LGA ('about 3 nautical miles (nm) east of the accident location') was the closest weather station — LGA's own coordinates are well-established (approximately 40.777, -73.874) — against Figure 3's flightpath diagram, which places the ditching point in the East River roughly level with the upper reaches of Central Park (consistent with the East 90s-Wards Island/Hell Gate stretch of the river, which also matches widespread contemporaneous news coverage of the accident location). This is a computed approximation, not a precise coordinate stated verbatim in the AAR. Flagged explicitly because NTSB.gov's own investigation-summary page (ERA18MA099.aspx) separately lists a conflicting location field ('Flushing, NY', coordinates 40.7623381, -73.8474097) that places the point several miles away in Queens, near Flushing Meadows/Citi Field — nowhere near the East River stretch the AAR itself describes. That aggregator field was not used, consistent with this project's standing caution (see git history around the Kobe Bryant case) about verifying docket/database location pointers against the primary report rather than trusting them blindly. Operator/flight-type nuance: Liberty and NYONair both treated the flight as a Part 91 'aerial photography' flight under the 14 CFR 119.1(e)(4)(iii) exception at the time; the FAA determined during the investigation that it was actually a nonstop commercial air tour conducted under Part 91 — both characterizations are taken directly from the AAR itself (section 1.1 and the Executive Summary/Probable Cause) and are reflected in the flight_type field. Photos: the three 'incident' photographs used on this page (FSOL/floor-mounted-controls closeup, float-system activation handle on the cyclic, and the actual recovered front-passenger tether/carabiner) are Figures 5, 6, and 14 of the AAR PDF itself, extracted directly with PyMuPDF — all are NTSB investigation photographs of the actual accident helicopter (N350LH, visible on an interior placard in one image) or actual hardware recovered from the accident flight, U.S. government work / public domain. No free-licensed photograph of N350LH itself could be located (JetPhotos and airplane-pictures.net listings are all-rights-reserved); the aircraft_card photo is therefore a Wikimedia Commons CC BY-SA 3.0 photo of a different AS350 B2 (N145TH, a TEMSCO sightseeing helicopter in Skagway, Alaska), used only as a reference photo of the same helicopter model — it is not the accident aircraft and is not shown in doors-off configuration.",
+  "page": {
+    "title": "FlyNYON East River Helicopter Crash — Airbus AS350 B2 (N350LH)",
+    "subtitle": "Fatal doors-off tour helicopter ditching that drowned five passengers in New York's East River",
+    "datetime_text": "March 11, 2018, 19:08 EDT · ditching on the East River, New York, NY",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "5 fatal / 6 aboard",
+    "badge_casualty_sub": "Pilot survived with minor injuries; all 5 passengers drowned",
+    "status_meta": "NTSB · Released December 10, 2019",
+    "summary": "A FlyNYON-branded 'doors-off' photography flight over Manhattan ended when the tail of a passenger's safety tether snagged the helicopter's floor-mounted fuel shutoff lever, cutting power in flight. The pilot autorotated to a successful ditching on the East River, but the emergency floats inflated only partially, and the helicopter rolled over and sank within 11 seconds. The pilot escaped; none of the five harnessed, tethered passengers could free themselves in time, and all drowned. The NTSB found the real failure wasn't the pilot's handling of the emergency — it was a harness system with no quick-release, floor controls left exposed to passenger gear, and two companies that let foreseeable risks go unmanaged.",
+    "facts": {
+      "location_value": "New York, New York",
+      "location_sub": "East River, near the Upper East Side / Central Park",
+      "route_label": "Route",
+      "route_value": "Helo Kearny Heliport (65NJ) → local sightseeing loop (Statue of Liberty, Manhattan landmarks)",
+      "route_sub": "FlyNYON doors-off photography flight, no flight plan required",
+      "phase_value": "Cruise flight, then autorotation and ditching",
+      "phase_sub": "Tether-caused fuel shutoff → autorotative descent → East River ditching → capsize in ~11 seconds",
+      "operation": "Revenue passenger-carrying \"doors-off\" air tour (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "VMC, 10+ sm visibility",
+      "weather_sub": "Calm wind, scattered clouds at 25,000 ft; water temperature ~40°F"
+    },
+    "narrative_excerpt": "Onboard video showed that, between 1900:15 and 1905:40, the front passenger leaned back several times to take photographs using a smartphone, at times lying back in a recumbent position with his feet pointed diagonally aft out the open doorway. Each time he leaned back, the tail of the tether attached to the back of his harness hung down loosely near the helicopter's floor-mounted controls. At 1905:51, he resumed a more upright position, and his tether tail appeared taut, extended toward the floor-mounted controls. At 1906:08, when he pulled on a hand grip to adjust his seating position, his tether tail remained taut but appeared to pop upward — and about 2 seconds later, the helicopter's engine sounds decreased and it began to descend. The pilot heard a low rotor rpm alert and initiated an autorotation, turning for the East River. About 600 ft over the water, \"committed to impact,\" he reached for the fuel shutoff lever and \"could tell something was wrong because it was already in the up position\" — the tail of the front passenger's tether had caught on it and pulled it into the shutoff position. He slammed the lever back down and tried to restart the engine, but there was no longer enough altitude. At 1906:58 he made a \"mayday, mayday, mayday\" call, pulled the float-activation handle at about 100 ft, and ditched the helicopter on the East River. It touched down upright — but the floats had inflated only partially and asymmetrically. The helicopter immediately began rolling to the right, and within about 11 seconds of touchdown it was completely inverted and submerged, with only the floats visible above the surface. The pilot escaped after the aircraft was fully underwater. None of the five passengers, secured by harness/tether systems with no quick-release feature, were able to get out.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Lack of a quick-release harness/tether system — passengers had only locking carabiners and a cutting tool investigators found ineffective for a rapid-egress emergency",
+      "Deficient safety management at both Liberty Helicopters and NYONair, which failed to mitigate the foreseeable risk of the harness tether interfering with floor-mounted flight controls",
+      "Liberty allowing NYONair to influence operational control of Liberty-operated FlyNYON flights, blurring who was actually responsible for flight safety",
+      "FAA's inadequate oversight of Part 91 revenue passenger-carrying operations conducted under the aerial-work/aerial-photography exception",
+      "Partial, asymmetric inflation of the emergency flotation system, which caused the helicopter to capsize and fully invert within about 11 seconds of a survivable water landing"
+    ],
+    "safety_takeaways": [
+      "A restraint a passenger cannot release in seconds, underwater, in the dark, is not a safety device — it is a liability. This accident is the reason the NTSB pushed hard for quick-release standards on any supplemental passenger restraint used in doors-off or similar operations.",
+      "Anything that can trail loose in a cabin — a tether tail, a strap, a camera strap — is a hazard if floor-mounted controls are within reach. Operators should route and secure loose gear so it physically cannot contact a flight control, not just brief passengers to be careful.",
+      "A helicopter ditching that looks survivable on touchdown can still be fatal: this aircraft capsized and fully inverted in about 11 seconds. Passengers need both a workable egress plan and a release mechanism fast enough to beat that clock.",
+      "When one company designs the safety equipment and another operates the aircraft, safety management can fall into the gap between them. Clear, single-point accountability for passenger safety equipment is not optional just because the paperwork is split across two companies.",
+      "Regulatory exceptions written for genuine aerial work (photography, survey, agricultural flights) can be stretched to cover commercial passenger tours with materially less oversight than the same flight would get under Part 135 or an air-tour LOA. If a flight is carrying paying passengers for the experience of the flight itself, it should get the scrutiny that implies."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-as350-b2-generic-temsco.6f976cd3.webp",
+      "alt": "A different Airbus/Eurocopter AS350 B2 helicopter (N145TH), not the accident aircraft, shown for reference only",
+      "caption": "A different AS350 B2 (N145TH, a Skagway, Alaska sightseeing operator) — same model, not the accident helicopter and not in doors-off configuration",
+      "name": "Airbus Helicopters AS350 B2",
+      "sub": "Single-engine light helicopter, configured doors-off for photography tours",
+      "specs": [
+        [
+          "Engine",
+          "1× Safran (Turbomeca) Arriel 1D1"
+        ],
+        [
+          "Seating",
+          "Pilot + up to 6 passengers"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-era18ma099-fsol-floor-mounted-controls.9cd21089.webp",
+        "alt": "Close-up of the accident helicopter's floor-mounted controls, with the fuel shutoff lever (FSOL), fuel flow control lever (FFCL), and rotor brake lever labeled",
+        "title": "Fuel shutoff lever and floor-mounted controls",
+        "meta": "N350LH · NTSB · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1904.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era18ma099-float-activation-handle.9cfebd9a.webp",
+        "alt": "The red emergency-flotation-system activation handle mounted on the accident helicopter's cyclic control, labeled \"PULL TO INFLATE\"",
+        "title": "Float activation handle",
+        "meta": "N350LH · NTSB · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1904.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era18ma099-passenger-tether-carabiner.becba82f.webp",
+        "alt": "The front passenger's actual tether from the accident flight, photographed in the cabin, with its locking carabiner and excess loops hanging near the floor-mounted controls",
+        "title": "Front passenger's tether, accident flight",
+        "meta": "N350LH · NTSB · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR1904.pdf"
+      }
+    ],
+    "media_source_label": "NTSB Aircraft Accident Report NTSB/AAR-19/04, ERA18MA099",
+    "location_card": {
+      "map_caption": "East River, New York, NY",
+      "primary": "East River, New York, New York",
+      "region": "Manhattan, New York County, USA",
+      "coords_text": "40.78, -73.939 (approximate)",
+      "site_title": "Ditching site",
+      "site_sub": "East River, near the Upper East Side, approx. 3 nm west of LaGuardia Airport (LGA)",
+      "site_meta": "Helicopter capsized and fully inverted within ~11 seconds of touchdown"
+    },
+    "docs": {
+      "report_label": "NTSB/AAR-19/04",
+      "docket_label": "(79 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Kobe Bryant Helicopter Crash — Sikorsky S-76B",
+        "sub": "Similar factors: commercial helicopter operation, multiple fatalities, operator safety-management deficiencies",
+        "icon_style": "sky-cruise rot-side",
+        "ntsb": "DCA20MA059"
+      },
+      {
+        "title": "DHC-2 / DHC-3 Floatplane Midair Collision, Ketchikan AK",
+        "sub": "Similar factors: Part 91/135 commercial sightseeing passengers, inadequate operator and FAA oversight",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "CEN19MA141"
+      },
+      {
+        "title": "Colgan Air Flight 3407 — Bombardier Q400",
+        "sub": "Similar factors: systemic safety failures that led directly to major federal regulatory reform",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA09MA027"
+      }
+    ],
+    "about_investigation_type": "Full (Board meeting)",
+    "seo": {
+      "title": "FlyNYON East River Crash, NYC",
+      "description": "NTSB case ERA18MA099: the FlyNYON doors-off helicopter crash that drowned 5 passengers in NYC's East River. Probable cause, harness failure, takeaways."
+    }
+  }
+}

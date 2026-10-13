@@ -1,0 +1,149 @@
+{
+  "ntsb_number": "CEN19MA141",
+  "date": "2019-05-13",
+  "location": {
+    "city": "Ketchikan",
+    "state": "AK",
+    "lat": 55.425556,
+    "lon": -131.505
+  },
+  "aircraft": {
+    "type": "de Havilland DHC-2 Beaver (A1) & de Havilland DHC-3 Otter (A2)",
+    "registration": "N952DB (A1) · N959PA (A2)"
+  },
+  "operator": "Mountain Air Service LLC (A1) · Venture Travel, LLC, dba Taquan Air (A2; aircraft registered to Pantechnicon Aviation LTD)",
+  "flight_type": "Part 135: On-demand air taxi — sightseeing (VFR), both aircraft",
+  "occupants": 16,
+  "fatalities": 6,
+  "injuries": {
+    "serious": 9,
+    "minor": 1
+  },
+  "report_status": "final",
+  "narrative": "On May 13, 2019, about 1221 Alaska daylight time, a float-equipped de Havilland DHC-2 (Beaver) airplane, N952DB, and a float-equipped de Havilland DHC-3 (Otter) airplane, N959PA, collided in midair about 8 miles northeast of Ketchikan, Alaska. The DHC-2 pilot and four passengers sustained fatal injuries. The DHC-3 pilot sustained minor injuries, nine passengers sustained serious injuries, and one passenger sustained fatal injuries. The DHC-2 was destroyed, and the DHC-3 sustained substantial damage. The DHC-2 was registered to and operated by Mountain Air Service LLC, Ketchikan, Alaska, under the provisions of Title 14 Code of Federal Regulations (CFR) Part 135 as an on-demand sightseeing flight. The DHC-3 was registered to Pantechnicon Aviation LTD, Minden, Nevada, and operated by Venture Travel, LLC, dba Taquan Air, Ketchikan, Alaska, under the provisions of Part 135 as an on-demand sightseeing flight. Visual meteorological conditions prevailed in the area at the time of the accident.\n\nAccording to information provided by the operators, both airplanes had been conducting sightseeing flights to the Misty Fjords National Monument area. They were both converging on a scenic waterfall in the Mahoney Lakes area on Revillagigedo Island before returning to the Ketchikan Harbor Seaplane Base (5KE), Ketchikan, Alaska, when the accident occurred.\n\nAccording to recorded avionics data recovered from the DHC-3, it departed from an inlet (Rudyerd Bay) in the Misty Fjords National Monument area about 1203 and followed the inlet westward toward Point Eva and Manzanita Island. At 1209, at an altitude between 1,900 and 2,200 ft, the DHC-3 crossed the Behm Canal then turned to the southwest about 1212 in the vicinity of Lake Grace.\n\nAutomatic dependent surveillance-broadcast (ADS-B) tracking data for both airplanes, which were provided by the Federal Aviation Administration (FAA), began at 1213:08 for the DHC-3, and at 1213:55 for the DHC-2. At 1217:15, the DHC-3 was about level at 4,000 ft mean sea level (msl) over Carroll Inlet on a track of 225°. The DHC-2 was 4.2 nautical miles (nm) south of the DHC-3, climbing through 2,800 ft, on a track of 255°. The DHC-3 pilot stated that, about this time, he checked his traffic display and \"there were two groups of blue triangles, but not on my line. They were to the left of where I was going.\" He stated that he did not observe the DHC-2 on his traffic display before the collision.\n\nThe ADS-B data indicated that, about 1219, the DHC-3 started a descent from 4,000 ft, and the DHC-2 was climbing from 3,175 ft. During the next 1 minute 21 seconds, the DHC-3 continued to descend on a track between 224° and 237°, and the DHC-2 leveled out at 3,350 ft on a track of about 255°. Between 1220:21 and 1221:14, the DHC-3 made a shallow left turn to a track of 210°, then a shallow right turn back to a track of 226°. The airplanes collided at 1221:14 at an altitude of 3,350 ft, 7.4 nm northeast of 5KE.\n\nThe ADS-B data for both airplanes end about the time of the collision. The DHC-2 was fractured into multiple pieces and impacted the water and terrain northeast of Mahoney Lake. Recorded avionics data for the DHC-3 indicate that at 1221:14, the DHC-3 experienced a brief upset in vertical load factor and soon after entered a right bank, reaching an attitude about 50° right wing down at 1221:19 and 27° nose down at 1221:22. The DHC-3 began descending and completed a 180° turn before impacting George Inlet at 1222:15 along a northeast track.",
+  "probable_cause": "The National Transportation Safety Board determines that the probable cause of this accident was the inherent limitations of the see-and-avoid concept, which prevented the two pilots from seeing the other airplane before the collision, and the absence of visual and aural alerts from both airplanes' traffic display systems, while operating in a geographic area with a high concentration of air tour activity. Contributing to the accident were (1) the Federal Aviation Administration's provision of new transceivers that lacked alerting capability to Capstone Program operators without adequately mitigating the increased risk associated with the consequent loss of the previously available alerting capability and (2) the absence of a requirement for airborne traffic advisory systems with aural alerting among operators who carry passengers for hire.",
+  "phase_of_flight": "En route cruise during VFR sightseeing flights over the Misty Fjords National Monument area — both airplanes were converging on a scenic waterfall in the Mahoney Lakes area before returning to the Ketchikan Harbor Seaplane Base (5KE) when they collided. At the time of the collision the DHC-3 was in a shallow descent from 4,000 ft and the DHC-2 had leveled off at 3,350 ft, climbing to meet it.",
+  "weather": "Automated surface observations were recorded at Ketchikan International Airport (PAKT), about 8.5 miles west-southwest of the accident location. At 1153, the reported wind was from 130° at 11 knots with gusts up to 17 knots, visibility of 10 miles or greater, clear sky below 12,000 ft, temperature of 16°C, dew point temperature of 3°C, and an altimeter setting of 29.91 inches of mercury. At 1253, the reported wind was from 140° at 8 knots, visibility of 10 miles or greater, clear sky below 12,000 ft, temperature of 15°C, dew point temperature of 4°C, and an altimeter setting of 29.92 inches of mercury. Satellite imagery recorded at 1220 identified mostly clear conditions across the region with a few clouds, and weather cameras closest to the accident site confirmed clear conditions with a few clouds. Visual meteorological conditions (VMC) prevailed in the area at the time of the accident.",
+  "links": {
+    "report": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=99423"
+  },
+  "sources_checked": [
+    "https://www.ntsb.gov/investigations/Pages/CEN19MA141.aspx",
+    "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf",
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/99423/pdf",
+    "https://data.ntsb.gov/Docket?ProjectID=99423",
+    "https://ntsb.gov/news/events/Pages/2021-CEN19MA141AB-BMG.aspx",
+    "https://www.ntsb.gov/news/press-releases/Pages/mr-20190522.aspx"
+  ],
+  "notes": "NTSB case number CEN19MA141 confirmed directly from the header of the adopted final Aircraft Accident Report (NTSB/AAR-21/04, 'Midair Collision over George Inlet, de Havilland DHC-2, N952DB, and de Havilland DHC-3, N959PA, Ketchikan, Alaska, May 13, 2019,' adopted April 20, 2021), fetched directly from ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf and text-extracted locally with PyMuPDF (75 pages; 'CEN19MA141' appears verbatim in two footnotes directing readers to the CAROL docket). This is a SINGLE combined NTSB case number covering both aircraft — not two separate case numbers — confirmed against the CAROL-generated 6-page summary report (data.ntsb.gov/carol-repgen, ProjectID 99423), which lists both airplanes under the one accident number CEN19MA141 with internal sub-designations '(A1)' for the DHC-2 and '(A2)' for the DHC-3 used throughout its structured fields (registration, injuries, aircraft info, etc). This JSON file follows that same A1/A2 convention in the 'aircraft', 'operator', and 'flight_type' fields, matching the two-aircraft pattern already used in DCA25MA108.json. The press framing given for this assignment (two Ketchikan-area sightseeing/tour floatplane operators, 6 dead total) matches the real NTSB findings exactly: Mountain Air Service LLC operated the DHC-2 Beaver (N952DB, 5 aboard, all 5 fatal) and Venture Travel LLC dba Taquan Air operated the DHC-3 Otter (N959PA, owned by Pantechnicon Aviation LTD, 11 aboard: pilot minor injury, 9 passengers serious, 1 passenger fatal) — 6 fatalities, 9 serious, 1 minor, 16 total occupants, consistent across both the full report and the CAROL summary. narrative is verbatim text from Section 1.1 'History of Flight' of the final report (report pages 1-4 / PDF pages 15-18); footnote markers and the embedded figure callouts ('see figure 1', 'see figure 2') were removed for readability but no wording was changed or paraphrased. probable_cause is verbatim from both the Executive Summary and Section 3.2 'Probable Cause,' which are word-for-word identical in the report, and also matches the CAROL summary's 'Probable Cause and Findings' section exactly. Coordinates (55.425556, -131.505) are taken directly from the CAROL-generated summary report's 'Latitude, Longitude' field for both A1 and A2 wreckage records, which NTSB itself marks '(est)' — the full narrative report does not give explicit lat/lon, only distances/bearings from Ketchikan Harbor Seaplane Base (5KE) and from PAKT; this is the same approximate collision-site location NTSB's own structured database uses for both aircraft, since they collided at a single point. Weather is verbatim-sourced from Section 1.4 'Meteorological Information' (PAKT automated observations, satellite imagery, and weather-camera confirmation), lightly reformatted (degree symbols normalized) but not reworded. One secondary-source detail worth flagging for editorial copy only (not used as a sourced fact above): press coverage at the time named the DHC-2 pilot as a Mountain Air Service contract pilot and widely reported both companies' names and the Mahoney Lakes/Misty Fjords tour route — all of which the NTSB report independently corroborates (operator names, route, waterfall destination), so no secondary-source fact had to be used that the NTSB document doesn't also state. The NTSB report itself never names any pilot or passenger. The DHC-3's Garmin GSL 71 control head selector knob was found in the OFF position post-accident; Section 1.9 and the Safety Issues list establish this was a pre-existing condition (not impact damage) going back to maintenance that pre-dated the accident flight, and that it silently disabled the DHC-3's ability to transmit pressure-altitude data needed for the DHC-2's traffic-alerting system to produce an aural/visual alert — this is treated as a genuine contributing factor below, grounded in the report's own 'Safety Issues' and Section 2.6.2 findings, not an inference beyond what NTSB found. Report page citations above use the PDF's printed page numbers (not the PDF page index, which differs because of front matter).",
+  "page": {
+    "title": "DHC-2 / DHC-3 Floatplane Midair Collision",
+    "subtitle": "Two Ketchikan sightseeing floatplanes collide over George Inlet, Alaska",
+    "datetime_text": "May 13, 2019, 12:21 ADT · over George Inlet, about 8 miles northeast of Ketchikan, Alaska",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Midair collision",
+    "badge_casualty": "6 fatal / 16 aboard",
+    "badge_casualty_sub": "9 serious, 1 minor — 10 survivors",
+    "status_meta": "NTSB · Final report (AAR-21/04) adopted April 20, 2021",
+    "summary": "Two float-equipped sightseeing airplanes — a Mountain Air Service de Havilland DHC-2 Beaver and a Taquan Air de Havilland DHC-3 Otter — were both returning from flightseeing trips over Misty Fjords National Monument near Ketchikan, Alaska, converging on the same scenic waterfall, when they collided in midair at 3,350 feet. The DHC-2 pilot and all four passengers aboard were killed; aboard the DHC-3, the pilot and nine passengers were seriously or minorly hurt and one passenger died. The NTSB found that neither pilot could realistically have seen the other aircraft in time, and that both airplanes' traffic-alerting systems had lost the ability to sound a warning before the flight.",
+    "facts": {
+      "location_value": "Ketchikan, Alaska",
+      "location_sub": "Over George Inlet, ~8 mi NE of Ketchikan",
+      "route_label": "Flights",
+      "route_value": "Both aircraft: Misty Fjords sightseeing loop → Ketchikan Harbor Seaplane Base (5KE)",
+      "route_sub": "Converging on the same waterfall near Mahoney Lakes, Revillagigedo Island",
+      "phase_value": "En route cruise, VFR sightseeing",
+      "phase_sub": "Midair collision at 3,350 ft msl",
+      "operation": "Part 135 on-demand sightseeing, both aircraft",
+      "damage": "DHC-2 destroyed · DHC-3 substantial damage",
+      "weather_value": "Clear, 10+ mi visibility",
+      "weather_sub": "VMC prevailed; light wind out of the southeast"
+    },
+    "narrative_excerpt": "At 1217:15, the DHC-3 was about level at 4,000 ft on a track of 225°. About this time, the pilot checked his cockpit traffic display and noted \"there were two groups of blue triangles, but not on my line\" — he did not check it again before the collision. The DHC-2 was 4.2 nautical miles south, climbing through 2,800 ft, on a track of 255°. About 1219, the DHC-3 started a descent from 4,000 ft while the DHC-2 continued climbing; over the next 1 minute 21 seconds the DHC-3 descended on a track between 224° and 237°, and the DHC-2 leveled out at 3,350 ft on a track of about 255°. The airplanes collided at 1221:14 at an altitude of 3,350 ft, 7.4 nautical miles northeast of the Ketchikan Harbor Seaplane Base. The DHC-2 was fractured into multiple pieces and came down in water and terrain northeast of Mahoney Lake. The DHC-3 entered a right bank, reaching about 50° right wing down within 5 seconds of the collision, then completed a 180° turn before going down in George Inlet.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Inherent limitations of the see-and-avoid concept — neither pilot had a realistic opportunity to visually acquire the other airplane before the collision",
+      "Absence of visual and aural alerts from both airplanes' cockpit traffic display systems while operating in a high-traffic air tour area",
+      "FAA's post-Capstone-program transceiver upgrade removed the DHC-3's previously available aural alerting capability without adequately mitigating the resulting risk",
+      "No regulatory requirement for airborne traffic advisory systems with aural alerting among Part 135 operators carrying passengers for hire",
+      "The DHC-3's Garmin GSL 71 control head was found in the OFF position, cutting off the pressure-altitude data the DHC-2's traffic-alerting system needed to generate an alert",
+      "An inadequate checklist in the DHC-3 (inherited from a prior operator) that never required verifying the GSL 71 was ON before takeoff",
+      "No requirement for a safety management system (SMS) at Part 135 operators, which NTSB found could have surfaced this alerting gap before the accident"
+    ],
+    "safety_takeaways": [
+      "\"See-and-avoid\" has real, measurable limits — NTSB's own analysis showed the DHC-3 pilot had essentially no opportunity to visually detect the DHC-2, which stayed behind a window post, showed little apparent motion, and blended into a complex terrain background for most of the final three minutes before impact.",
+      "In busy sightseeing or air-tour airspace, don't assume a glance at a traffic display substitutes for a continuous scan — the DHC-3 pilot checked his display once, about four minutes before the collision, and never again.",
+      "A cockpit traffic system is only as good as its weakest link: an equipment upgrade, a mis-set control head, or a missing checklist item can silently disable alerting on an airplane that looks, to the pilot, like it's working normally.",
+      "If your aircraft's avionics were modified or upgraded, verify — don't assume — that safety capabilities you relied on before (like aural alerts) survived the change; ask specifically what the new equipment does and doesn't do.",
+      "A preflight checklist inherited from a previous operator or owner can be missing exactly the item that matters for your airplane's current equipment — review it against what's actually installed, not just what's printed."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-dhc2-beaver-n952db.f247a66a.webp",
+      "alt": "The accident DHC-2 Beaver, N952DB, in Mountain Air Service livery, photographed before the accident",
+      "caption": "The accident DHC-2, N952DB, photographed before the accident",
+      "name": "de Havilland DHC-2 Beaver",
+      "sub": "Mountain Air Service LLC",
+      "specs": [
+        [
+          "Registration",
+          "N952DB"
+        ],
+        [
+          "Engine",
+          "1× Pratt & Whitney R-985 (radial)"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/aircraft-dhc3-otter-n959pa.945eb153.webp",
+        "alt": "The accident DHC-3 Otter, N959PA, in Taquan Air livery, photographed before the accident",
+        "title": "de Havilland DHC-3 Otter (N959PA)",
+        "meta": "The other accident aircraft · Taquan Air · file photo, pre-accident",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf"
+      },
+      {
+        "photo": "assets/img/incident-cen19ma141-flight-track-diagram.d900add0.webp",
+        "alt": "NTSB diagram showing the DHC-2 and DHC-3 flight tracks converging and the midair collision point at 3,350 ft over George Inlet",
+        "title": "Flight-track and collision-point diagram",
+        "meta": "NTSB final report, Figure 2 · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf"
+      },
+      {
+        "photo": "assets/img/incident-cen19ma141-foreflight-traffic-alert-example.3b44b9d8.webp",
+        "alt": "Example ForeFlight cockpit display showing a traffic alert pop-up for N959PA, illustrating the kind of warning a working system would show",
+        "title": "Example of a working traffic alert",
+        "meta": "NTSB final report, Figure 5 · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR2104.pdf"
+      }
+    ],
+    "media_source_label": "Aircraft photos and investigation figures from the NTSB final report (AAR-21/04)",
+    "location_card": {
+      "map_caption": "George Inlet, near Ketchikan, Alaska",
+      "primary": "George Inlet, about 8 miles northeast of Ketchikan",
+      "region": "Alaska, USA",
+      "coords_text": "55.425556, -131.505 (est.)",
+      "site_title": "Collision site",
+      "site_sub": "Midair collision at 3,350 ft msl, over George Inlet",
+      "site_meta": "About 8 mi NE of Ketchikan Harbor Seaplane Base (5KE)"
+    },
+    "docs": {
+      "report_label": "Final report (AAR-21/04, 75 pages)",
+      "docket_label": "(full docket)"
+    },
+    "related_cases": [
+      {
+        "title": "CRJ700 / UH-60 Black Hawk — midair collision, Washington DC",
+        "sub": "Shared factor: midair collision driven by the limits of see-and-avoid in busy airspace",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "DCA25MA108"
+      }
+    ],
+    "about_investigation_type": "Full (Class 1, IIC-led field investigation)",
+    "seo": {
+      "title": "Ketchikan Floatplane Midair Collision",
+      "description": "NTSB case CEN19MA141: a DHC-2 Beaver and DHC-3 Otter collided midair near Ketchikan, Alaska, killing 6. See-and-avoid and alerting failures, explained."
+    }
+  }
+}

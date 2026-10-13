@@ -1,0 +1,158 @@
+{
+  "ntsb_number": "CEN23MA034",
+  "date": "2022-11-12",
+  "location": {
+    "city": "Dallas",
+    "state": "TX",
+    "lat": 32.6808,
+    "lon": -96.8683
+  },
+  "aircraft": {
+    "type": "Boeing B-17G Flying Fortress (A1) & Bell P-63F Kingcobra (A2)",
+    "registration": "N7227C (A1) · N6763 (A2)"
+  },
+  "operator": "Commemorative Air Force (CAF), Wings Over Dallas air show",
+  "flight_type": "Part 91 air show performance flight, under an FAA certificate of waiver (both aircraft)",
+  "occupants": 6,
+  "fatalities": 6,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "As part of the performance, the Boeing B-17G was in the first position of five historic bomber airplanes flying as multiple solo aircraft in trail, and the Bell P-63F was in the last position of three historic fighter airplanes flying in formation. Generally, the pilots in each group (bombers and fighters) flew multiple passes parallel to runway 13/31 at KRBD and completed repositioning turns on the south side of the extended show lines to set up for each respective pass, as directed by the air boss.\n\nThe air boss provided directives based on his continuous, real-time assessment of all the variables associated with the performance, including the respective positions of the airplanes. The airplanes’ altitudes and airspeeds varied throughout the performance, which included descending passes from the bomber group, fighter formation maneuvers, the coordinated detonation of ground pyrotechnics, and a real-time narration from an air show announcer on the ground. In addition, the air boss coordinated the flight of CAF-operated Boeing PT-17, which was providing a revenue passenger ride during the performance, and the taxiing of a CAF-operated Boeing B-29 that was positioning for takeoff to join the performance. The air boss, who stood atop a set of air stairs on the field, directed all these activities via radio on the air show radio frequency.\n\nPosition data were available for seven of the eight airplanes in the performance (all but the bomber in position 5) and the Boeing PT-17 ride flight. The data showed that, in the 2 minutes before the accident, the bomber group and the fighter formation completed a pass in front of the crowd from show right to left (that is, from right to left from the crowd’s perspective), heading southeast, parallel to runway 13. The airplanes were setting up for the next pass when the accident occurred.\n\nRecorded radio communications and airplane position data showed that, as the fighter formation was entering the pass that preceded the accident, the air boss issued directives to the bomber group and the fighter formation about the pass, the subsequent repositioning turns, and the next pass. The air boss’s directives for the fighter formation included directing them to “walk” their way up to the Boeing B-17G, informing them that he was going to “break” them out “left” after they “follow the bombers to the right 90 out, and then…roll back in left and be on the 500-ft line…to set up for an echelon for a break…[and] get in trail.” Following those directives, the fighter lead pilot asked for clarification, and the only directive repeated (by the air boss) and confirmed (by the fighter lead pilot) related to the direction of the echelon break.\n\nAfter completing the pass that preceded the accident, the pilots of all eight airplanes performed repositioning turns (a 90° right turn followed by a 270° left turn) on the south side of the extended show lines to set up for the next pass, as directed by the air boss. Based on the radio communications, the next pass was intended to be from show left to right in front of the crowd (heading northwest, parallel to runway 31); the air boss directed the fighter formation to pass the bomber group and fly the 500-ft show line, and he directed the bombers to fly the 1,000-ft show line. Compliance with this directive required the fighter formation to pass off the left side of the bomber group, then cross laterally in front of the Boeing B-17G.\n\nThe position data showed that the flight path for the fighter lead and position 2 fighter airplanes passed the bomber group airplanes off the bombers’ left side then crossed in front of the Boeing B-17G, as directed, but subsequently aligned with the 1,000-ft show line (instead of continuing farther across to the assigned 500-ft show line). The position data showed that the flight path of the Boeing B-17G (with the other bombers in trail) aligned with the 1,000-ft show line.\n\nBased on an interview summary with the fighter lead pilot, he mistakenly believed that the air boss had directed the fighters to the 1,000-ft show line. The fighter lead pilot said that, as he descended and picked up the 1,000-ft line, everything looked good. According to an interview summary for the pilot of the position 2 fighter, he recalled that the air boss had issued a long stream of instructions, but he was primarily focused on his spacing with the fighter lead. He recalled that, when the air boss told the fighters to get in front of the bombers, he visually ensured his airplane had separation from the Boeing B-17G, then he shifted his focus back to the fighter lead.\n\nThus, the NTSB concludes that, although the fighter lead pilot was confused by the air boss’s unclear directives, the fighter lead pilot and the position 2 fighter pilot visually ensured separation from the bomber group airplanes when passing and crossing in front of the Boeing B-17G before mistakenly aligning with the incorrect show line. The position data showed that the Bell P-63F’s flight path closely followed the fighter in position 2 until about 7 seconds before the collision, when its flight path no longer curved toward the 1,000-ft show line but became somewhat straighter, possibly toward the 500-ft show line, which would be consistent with the air boss’s directive. Regardless of which show line the Bell P-63F pilot may have intended to fly, alignment with either show line required him (like the other pilots in the fighter formation) to pass the bomber group airplanes off the bombers’ left side then cross in front of the Boeing B-17G. Video and photographic evidence captured by witnesses on the ground showed that the Bell P-63F was in a descending, left-banked turn when it struck the left side of the Boeing B-17G near the trailing edge of the left wing, then both airplanes broke apart in flight.",
+  "probable_cause": "The National Transportation Safety Board determines that the probable cause of the accident was the air boss's and air show event organizer's lack of an adequate, prebriefed aircraft separation plan for the air show performance, relying instead on the air boss's real-time deconfliction directives and the see-and-avoid strategy for collision avoidance, which allowed for the loss of separation between the Boeing B-17G and the Bell P-63F airplanes. Also causal was the diminished ability of the accident pilots to see and avoid the other aircraft due to flight path geometry, out-the-window view obscuration by aircraft structures, attention demands associated with the air show performance, and the inherent limitations of human performance that can make it difficult to see another aircraft. Contributing to the accident were the lack of Federal Aviation Administration (FAA) guidance for air bosses and air show event organizers on developing plans and performing risk assessments that ensure the separation of aircraft that are not part of an approved maneuvers package and the lack of FAA requirements and guidance for recurrent evaluations of air bosses and direct surveillance of their performance.",
+  "phase_of_flight": "Air show flying display — the fighter formation and bomber group were repositioning after one scheduled pass and maneuvering to align with their assigned show lines for the next pass when the Bell P-63F, trailing the fighter formation, collided with the Boeing B-17G (NTSB event coding: in-flight collision during air show maneuvering flight; not takeoff, landing, or cruise).",
+  "weather": "Visual meteorological conditions (VMC). Nearest observation, KRBD, 1253 CST (about 29 minutes before the accident): temperature 48°F (9°C), dew point 25°F (-4°C), wind from 350° at 14 kt gusting to 18 kt, sky clear below 12,000 ft, visibility 10 statute miles or greater. Weather was not a factor in the accident.",
+  "links": {
+    "report": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR-24-07.pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=106276"
+  },
+  "sources_checked": [
+    "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR-24-07.pdf",
+    "https://www.ntsb.gov/investigations/Pages/CEN23MA034.aspx",
+    "https://data.ntsb.gov/Docket?ProjectID=106276",
+    "https://data.ntsb.gov/Docket/?ProjectID=106276",
+    "https://data.ntsb.gov/Docket/TOCPrintable?data=106276",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=15905241&FileExtension=pdf&FileName=CEN22MA034%20Airworthiness%20Factual-Rel.pdf",
+    "https://commons.wikimedia.org/wiki/File:Boeing_B-17G-95-DL_Flying_Fortress_Texas_Raiders_44-83872_N7227C_RSide_SNF_04April2014_(14585615742).jpg",
+    "https://commons.wikimedia.org/wiki/File:Bell_P-63F-1-BE_Kingcobra_%E2%80%98X_-_311719%E2%80%99_(N6763)_(50909030776).jpg",
+    "https://commons.wikimedia.org/wiki/File:DallasAirshowNTSBGraphic.png"
+  ],
+  "notes": "Primary source is the NTSB's own 94-page final Aviation Investigation Report (AIR-24-07). The PDF was fetched directly from ntsb.gov and its text extracted locally with PyMuPDF; \"CEN23MA034\" was confirmed present in the document's own text (footnote 1: \"case CEN23MA034\") before any fact was used. The report's cover page states it is dated December 4, 2024; the NTSB's own case-summary page for CEN23MA034 separately describes the investigation as \"Completed\" and references a December 9, 2024 public release — a few days' difference between the report's internal date and its public release, not a substantive discrepancy, and not treated as two different dates for the same fact.\n\nTwo-aircraft structure: as with DCA25MA108, this schema has single aircraft/operator/flight_type/registration fields, so both aircraft are encoded together in each of those fields, labeled \"A1\"/\"A2\" (A1 = Boeing B-17G N7227C \"Texas Raiders\"; A2 = Bell P-63F N6763), matching NTSB's own report convention of listing \"Airplane 1\" and \"Airplane 2.\"\n\nFatalities: 6 total — the pilot, copilot, flight engineer, and two scanners aboard the B-17G (5 people), and the P-63F's pilot (1 person). No injuries to anyone on the ground. No survivors among the 6 people aboard either airplane. The NTSB report does not name any of the people on board (it refers only to \"the pilot,\" \"the copilot,\" etc.); no names are used in this record.\n\nDocket: ProjectID 106276, confirmed independently by fetching https://data.ntsb.gov/Docket?ProjectID=106276 and https://data.ntsb.gov/Docket/TOCPrintable?data=106276, both of which list \"CEN23MA034,\" the correct accident date/city, and the docket's 53 items. One docket item used only as a photo-sourcing lead, the \"AIRWORTHINESS GROUP CHAIR'S FACTUAL REPORT\" (docBLOB ID 15905241), is itself headed \"CEN22MA034\" on every one of its 11 pages — an apparent clerical renumbering artifact in NTSB's own paperwork (the investigation appears to have originally been opened as CEN22MA034, the calendar year of the accident, before being renumbered CEN23MA034). This is flagged per this project's standing caution about mismatched docket documents, but it is not a wrong-case mix-up: the document's content (N7227C, N6763, Dallas, November 12, 2022, the collision sequence) matches this case exactly, and it is listed under the correct NTSB Number on the docket's own official index page (confirmed by fetching that index directly). No field in this record was sourced from that document's narrative text; it was consulted only to identify candidate photographs, and in the end none of its photos were used (see below).\n\nPhotos: the \"CEN22MA034\"-headed Airworthiness Group Chair's Factual Report includes pre-accident photos of both airframes (its Figures 1 and 2), but each is captioned only \"CAF photo\" — i.e. credited to the Commemorative Air Force as a third party, not a U.S.-government-work/public-domain image — so neither was used on this site. Independently-licensed Wikimedia Commons photographs of the actual accident airframes (N7227C and N6763) were used instead (see CREDITS). The docket's \"AIRWORTHINESS IMAGE REVIEW\" item (30 photos, explicitly described elsewhere in the same factual report as containing \"pre- and post-collision photos\") was deliberately not opened or sourced from for this page, given the severity of this accident and the extensively-circulated graphic video of the collision itself. In its place, the NTSB's own schematic flight-path diagram from the final report (a line diagram, not a photograph, showing both airplanes' tracks in the minutes before the collision) was used to illustrate the accident sequence without depicting the collision itself. This follows the same editorial restraint used on DCA25MA108, which also limited itself to pre-accident reference photos of the aircraft involved given comparable severity.\n\nCoordinates are Dallas Executive Airport's (KRBD) published airport-reference-point coordinates. The NTSB report describes the wreckage location only relative to the runway (\"about 410 feet south of the corner of runway 31\"; full debris field about 1,880 ft by about 410 ft, oriented 320° magnetic) rather than giving a separate lat/lon for the impact site, and the accident occurred over airport property, so the airport's own coordinates are used here.\n\nConfidence: high. All structured fields, the narrative, and the probable cause were drawn directly from the final report PDF, fetched and text-extracted in this session. News and aggregator sources (AOPA, local news, Wikipedia) were checked only as leads/cross-checks for the fatality count and aircraft identities, consistent with what NTSB's own report states, and were not used to source any field.",
+  "page": {
+    "title": "Boeing B-17G / Bell P-63F Midair Collision",
+    "subtitle": "Two Commemorative Air Force warbirds collided in flight at the Wings Over Dallas air show, Dallas, Texas",
+    "datetime_text": "November 12, 2022, afternoon · Wings Over Dallas air show, Dallas Executive Airport (KRBD), Dallas, Texas",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Mid-air collision",
+    "badge_casualty": "6 fatal / 6 aboard",
+    "badge_casualty_sub": "No survivors, both aircraft",
+    "status_meta": "NTSB · Final report (AIR-24-07) dated December 4, 2024",
+    "summary": "During the “Warbirds” segment of the Commemorative Air Force's Wings Over Dallas air show, a Boeing B-17G Flying Fortress (“Texas Raiders”) and a Bell P-63F Kingcobra collided in flight while both groups were repositioning for the next pass in front of the crowd. The P-63F, descending in a left bank, struck the B-17G's left wing from behind and above; both airplanes broke apart and crashed, killing all five aboard the B-17G and the P-63F's pilot. NTSB's final report places the probable cause on the air boss's and air show organizer's reliance on real-time, verbal deconfliction instead of a prebriefed separation plan — compounded by the basic limits of see-and-avoid for two converging warbirds.",
+    "facts": {
+      "location_value": "Dallas Executive Airport (KRBD), Dallas, TX",
+      "location_sub": "Debris field south of the runway 31 approach end, within airport property",
+      "route_label": "Performance",
+      "route_value": "Wings Over Dallas air show, “Warbirds” segment (7th performance of the day)",
+      "route_sub": "B-17G leading 5 bombers in trail; P-63F trailing a 3-ship fighter formation",
+      "phase_value": "Air show flying display — repositioning for a scheduled pass",
+      "phase_sub": "Mid-air collision",
+      "operation": "Part 91 air show performance, FAA certificate of waiver (both aircraft)",
+      "damage": "Both aircraft destroyed",
+      "weather_value": "VMC, clear",
+      "weather_sub": "Weather was not a factor"
+    },
+    "narrative_excerpt": "As the bomber group and fighter formation repositioned for the next scheduled pass in front of the crowd, the air boss directed the fighter formation to pass the bomber group on their left side and cross in front of the Boeing B-17G to reach the 500-ft show line. The fighter lead and the second fighter misread the directive and leveled off early, at the 1,000-ft line instead — but the Bell P-63F, trailing the formation, kept closing on a flight path that converged with the B-17G. In a descending, left-banked turn, the P-63F struck the B-17G's left side near the trailing edge of the wing. Both airplanes broke apart in flight and crashed; there were no survivors among the six people aboard the two airplanes.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Lack of a prebriefed, administratively controlled aircraft separation plan for the performance — the air boss relied on improvised, real-time deconfliction instead",
+      "Ambiguous air boss radio directives about which “show line” to fly, which led the fighter lead pilot to level off at the wrong line",
+      "Inherent limits of see-and-avoid: flight path geometry, aircraft structure obscuring each pilot's view of the other airplane, and the high attention demands of flying the performance",
+      "FAA and International Council of Air Shows (ICAS) guidance that did not adequately address deconfliction risk for air boss–directed performances involving multiple, dissimilar aircraft",
+      "No FAA requirement for recurrent evaluation of air bosses, and no direct FAA surveillance of an air boss's live performance",
+      "No documented, performance-specific safety risk assessment process to identify and mitigate the hazard before the show",
+      "Commemorative Air Force's lack of a strong, clearly defined safety risk assessment plan, leaving air show production decisions susceptible to pressures unrelated to safety",
+      "Elevated real-time workload on the air boss, who was simultaneously sequencing the performance, coordinating a revenue passenger ride, and coordinating a taxiing B-29"
+    ],
+    "safety_takeaways": [
+      "A verbal, real-time “I'll keep them apart” plan is not a separation plan — multi-aircraft, dissimilar-type air show performances need a written, prebriefed plan with defined lateral, altitude, and timing deconfliction before anyone takes off.",
+      "See-and-avoid has real physical limits — aircraft structure blocking the view, converging-flightpath geometry, and the sheer workload of flying a show can defeat a pilot's ability to see another aircraft in time, even when everyone involved is doing their job as briefed.",
+      "An air boss makes air-traffic-control-grade, real-time separation calls without any of the recurrent evaluation, standardized phraseology, or direct oversight that actual air traffic controllers are required to have.",
+      "Ambiguous radio phraseology is itself a hazard — a directive that two pilots can reasonably interpret two different ways (which show line to fly) is a latent failure waiting for the wrong moment to matter.",
+      "An organization's safety culture has to make it normal, not just permitted, for performers to report a near-miss — a program can't fix a deconfliction problem it never hears about."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-boeing-b17g-n7227c.33a8930c.webp",
+      "alt": "The accident airplane, Commemorative Air Force Boeing B-17G “Texas Raiders,” N7227C, photographed before the accident",
+      "caption": "The accident airplane, photographed before the accident",
+      "name": "Boeing B-17G Flying Fortress",
+      "sub": "Commemorative Air Force, “Texas Raiders”",
+      "specs": [
+        [
+          "Registration",
+          "N7227C"
+        ],
+        [
+          "Operator",
+          "Commemorative Air Force"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/aircraft-bell-p63f-n6763.ea1e8b2c.webp",
+        "alt": "The accident airplane, Commemorative Air Force Bell P-63F Kingcobra, N6763, photographed before the accident",
+        "title": "Bell P-63F Kingcobra (N6763)",
+        "meta": "The second accident aircraft · file photo, pre-accident",
+        "link": "https://commons.wikimedia.org/wiki/File:Bell_P-63F-1-BE_Kingcobra_%E2%80%98X_-_311719%E2%80%99_(N6763)_(50909030776).jpg"
+      },
+      {
+        "photo": "assets/img/incident-cen23ma034-ntsb-flightpath-diagram.c91712e5.webp",
+        "alt": "NTSB diagram of the Boeing B-17G's and Bell P-63F's flight paths in the final turn before the collision",
+        "title": "Flight paths before the collision",
+        "meta": "NTSB final report figure (AIR-24-07)",
+        "link": "https://commons.wikimedia.org/wiki/File:DallasAirshowNTSBGraphic.png"
+      }
+    ],
+    "media_source_label": "Pre-accident reference photos of both aircraft, and an NTSB flight-path diagram (not photographs of the collision)",
+    "location_card": {
+      "map_caption": "Dallas Executive Airport (KRBD), Dallas, TX",
+      "primary": "Dallas Executive Airport (KRBD)",
+      "region": "Dallas, Texas, USA",
+      "coords_text": "32.6808, -96.8683",
+      "site_title": "Collision / wreckage site",
+      "site_sub": "Grassy area south of the runway 31 approach end, within airport property",
+      "site_meta": "Debris field about 1,880 ft by 410 ft"
+    },
+    "docs": {
+      "report_label": "Final report (AIR-24-07, 94 pages)",
+      "docket_label": "(full docket)"
+    },
+    "related_cases": [
+      {
+        "title": "CRJ700 / UH-60 Black Hawk — DCA midair collision",
+        "sub": "Same root cause: over-reliance on real-time deconfliction and the limits of see-and-avoid",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA25MA108"
+      },
+      {
+        "title": "Beech Bonanza / Diamond DA20 — midair collision, Georgia",
+        "sub": "Same failure mode: two aircraft converging despite each pilot believing they had separation",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "ERA16FA312"
+      },
+      {
+        "title": "Piper / Cessna — midair collision, Pahokee FL",
+        "sub": "Same underlying hazard: separation that depended on pilots visually seeing each other",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "ERA25LA072"
+      }
+    ],
+    "about_investigation_type": "Full investigation (Aviation Investigation Report AIR-24-07)",
+    "seo": {
+      "title": "Wings Over Dallas B-17 Crash",
+      "description": "NTSB case CEN23MA034: a Commemorative Air Force B-17G and P-63F collided in flight at the Wings Over Dallas air show, killing all six aboard."
+    }
+  }
+}

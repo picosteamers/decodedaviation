@@ -1,0 +1,159 @@
+{
+  "ntsb_number": "ERA21LA208",
+  "date": "2021-05-05",
+  "location": {
+    "city": "Ridgeland",
+    "state": "SC",
+    "lat": 32.504158,
+    "lon": -80.992736
+  },
+  "aircraft": {
+    "type": "Gulfstream G150",
+    "registration": "N22ST"
+  },
+  "operator": "Snider Fleet Solutions",
+  "flight_type": "Part 91: General aviation - Executive/Corporate",
+  "occupants": 5,
+  "fatalities": 0,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "On May 5, 2021, about 1033 eastern daylight time, an Israel Aerospace Industries Gulfstream G150, N22ST, was substantially damaged when it was involved in an accident at Ridgeland-Claude Dean Airport (3J1), Ridgeland, South Carolina. The two pilots and three passengers were not injured. The airplane was operated as a Title 14 Code of Federal Regulations Part 91 executive/corporate flight.\n\nAccording to the PIC, a routine preflight was completed earlier on the morning of the accident, and he and the SIC flew a routine flight from Fort Lauderdale International Airport (FLL), Fort Lauderdale, Florida, to New Smyrna Beach Municipal Airport (EVB), New Smyrna Beach, Florida. The passengers boarded the airplane, and the flight to 3J1 departed.\n\nA review of the airplane's cockpit voice recorder (CVR) revealed that, while en route to the destination airport, the crewmembers discussed the reported wind at nearby airports and noted that the direction was from 240° to 250°, which they said would favor landing on runway 36. When a passenger asked about the estimated arrival time; the PIC replied, \"I'll speed up. I'll go real fast here.\" About 1 minute later, the SIC remarked that the airplane's airspeed was 300 knots and altitude was 9,000 ft. For the next few minutes, the crew discussed how the flight time could be shortened and that another jet on the frequency was also headed to 3J1.\n\nAt 1009:52, the PIC stated that the estimated arrival time was 1035 and that the other airplane's arrival was estimated to be 1033. The PIC stated to the SIC, \"they'll [the other aircraft] slow to 250 [knots] below 10 [thousand feet] and we won't. We know what we're doing right now we're trying to win a race.\" The SIC stated, \"that's right,\" and the PIC replied, \"this is NASCAR,\" which was followed by sounds of laughter.\n\nDuring the descent, the crew discussed that the reported wind at a nearby airport was from 280° at 3 knots. In addition, the CVR recorded the overspeed warning tone multiple times during the descent, starting at 1025:30. During that instance, the tone was heard for 8 seconds. The PIC stated, \"goal achieved,\" and SIC remarked, \"final lap.\"\n\nAt 1028:31, the airplane was cleared to 2,000 ft and the flight crew requested a straight-in approach to runway 36. About 2 minutes later, the controller informed the other airplane inbound to 3J1 that it would be second in line for landing; the PIC expressed excitement and informed the passengers that their flight would be arriving ahead of the other inbound airplane.\n\nAt 1031:35, the CVR recorded the sound of the autopilot being disconnected. About 1 minute later, the SIC remarked, \"should we s-turn this thing?\" The PIC replied, \"nah we got it.\" At 1032:28, the airplane was on final approach about 900 ft above ground level (agl) and about 1.5 nautical miles from the runway threshold. At that time, the SIC called out an airspeed of 170 knots. (The reference landing speed [Vref] was 121 knots). The PIC responded to add full flaps. About 10 seconds later, the airplane's electronic voice announced \"sink rate\" and the SIC stated, \"we know it.\" At 1032:46, the SIC called out an airspeed of 150 knots, and the electronic voice stated, \"sink rate, sink rate, sink rate, pull up.\"\n\nAt 1032:58, the electronic voice announced 200 ft agl. One second later, the electronic sink rate warning annunciated again, and the SIC called out an airspeed of 130 knots. The PIC stated, \"yup, slowing.\"\n\nAt 1033:04, the electronic voice annunciated the 50-ft callout, and the airplane touched down afterward. At 1033:12, the PIC stated, \"come on T-Rs [thrust reversers],\" which was followed by an expletive. At 1033:20, the SIC asked if he should apply the brakes as well, to which the PIC stated \"yes.\" At 1033:26, sounds consistent with a runway excursion were recorded, and the CVR recording stopped shortly afterward. The airplane came to rest about 400 ft past the end of runway 36 in marshy and wet terrain. The airplane sustained substantial damage to the wings and fuselage.\n\nIn a postaccident statement, the PIC reported that he observed runway 36 (the intended landing runway) about 25 miles away and planned a visual approach to the runway. During the approach, the SIC completed the before-landing checklist. The approach was completed with full flaps, and the flight air brakes were deployed to slow the airplane further. About 3 miles from the runway, the precision approach path indicator (PAPI) displayed three white lights and one red light (indicating that the airplane was too high on the glidepath). Subsequently, the PIC retracted the flight air brakes and determined that the flight was properly established on the glidepath.\n\nThe PIC's postaccident statement also indicated that, while the airplane was approaching the runway, the engine(s) power was at idle, and the touchdown occurred about 700 to 1,000 ft down the runway at an airspeed between about 120 to 128 knots. Upon touchdown, the PIC applied wheel brakes and thrust reversers, but the ground air brakes did not automatically deploy. As the ground roll progressed, the airplane was not slowing, so the PIC increased power to the thrust reversers and the SIC began braking with about 1,500 ft of runway remaining. When the SIC applied his wheel brakes, he stated \"I have no brakes.\" The PIC described the airplane's departure from the runway surface into marshy wetlands and that the crew assisted the passengers in evacuating without incident. When asked if there were any mechanical malfunctions or failures of the airplane, the PIC reported \"We did not have brakes, no thrust reversers and no ground air brakes.\"",
+  "probable_cause": "The National Transportation Safety Board determines the probable cause(s) of this accident to be: The flight crew's continuation of an unstable approach and the failure of the ground air brakes to deploy upon touchdown, both of which resulted in the runway overrun. Contributing was the crew's motivation and response to external pressures to complete the flight as quickly as possible to accommodate passenger wishes and the crew's decision to land with a quartering tailwind that exceeded the airplane's limitations.",
+  "phase_of_flight": "Landing-landing roll – Landing area overshoot (Defining event); Landing-landing roll – Sys/Comp malf/fail (non-power); Landing-landing roll – Runway excursion",
+  "weather": "Conditions at Accident Site: Visual (VMC), Day. Observation facility: NONE, field elevation 84 ft msl, observed 10:33 Local. Visibility 10 miles. Lowest ceiling: Overcast. Wind 230° at 10 knots, gusting 15 knots. Altimeter setting 29.98 inches Hg. Temperature/Dew point 28°C / 19°C. No obscuration; no precipitation. The airport had no automated weather observing system, but a mobile-phone video of the landing captured the airport windsock showing a quartering tailwind at varying speed -- at times nearly fully extended (about 15 knots) -- throughout the ground roll; a pilot-rated witness estimated the wind at 220-230° at 11-13 knots, and another witness described a 'strong and gusty' southwesterly wind. This quartering tailwind (about 10-15 knots) exceeded the G150's 10-knot tailwind landing limitation.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/103036/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=103036"
+  },
+  "sources_checked": [
+    "https://my.ntsb.gov/basic (CAROL basic search by NTSB number)",
+    "https://web.ntsb.gov/investigations/?ntsbnumber=ERA21LA208",
+    "https://data.ntsb.gov/Docket/?NTSBNumber=ERA21LA208",
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/103036/pdf",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=15825442&FileExtension=pdf&FileName=ERA21LA208_Airworthiness%20Factual%20Report-Rel.pdf",
+    "https://commons.wikimedia.org/wiki/File:Gulfstream_Aerospace_G150_N993AC_(cn_265)_(4622645828).jpg"
+  ],
+  "notes": "NTSB case number ERA21LA208 found via CAROL (my.ntsb.gov) basic search by date/location/registration -- the single matching result (NTSB# ERA21LA208, 5/5/2021, Ridgeland SC, N22ST : ISRAEL AEROSPACE INDUSTRIES LTD/GULFSTREAM G150, Status: Completed) was cross-confirmed against three independent NTSB-hosted pages: (1) the CAROL docket index at data.ntsb.gov/Docket/?NTSBNumber=ERA21LA208 (11 items, header shows NTSB Number ERA21LA208, Date of Accident 05/05/2021, City Ridgeland, State SC); (2) the ntsb.gov investigation summary at web.ntsb.gov/investigations/?ntsbnumber=ERA21LA208 ('What Happened' / 'What We Found'); and (3) the 12-page 'Aviation Investigation Final Report' PDF itself, fetched as raw bytes via WebFetch (its own summarizer could not parse the binary PDF and said so explicitly, consistent with this site's standard -- the saved raw PDF was then opened and text-extracted locally with PyMuPDF/fitz, not paraphrased by a summarizer) -- 'ERA21LA208' and 'N22ST' appear on every one of its 12 pages. The narrative field is verbatim text from the report's 'Factual Information > History of Flight' section (the fuller, CVR-transcript-based account), not the shorter front-matter 'Analysis' section; the two were cross-checked and are consistent on every fact. probable_cause is verbatim from the 'Probable Cause and Findings' section. The story as reported by secondary aviation press (FlyingMag, GlobalAir, FlightGlobal, Kathryn's Report) matches the real NTSB document closely: the 'racing' framing, the PIC's quotes ('I'll go real fast here,' 'we're trying to win a race,' 'this is NASCAR,' 'goal achieved' / SIC's 'final lap'), the repeated 'sink rate'/'pull up' warnings continued through to touchdown, and the ground air brakes' failure to deploy are all directly verbatim in the NTSB document -- nothing here was found to be exaggerated or invented by secondary coverage. One correction to secondary coverage: several outlets (e.g. FlyingMag) described the airplane as 'registered to Israel Aerospace Industries Ltd.' -- this is a misreading of the NTSB's 'Aircraft Make' field, which names IAI only as the original manufacturer of the G150 type (via its former Galaxy Aerospace business-jet line), not the owner. The NTSB report's own 'Aircraft and Owner/Operator Information' section separately lists Registered Owner as 'Guiltford Transportation Services LLC' and Operator as 'Snider Fleet Solutions'; the operator field here uses the NTSB's own Operator value. Note also that the investigation did NOT conclusively determine a mechanical cause for the ground air brakes' failure to deploy: the right throttle-lever microswitch tested with abnormal resistance initially but read normal once manipulated by hand, and the report states this testing was 'inconclusive' -- so the probable cause blames the failure to deploy as an outcome, without attributing it to a confirmed mechanical defect. Coordinates (32.504158, -80.992736) are the NTSB's own 'Latitude, Longitude' field under Wreckage and Impact Information, explicitly marked '(est)' (estimated) in the source document. Media photos were extracted locally with PyMuPDF from the NTSB docket's 'Airworthiness and Systems Factual Report' (docket item 2, docBLOB ID=15825442), which was confirmed to carry 'ERA21LA208' and 'N22ST' on every page; all three images come directly from that document, not from the general internet. No real photo of the accident airframe N22ST pre-accident was found on Wikimedia Commons (only 8 other-registration G150 images exist in its G150 category), so the aircraft_card photo is a clearly disclaimed representative G150 (N993AC) under CC BY-SA 2.0. Docket (ProjectID 103036) contains 11 items per the docket page; only the pilot/operator accident report header and the airworthiness factual report were individually fetched beyond confirming the case header and item list -- the cockpit voice recorder specialist's factual report (item 11) was not separately fetched since its content is already reflected verbatim in the final report's History of Flight section.",
+  "page": {
+    "title": "Gulfstream G150 (N22ST)",
+    "subtitle": "Runway overrun after an unstabilized approach at Ridgeland-Claude Dean Airport, South Carolina",
+    "datetime_text": "May 5, 2021, 10:33 EDT · Ridgeland-Claude Dean Airport (3J1)",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "0 injured / 5 aboard",
+    "badge_casualty_sub": "No fatalities",
+    "status_meta": "NTSB · Final report published August 15, 2023",
+    "summary": "A Gulfstream G150 business jet, racing an informal 'race' against another inbound airplane to beat it to the airport, continued a high, fast approach into Ridgeland-Claude Dean Airport despite repeated electronic 'sink rate' and 'pull up' warnings. The crew landed anyway. On the roll-out, the ground air brakes never deployed, and with a tailwind exceeding the airplane's limit, the jet ran off the far end of the runway into marshy wetlands. All five aboard escaped uninjured; the airplane was substantially damaged.",
+    "facts": {
+      "location_value": "Ridgeland, South Carolina",
+      "location_sub": "Ridgeland-Claude Dean Airport (3J1)",
+      "route_label": "Route",
+      "route_value": "New Smyrna Beach (EVB) → Ridgeland-Claude Dean (3J1)",
+      "route_sub": "Part 91 executive/corporate flight, IFR",
+      "phase_value": "Landing roll — runway overrun",
+      "phase_sub": "Unstabilized approach continued to touchdown; ground air brakes failed to deploy",
+      "operation": "Executive/corporate (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "VMC, 10 mi visibility",
+      "weather_sub": "Wind 230° at 10 kt gusting 15 kt; quartering tailwind on landing"
+    },
+    "narrative_excerpt": "At 1031:35, the CVR recorded the sound of the autopilot being disconnected. About 1 minute later, the SIC remarked, \"should we s-turn this thing?\" The PIC replied, \"nah we got it.\" At 1032:28, the airplane was on final approach about 900 ft above ground level (agl) and about 1.5 nautical miles from the runway threshold. At that time, the SIC called out an airspeed of 170 knots. (The reference landing speed [Vref] was 121 knots). The PIC responded to add full flaps. About 10 seconds later, the airplane's electronic voice announced \"sink rate\" and the SIC stated, \"we know it.\" At 1032:46, the SIC called out an airspeed of 150 knots, and the electronic voice stated, \"sink rate, sink rate, sink rate, pull up.\"",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Flight crew's continuation of an unstable approach despite repeated \"sink rate\" and \"pull up\" warnings",
+      "External pressure to beat another inbound airplane to the airport, which the crew described as a \"race\"",
+      "Failure of the ground air brakes to deploy automatically upon touchdown",
+      "Landing with a quartering tailwind of about 10–15 knots, exceeding the airplane's 10-knot tailwind limitation",
+      "Touchdown about 1,000 ft down the 4,200-ft runway, leaving reduced distance to stop without full braking systems"
+    ],
+    "safety_takeaways": [
+      "Informal competition with another aircraft — even unspoken — has no place in the cockpit; treat any urge to \"beat\" another flight to the runway as a reason to slow down, not speed up.",
+      "A stabilized-approach gate (on-speed, on-profile, fully configured by 500 ft agl) should be a hard go/no-go checkpoint, not a target to drift past because the airplane still feels recoverable.",
+      "An aural \"sink rate\" or \"pull up\" warning is the airplane reporting that the approach has already failed — the correct response is an immediate go-around, not a verbal acknowledgment followed by continuing to land.",
+      "Crew authority gradients matter: the SIC twice raised concerns — suggesting s-turns, then echoing the sink-rate warning with \"we know it\" — and was overridden both times; a standing rule that either pilot can call a mandatory go-around removes that hesitation.",
+      "Know the airplane's tailwind limitation precisely and check it against real conditions, not a glance at the windsock — a quartering tailwind that looks landable from the cockpit can silently add hundreds of feet to the landing roll, a margin that matters even more when a braking system fails."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-gulfstream-g150-generic.201567b2.webp",
+      "alt": "Representative Gulfstream G150, same model as the accident aircraft (file photo, not the accident airplane)",
+      "caption": "Representative Gulfstream G150 · not the accident aircraft",
+      "name": "Gulfstream G150",
+      "sub": "Twin-engine light business jet",
+      "specs": [
+        [
+          "Operator",
+          "Snider Fleet Solutions"
+        ],
+        [
+          "Engines",
+          "2× Honeywell TFE731-40AR-200G"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-era21la208-overrun-marsh.38cfd0c9.webp",
+        "alt": "The accident airplane, N22ST, resting in marshy, wet terrain about 400 ft past the departure end of runway 36",
+        "title": "Aircraft in the overrun marsh",
+        "meta": "N22ST · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=15825442&FileExtension=pdf&FileName=ERA21LA208_Airworthiness%20Factual%20Report-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era21la208-tire-marks-runway.29a2b0ee.webp",
+        "alt": "Annotated investigator photos of tire marks on runway 36, measured and correlated to the airplane's touchdown point and landing direction",
+        "title": "Tire-mark evidence on the runway",
+        "meta": "N22ST · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=15825442&FileExtension=pdf&FileName=ERA21LA208_Airworthiness%20Factual%20Report-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era21la208-tail-damage.bd8d8089.webp",
+        "alt": "Close view of the airplane's aft fuselage and engine nacelles, documented during wreckage recovery from the marsh",
+        "title": "Aft fuselage and engine damage",
+        "meta": "N22ST · NTSB · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=15825442&FileExtension=pdf&FileName=ERA21LA208_Airworthiness%20Factual%20Report-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB Airworthiness and Systems Factual Report, ERA21LA208",
+    "location_card": {
+      "map_caption": "Ridgeland, SC",
+      "primary": "Ridgeland-Claude Dean Airport (3J1)",
+      "region": "Jasper County, South Carolina, USA",
+      "coords_text": "32.504158, -80.992736 (est.)",
+      "site_title": "Accident site",
+      "site_sub": "Marshy, wet terrain, ~400 ft past the departure end of runway 36",
+      "site_meta": "Ridgeland-Claude Dean Airport (3J1), runway 18/36"
+    },
+    "docs": {
+      "report_label": "Final report",
+      "docket_label": "(11 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Cessna 172S — bounced landing, go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: unstabilized landing sequence, loss of control near the runway",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "CEN23LA348"
+      },
+      {
+        "title": "PiperSport — abrupt go-around and stall, Santa Monica CA",
+        "sub": "Similar factors: breakdown in approach/landing discipline under pressure",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "WPR22FA338"
+      },
+      {
+        "title": "Kobe Bryant Crash — Sikorsky S-76B, Calabasas CA",
+        "sub": "Similar factors: self-induced pressure to complete the flight overriding safety margins",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "DCA20MA059"
+      }
+    ],
+    "about_investigation_type": "Class 3",
+    "seo": {
+      "title": "Gulfstream G150 Overrun, Ridgeland SC",
+      "description": "NTSB case ERA21LA208: Gulfstream G150 N22ST overran the runway at Ridgeland, SC after an unstabilized approach and ground air brake failure."
+    }
+  }
+}

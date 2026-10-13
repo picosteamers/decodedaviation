@@ -1,0 +1,157 @@
+{
+  "ntsb_number": "DCA22MA193",
+  "date": "2022-09-04",
+  "location": {
+    "city": "Freeland",
+    "state": "WA",
+    "lat": 47.99032,
+    "lon": -122.58502
+  },
+  "aircraft": {
+    "type": "de Havilland DHC-3 Otter (float-equipped)",
+    "registration": "N725TH"
+  },
+  "operator": "West Isle Air dba Friday Harbor Seaplanes",
+  "flight_type": "Part 135: Scheduled commuter/air taxi passenger service",
+  "occupants": 10,
+  "fatalities": 10,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "On September 4, 2022, about 1509 Pacific daylight time, a float-equipped de Havilland DHC-3 (Otter), N725TH, was destroyed when it impacted the water in Mutiny Bay, near Freeland, Washington, and sank. The pilot and nine passengers were fatally injured. The airplane was owned by Northwest Seaplanes, Inc., and operated as a Title 14 Code of Federal Regulations (CFR) Part 135 scheduled passenger flight by West Isle Air dba Friday Harbor Seaplanes. The flight originated at Friday Harbor Seaplane Base (W33), Friday Harbor, Washington, with an intended destination of Will Rogers Wiley Post Memorial Seaplane Base (W36), Renton, Washington. Visual meteorological conditions prevailed at the time of the accident.\n\nThe accident pilot was scheduled to fly the accident airplane on three multiple-leg roundtrips on the day of the accident. The first roundtrip flight was uneventful; it departed from W36 about 0930, made four stops, and returned about 1215.\n\nThe accident occurred during the pilot’s second trip of the day. A review of recorded automatic dependent surveillance–broadcast (ADS-B) data revealed that the second roundtrip departed W36 about 1253 and arrived at Lopez Seaplane Base (W81), Lopez Island, Washington, about 1328. The data showed that the flight then departed W81 and landed at Roche Harbor Seaplane Base (W39) about 1356. The airplane departed W39 about 1432, arrived at W33 about 1438, and departed about 1450.\n\nAccording to ADS-B data, after the airplane departed W33, it flew a southerly heading before turning south-southeast. The en route altitude was between 600 and 1,000 ft above mean sea level (msl), and the groundspeed was between 115 and 135 knots. At 1508:40, the altitude was 1,000 ft msl, and the groundspeed had decreased to 111 knots. Based on performance calculations, at 1508:43, the airplane pitched up about 8° and then abruptly pitched down about 58°. The data ended at 1508:51, when the airplane’s altitude was 600 ft msl and the estimated descent rate was more than 9,500 ft per minute (the flightpath of the airplane is depicted in figure 1).\n\nWitnesses near the accident site reported, and security camera video confirmed, the airplane was in level flight before it entered a slight climb and then pitched down. One witness described the descent as “near vertical” and estimated the airplane was in an 85° nose-down attitude before impact with the water. Several witnesses described the airplane as “spinning,” “rotating,” or “spiraling” during portions of the steep descent. One witness reported hearing the engine/propeller and noted that he did not hear any “pitch change” in the sounds. The airplane continued in a nose-low, near-vertical descent until it impacted water in Mutiny Bay.",
+  "probable_cause": "The National Transportation Safety Board determines that the probable cause of this accident was the in-flight unthreading of the clamp nut from the horizontal stabilizer trim actuator barrel due to a missing lock ring, which resulted in the horizontal stabilizer moving to an extreme trailing-edge-down position rendering the airplane’s pitch uncontrollable.",
+  "phase_of_flight": "En route cruise flight, about 18 minutes after departure — a slight climb followed by an abrupt, uncommanded pitch-down into a near-vertical descent to water impact",
+  "weather": "At 1515, the automated weather observing station at Jefferson County International Airport (0S9), located 10 nautical miles west-northwest of the accident site, reported wind from 310° at 10 knots, visibility 10 statute miles, few clouds at 4,000 ft and 7,500 ft above ground level (agl), broken ceiling at 9,000 ft agl, temperature 20°C, dew point 14°C, and an altimeter setting of 30.02 inches of mercury. Airmen's meteorological information (AIRMET) Tango was issued at 1345 for moderate turbulence below 12,000 ft. Additionally, a pilot who flew near the accident location reported that he was in an airplane (a Cessna 120) much smaller and lighter than the accident airplane while headed southbound and that he passed Whidbey Island about 1430. He stated he experienced “fairly extreme” windshear as his altitude varied between 1,500 and 2,000 ft agl. Visual meteorological conditions prevailed at the accident site at the time of the accident.",
+  "links": {
+    "report": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2301.pdf",
+    "docket": "https://data.ntsb.gov/Docket/?NTSBNumber=DCA22MA193"
+  },
+  "sources_checked": [
+    "https://www.ntsb.gov/investigations/Pages/DCA22MA193.aspx",
+    "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2301.pdf",
+    "https://data.ntsb.gov/Docket/?NTSBNumber=DCA22MA193",
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105855/pdf",
+    "https://commons.wikimedia.org/wiki/File:N725TH-RNT-25-06-2019.jpg",
+    "https://commons.wikimedia.org/wiki/File:N725TH_Renton_4th_September_2019.jpg"
+  ],
+  "notes": "Case number DCA22MA193 confirmed directly: the full-text extraction of the fetched report PDF (programmatic search) returned a match for the literal string ‘DCA22MA193’, and the NTSB CAROL short-form report generated for this case (data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/105855/pdf) repeats ‘DCA22MA193’ on every page header. The long-form Aviation Investigation Report AIR-23-01 (‘Abrupt Loss of Pitch Control and Water Impact, West Isle Air dba Friday Harbor Seaplanes, de Havilland DHC-3, N725TH, Mutiny Bay, Washington, September 4, 2022’), adopted by the Board September 29, 2023, was fetched from ntsb.gov and text-extracted with PyMuPDF. narrative is verbatim text from report section 1.1 (History of Flight); probable_cause is verbatim from section 3.2. Both were cross-checked against the NTSB's own CAROL-generated short-form summary for the same case, which repeats the ‘What Happened’ and probable-cause language near-verbatim. weather is verbatim from report section 1.4 (Meteorological Information), with one summary sentence (VMC prevailed) appended from the Executive Summary/CAROL report for clarity — flagged here as the one non-verbatim addition in that field.\n\nOperator: the report's History of Flight (1.1) and the NTSB CAROL record both state the airplane was 'owned by Northwest Seaplanes, Inc., and operated as a ... Part 135 scheduled passenger flight by West Isle Air dba Friday Harbor Seaplanes.' Section 1.2 footnote 4 explains that Northwest Seaplanes and West Isle Air 'transitioned to a single FAA Part 135 certificate, West Isle Air, in 2022.' The operator field here uses the certificate holder/operating name (West Isle Air dba Friday Harbor Seaplanes); the registered owner (Northwest Seaplanes, Inc.) is the livery/brand ('NORTHWEST SEAPLANES' is painted on the actual fuselage, visible in both the report's own pre-accident photo and the Wikimedia Commons reference photos) and the brand referenced in the original research prompt as 'NW Seaplanes.'\n\nCoordinates: the long-form AIR-23-01 report text does not itself publish an explicit lat/lon for the accident site. The coordinates used here (47.99032, -122.58502) come directly from the NTSB's own CAROL-generated short-form report for this same case (ProjectID 105855), which has a 'Latitude, Longitude: 47.99032,-122.58502' field on page 4 — i.e., an NTSB source, not Wikipedia (whose published coordinates happen to match this NTSB figure exactly, which was used only as an independent sanity check, not as the citation).\n\nPhotos: per CLAUDE.md's stated priority (check Wikimedia Commons by exact registration before falling back to a same-model substitute), Wikimedia Commons was searched directly for 'N725TH' and returned two real pre-accident photos of the actual accident airframe, both parked on its trailer at Renton in 2019, each under CC BY-SA 2.0: 'N725TH-RNT-25-06-2019.jpg' (Steve Barnes) and 'N725TH Renton 4th September 2019.jpg' (Martin Woolman). The Woolman photo was used (better framing, full airframe and registration clearly legible, 'NORTHWEST SEAPLANES' titling visible), lightly cropped to tighten the composition — no other edits. Note the AIR-23-01 report itself also contains a pre-accident photo of N725TH (its Figure 2), but that figure is explicitly captioned '(Source: Calvin Bard)', i.e. a named private individual, not an NTSB work product — it was deliberately not used as the site's aircraft photo, to avoid relying on a third party's photo whose rights to the NTSB for inclusion in the report may not extend to redistribution here; the independently and clearly CC-licensed Commons photos were used instead.\n\nIncident/investigation photos (Figures 6, 7, and 10) were extracted directly from the embedded raster images in the adopted AIR-23-01 report PDF itself using PyMuPDF (page.get_images / Pixmap), not screenshotted, and not from a separate raw docket factual-report attachment — the final report PDF is itself hosted at ntsb.gov and is the authoritative NTSB source for this case, so this satisfies the same sourcing standard as pulling a figure from a docket PDF. Given the high fatality count (10 dead, no survivors), editorial restraint was applied: no photographs of the recovered fuselage/wreckage field, scene, or human-sensitive material were used. The three images used are: Figure 6, a schematic (not a photograph) of which wreckage sections were recovered, color-coded by part; Figure 7, an annotated photograph of the actual separated clamp nut/barrel assembly in place on the accident airplane (labeled 'Top eye end', 'Clamp nut', 'Lock ring groove', 'Barrel', etc.) — this is the literal physical finding the probable cause turns on; and Figure 10, a studio photo of the recovered top eye end/bearing assembly after cleaning, annotated to show the drilled clamp-nut holes and the unapproved moisture seal. All three are figures from the Board-adopted report, i.e. U.S. government work.\n\nThe docket index at data.ntsb.gov/Docket/?NTSBNumber=DCA22MA193 was also fetched and enumerated (66 items: factual reports for operations, weather, witnesses, performance study, search and recovery, airworthiness, maintenance, materials lab, medical, plus the AIR-23-01 report and an earlier preliminary AIR-22-08 notice) — used here only to confirm report provenance and the docket item count for docs.docket_label; individual docket attachments were not separately re-extracted since the adopted final report's own embedded figures were sufficient and higher-editorial-quality (pre-annotated by NTSB) for the images actually used.\n\nInjuries: report and CAROL record agree — 1 crew fatal + 9 passenger fatal = 10 total fatal, 0 serious, 0 minor (no survivors); the airplane's rated capacity was 11 seats, 10 of which were occupied on the accident flight (pilot + 9 passengers).\n\nNo uncertainty about report status: this is a completed, Board-adopted, Class 1 investigation (per the CAROL record's 'Investigation Class: Class 1' field) with a published long-form Aviation Investigation Report, so report_status is 'final' and about_investigation_type is 'Full (Board meeting)', consistent with how this site already classifies the other full-board DCA-prefix cases (e.g. DCA20MA059, DCA09MA026).",
+  "page": {
+    "title": "Mutiny Bay Floatplane Crash — de Havilland DHC-3 Otter (N725TH)",
+    "subtitle": "Loss of pitch control and water impact that killed all 10 aboard near Whidbey Island, Washington",
+    "datetime_text": "September 4, 2022, 15:09 PDT · Mutiny Bay, near Freeland, WA",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "10 fatal / 10 aboard",
+    "badge_casualty_sub": "No survivors",
+    "status_meta": "NTSB · Final report (AIR-23-01) adopted September 29, 2023",
+    "summary": "A de Havilland DHC-3 Otter floatplane on a scheduled West Isle Air / Friday Harbor Seaplanes passenger run from Friday Harbor to Renton abruptly pitched down and plunged into the water of Mutiny Bay, off Whidbey Island, Washington, killing the pilot and all nine passengers. NTSB investigators found that a clamp nut securing the horizontal stabilizer's trim actuator had unscrewed in flight because its lock ring was missing, letting the stabilizer travel to an extreme nose-down position that made the airplane's pitch uncontrollable.",
+    "facts": {
+      "location_value": "Mutiny Bay, Washington",
+      "location_sub": "Near Freeland, Whidbey Island (Puget Sound)",
+      "route_label": "Route",
+      "route_value": "Friday Harbor Seaplane Base (W33) → Renton Seaplane Base (W36)",
+      "route_sub": "Scheduled Part 135 passenger flight; 5th leg of the day's second round trip",
+      "phase_value": "En route cruise, abrupt pitch-down",
+      "phase_sub": "Loss of pitch control → near-vertical descent to water impact",
+      "operation": "Scheduled commuter/air taxi (Part 135)",
+      "damage": "Destroyed",
+      "weather_value": "VMC, 10 mi visibility",
+      "weather_sub": "Few clouds 4,000 ft; AIRMET Tango for moderate turbulence below 12,000 ft"
+    },
+    "narrative_excerpt": "According to ADS-B data, the en route altitude was between 600 and 1,000 ft above mean sea level, and the groundspeed was between 115 and 135 knots. At 1508:40, the altitude was 1,000 ft msl, and the groundspeed had decreased to 111 knots. Based on performance calculations, at 1508:43, the airplane pitched up about 8° and then abruptly pitched down about 58°. The data ended at 1508:51, when the airplane’s altitude was 600 ft msl and the estimated descent rate was more than 9,500 ft per minute. Witnesses near the accident site reported, and security camera video confirmed, the airplane was in level flight before it entered a slight climb and then pitched down. One witness described the descent as “near vertical” and estimated the airplane was in an 85° nose-down attitude before impact with the water. Several witnesses described the airplane as “spinning,” “rotating,” or “spiraling” during portions of the steep descent. The airplane continued in a nose-low, near-vertical descent until it impacted water in Mutiny Bay.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "A missing lock ring allowed the horizontal stabilizer trim actuator's clamp nut to unscrew from its barrel in flight",
+      "No secondary (redundant) retention feature existed to back up the lock ring on the DHC-3 actuator design",
+      "An unapproved moisture seal, installed by maintenance personnel outside manufacturer guidance, increased rotational friction between the clamp nut and eye bolt and likely interfered with proper clamp-up of the assembly",
+      "Manufacturer maintenance documentation lacked clear torque, drilled-hole-count, and inspection criteria for the clamp nut and lock ring installation"
+    ],
+    "safety_takeaways": [
+      "A single missing fastener — here, one small wire lock ring — can be the entire difference between controlled flight and an unrecoverable pitch excursion; critical flight-control linkages need redundancy, not just correct assembly.",
+      "Maintenance modifications that fall outside the manufacturer's approved documentation, even well-intentioned ones like the moisture seal added here, can introduce failure modes nobody tested for.",
+      "When a flight-control linkage separates in cruise flight at low altitude, there may be no time to recover — this accident sequence ran from pitch-up to water impact in about 8 seconds.",
+      "Vague maintenance-manual language — no specified torque value, no limit on drilled holes, no defined inspection interval — is itself a safety gap, not an acceptable ambiguity for operators to interpret informally.",
+      "Urgent safety recommendations can arrive well before a final report: the NTSB pushed an immediate inspection directive to the FAA and Transport Canada about seven weeks into this investigation, based only on preliminary findings."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-dehavilland-dhc3-n725th.58f45bfd.webp",
+      "alt": "The accident airplane, N725TH, a float-equipped de Havilland DHC-3 Otter in Northwest Seaplanes livery, photographed before the accident at Renton, Washington",
+      "caption": "N725TH, photographed before the accident, parked on its floats at Renton",
+      "name": "de Havilland DHC-3 Otter (float-equipped)",
+      "sub": "Single-engine turboprop floatplane",
+      "specs": [
+        [
+          "Manufactured",
+          "1967 (de Havilland Canada; later converted from radial to turboprop power)"
+        ],
+        [
+          "Engine",
+          "1× GE Aviation Czech H80-200 turboshaft"
+        ],
+        [
+          "Seats",
+          "11 (10 aboard on the accident flight: pilot + 9 passengers)"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-dca22ma193-wreckage-recovered-diagram.e33cb1fe.webp",
+        "alt": "Diagram of the de Havilland DHC-3 Otter N725TH showing which wreckage sections and flight controls were recovered from Mutiny Bay",
+        "title": "Wreckage recovery diagram",
+        "meta": "N725TH · NTSB · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2301.pdf"
+      },
+      {
+        "photo": "assets/img/incident-dca22ma193-actuator-clamp-separation.614882c2.webp",
+        "alt": "Annotated photograph of the horizontal stabilizer trim actuator on the accident airplane, showing the clamp nut and barrel separated, with the top eye end, clamp nut, lock ring groove, and barrel labeled",
+        "title": "Clamp nut and barrel separation",
+        "meta": "N725TH · NTSB · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2301.pdf"
+      },
+      {
+        "photo": "assets/img/incident-dca22ma193-actuator-clamp-nut-closeup.9ecaaf50.webp",
+        "alt": "Close-up photograph of the recovered top eye end and bearing assembly after cleaning, annotated to show the drilled clamp-nut holes and the position of the unapproved moisture seal",
+        "title": "Clamp nut assembly close-up",
+        "meta": "N725TH · NTSB · Open PDF",
+        "link": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AIR2301.pdf"
+      }
+    ],
+    "media_source_label": "NTSB Aviation Investigation Report AIR-23-01, DCA22MA193",
+    "location_card": {
+      "map_caption": "Mutiny Bay, WA",
+      "primary": "Mutiny Bay, Washington",
+      "region": "Whidbey Island / Island County, USA",
+      "coords_text": "47.99032, -122.58502 (accident site, per NTSB)",
+      "site_title": "Accident site",
+      "site_sub": "Open water, Mutiny Bay (Puget Sound); wreckage recovered from a depth of about 200 ft",
+      "site_meta": "Near Freeland, on the west shore of Whidbey Island, Washington",
+      "zoom": 12
+    },
+    "docs": {
+      "report_label": "NTSB/AIR-23-01",
+      "docket_label": "(66 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Kobe Bryant Helicopter Crash — Sikorsky S-76B",
+        "sub": "Similar factors: Part 135 commercial passenger operation, loss of control in flight",
+        "icon_style": "sky-cruise rot-side",
+        "ntsb": "DCA20MA059"
+      },
+      {
+        "title": "US Airways Flight 1549 — Hudson River Ditching",
+        "sub": "Similar factors: in-flight mechanical failure, forced water landing, full board investigation",
+        "icon_style": "sky-cruise rot-side",
+        "ntsb": "DCA09MA026"
+      }
+    ],
+    "about_investigation_type": "Full (Board meeting)",
+    "seo": {
+      "title": "Mutiny Bay Floatplane Crash",
+      "description": "NTSB case DCA22MA193: the Sept. 2022 Whidbey Island floatplane crash that killed all 10 aboard. Probable cause: a missing actuator lock ring."
+    }
+  }
+}

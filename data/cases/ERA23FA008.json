@@ -1,0 +1,145 @@
+{
+  "ntsb_number": "ERA23FA008",
+  "date": "2022-10-06",
+  "location": {
+    "city": "Newport News",
+    "state": "VA",
+    "lat": 37.131889,
+    "lon": -76.492972
+  },
+  "aircraft": {
+    "type": "Cessna 172 P",
+    "registration": "N97883"
+  },
+  "operator": "Rick Aviation, Inc.",
+  "flight_type": "Part 91: General aviation - Instructional",
+  "occupants": 3,
+  "fatalities": 1,
+  "injuries": {
+    "serious": 2,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "The flight instructor was giving the student pilot his first flight lesson in an airplane. According to the pilot-rated passenger, who was observing the flight in the back seat, the student pilot assisted with the takeoff. The instructor told the student that she would tell him when to start pulling back during the takeoff roll. The instructor then initiated the takeoff roll and when the airplane reached rotation speed, she told the student pilot to start pulling back. The student pilot pulled back on the control wheel and the airplane began to climb. However, he continued to pull back and the airplane stalled less than 200 ft above the ground. The left wing dropped, and the airplane descended toward the ground. The flight instructor tried to get control of the airplane, but it was too late, and the airplane impacted a ditch adjacent to the runway. A postaccident examination of the airplane and engine revealed no evidence of any preimpact mechanical malfunctions or failures that would have precluded normal operation.\n\nThough part of the flight lesson syllabus included instruction on the positive exchange of flight controls, the student pilot could not recall what instruction the flight instructor gave him regarding the takeoff. His only memory of the flight was when the airplane was airborne and stalling. He did not remember if his hands were on the controls. The pilot-rated passenger did not recall the flight instructor discussing positive transfer of the flight controls before taking off.\n\nThough the flight instructor provided the student pilot instruction on how to perform the takeoff, she most likely did not anticipate that he would continue to pull back on the controls after the airplane became airborne. The airplane then exceeded its critical angle of attack and stalled. The instructor attempted to regain control, but the airplane did not have sufficient altitude to recover and it impacted the ground.",
+  "probable_cause": "The National Transportation Safety Board determines the probable cause(s) of this accident to be: The flight instructor’s failure to monitor the student pilot on takeoff and her delayed remedial action to stop him from exceeding the airplane’s critical angle of attack, which resulted in a low altitude aerodynamic stall from which she was unable to recover.",
+  "phase_of_flight": "Initial climb; Aerodynamic stall/spin (Defining event); Initial climb; Loss of control in flight; Uncontrolled descent; Collision with terr/obj (non-CFIT)",
+  "weather": "Conditions at Accident Site: Visual (VMC), Day. Observation facility: PHF, 42 ft msl, 0 nautical miles from accident site, observed 14:54 Local, direction 0°. Lowest cloud condition: Clear. Visibility: 10 miles. Wind: 270° at 7 knots. Altimeter setting: 30 inches Hg. Temperature/Dew point: 24°C / 10°C. No obscuration; no precipitation. Airport: Newport News/Williamsburg International (PHF), runway 20, concrete, dry, 6526 ft x 150 ft, Class D airspace.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/106080/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=106080"
+  },
+  "sources_checked": [
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/106080/pdf",
+    "https://data.ntsb.gov/Docket?ProjectID=106080",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=14568482&FileExtension=pdf&FileName=Investigation%20Photos-Rel.pdf"
+  ],
+  "notes": "Case number ERA23FA008 independently confirmed on the fetched 10-page 'Aviation Investigation Final Report' PDF itself (header and every page footer read 'ERA23FA008'), fetched directly from NTSB's own CAROL report-generation API (data.ntsb.gov/carol-repgen) and the text extracted locally with PyMuPDF -- not paraphrased, not run through a PDF summarizer. narrative is the report's 'Analysis' section verbatim; probable_cause is the 'Probable Cause and Findings' sentence verbatim (the source PDF's own apostrophes in 'instructor's' / 'airplane's' are typographic right-single-quote characters (U+2019), preserved as-is rather than normalized). Occupant count is 3, not 2: besides the flight instructor (fatal) and the student pilot (serious), a 'pilot-rated passenger' -- a friend of the student who came along to watch the student's first lesson -- was in the rear seat and also sustained serious injuries; this is explicit in the report's own occupant tables ('Pilot-rated passenger Information') and its Wreckage and Impact Information block ('Total Injuries: 1 Fatal, 2 Serious'). 'operator' (Rick Aviation, Inc.) is the registered owner per the report's own Aircraft and Owner/Operator Information table ('Registered Owner: RICK AVIATION INC', 'Operating Certificate(s) Held: Pilot school (141)'); the report's separate 'Operator' field is withheld ('On file') rather than naming the flight school outright, so the Rick Aviation / Part 141 flight-school identification is corroborated here by independent sources (AirNav's KPHF FBO listing, flight-school directories) rather than stated as such in NTSB's own prose -- flagged per this site's sourcing standard since it is not purely an NTSB-sourced fact. Coordinates (37.131889, -76.492972) are NTSB's own 'Latitude, Longitude' field under Wreckage and Impact Information, consistent with Newport News/Williamsburg International Airport (PHF). The 'first flight lesson' fact used on the page is itself a verbatim NTSB finding ('The flight instructor was giving the student pilot his first flight lesson in an airplane'), not an editorial embellishment. Student pilot was 18 with 0 total flight hours (his first flight in any aircraft); flight instructor was 22 with about 333.8 total hours, about 75.5 as an instructor. Toxicology on the flight instructor found only Fluconazole (an antifungal, not considered impairing); the student pilot's specimens were not submitted for testing within the required window and so were not tested. Docket (ProjectID 106080) includes a 9-photo 'Investigation Photos' PDF of the wreckage in the drainage ditch and airport fire/rescue response -- two wide establishing shots (front and side views, showing the ditch, grass, and a Newport News/Williamsburg Airport crash truck) were used; the remaining photos are close-up engine/propeller examination shots or closer views into the crushed cockpit area and were not used, consistent with this site's practice of editorial restraint on fatal-accident wreckage imagery.",
+  "page": {
+    "title": "Cessna 172P (N97883)",
+    "subtitle": "Stall on a student's first takeoff at Newport News/Williamsburg",
+    "datetime_text": "October 6, 2022, 15:07 EDT · Newport News/Williamsburg International Airport (PHF)",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Serious outcome",
+    "badge_casualty": "1 fatal / 3 aboard",
+    "badge_casualty_sub": "2 serious injuries",
+    "status_meta": "NTSB · Released April 10, 2024",
+    "summary": "It was the student pilot's very first flight lesson. After the flight instructor had him help rotate on takeoff, the Cessna 172 pitched up steeply, climbed to only about 50-100 ft, and stalled. The left wing dropped, the airplane entered a descending left turn, and it struck a drainage ditch beside the runway. The instructor was killed; the student and a friend riding along in the back seat were seriously injured.",
+    "facts": {
+      "location_value": "Newport News, Virginia",
+      "location_sub": "Newport News/Williamsburg International Airport (PHF), runway 20",
+      "route_label": "Flight type",
+      "route_value": "Instructional first flight lesson, Rick Aviation",
+      "route_sub": "Local pattern departure",
+      "phase_value": "Initial climb after takeoff",
+      "phase_sub": "Nose-high pitch, aerodynamic stall, descending left turn",
+      "operation": "Instructional (Part 91)",
+      "damage": "Substantial",
+      "weather_value": "VMC, clear, 10 mi visibility",
+      "weather_sub": "Wind 270° at 7 kt — weather was not a factor"
+    },
+    "narrative_excerpt": "The flight instructor was giving the student pilot his first flight lesson in an airplane. According to the pilot-rated passenger, who was observing the flight in the back seat, the student pilot assisted with the takeoff. The instructor told the student that she would tell him when to start pulling back during the takeoff roll. The instructor then initiated the takeoff roll and when the airplane reached rotation speed, she told the student pilot to start pulling back. The student pilot pulled back on the control wheel and the airplane began to climb. However, he continued to pull back and the airplane stalled less than 200 ft above the ground. The left wing dropped, and the airplane descended toward the ground. The flight instructor tried to get control of the airplane, but it was too late, and the airplane impacted a ditch adjacent to the runway.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Student pilot given a hands-on role in his very first takeoff and rotation",
+      "Student pilot continued pulling back on the control wheel after liftoff, beyond the planned rotation input",
+      "Airplane entered a steep nose-high pitch attitude and reached only about 50-100 ft before the left wing dropped",
+      "Flight instructor's delayed recognition of, and corrective action for, the student's excessive back pressure",
+      "Insufficient altitude remaining for the instructor to recover from the resulting aerodynamic stall"
+    ],
+    "safety_takeaways": [
+      "On a student's very first takeoff, agree in advance on exactly how much control the student will hold through rotation and initial climb — \"pull back\" is easy for a first-timer to over-apply once the airplane is airborne and pitching up on its own.",
+      "An instructor's hands and feet should stay close to the controls during a new student's first rotation and climbout, ready to check pitch immediately — this accident went from liftoff to a stall under 200 ft in a matter of seconds.",
+      "A stall warning that sounds continuously, as it did here until impact, is an unambiguous signal to reduce angle of attack immediately — brief first-time students before they ever hear it that the instructor will take the controls the moment it sounds.",
+      "Introductory lessons can hand over more of the takeoff to a nervous first-time student than later lessons would — calibrate how much to delegate against the student's demonstrated feel for pitch in that moment, not just what the syllabus outlines.",
+      "Practice the positive exchange of flight controls (\"I have the flight controls,\" confirmed aloud) before the flight actually requires it — a rehearsed handoff is far faster than one improvised for the first time under pressure."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-cessna-172p-n65842.33e5350f.webp",
+      "alt": "A Cessna 172P Skyhawk, the same model as the accident aircraft (file photo, not the accident airplane)",
+      "caption": "Representative Cessna 172P · not the accident aircraft",
+      "name": "Cessna 172P Skyhawk",
+      "sub": "4-seat single-engine trainer",
+      "specs": [
+        [
+          "Operator",
+          "Rick Aviation, Inc."
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/incident-era23fa008-wreckage-front-view.bd26ab52.webp",
+        "alt": "The wreckage of the Cessna 172 resting in a grass-lined drainage ditch beside the runway at Newport News/Williamsburg International Airport",
+        "title": "Wreckage in the runway-side ditch",
+        "meta": "N97883 · NTSB docket photo · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=14568482&FileExtension=pdf&FileName=Investigation%20Photos-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era23fa008-wreckage-side-view.dae1e35b.webp",
+        "alt": "A Newport News/Williamsburg Airport fire and rescue truck parked near the wreckage in the ditch",
+        "title": "Airport fire and rescue response",
+        "meta": "N97883 · NTSB docket photo · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=14568482&FileExtension=pdf&FileName=Investigation%20Photos-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB docket photos, ERA23FA008",
+    "location_card": {
+      "map_caption": "Newport News/Williamsburg International Airport (PHF)",
+      "primary": "Newport News/Williamsburg International Airport (PHF)",
+      "region": "Newport News, Virginia, USA",
+      "coords_text": "37.131889, -76.492972",
+      "site_title": "Accident site",
+      "site_sub": "Drainage ditch alongside runway 20",
+      "site_meta": "Within the Newport News/Williamsburg International Airport perimeter"
+    },
+    "docs": {
+      "report_label": "Final report (10 pages)",
+      "docket_label": "(see docket)"
+    },
+    "related_cases": [
+      {
+        "title": "Cessna 172 — go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: student-pilot control inputs, low-altitude loss of control on an instructional flight",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "CEN23LA348"
+      },
+      {
+        "title": "PiperSport — stall/spin after go-around, Santa Monica CA",
+        "sub": "Similar factors: occupant's excessive control input, aerodynamic stall exceeding critical angle of attack",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "WPR22FA338"
+      },
+      {
+        "title": "Raytheon A36 Bonanza — wind shift on takeoff, Cameron Park CA",
+        "sub": "Similar factors: low-altitude loss of control shortly after takeoff",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "LAX07FA258"
+      }
+    ],
+    "about_investigation_type": "Class 3",
+    "seo": {
+      "title": "First-Lesson Stall Crash, Newport News",
+      "description": "NTSB case ERA23FA008: on a student pilot's first flight lesson, a Cessna 172 (N97883) stalled after takeoff at Newport News, VA, killing the instructor."
+    }
+  }
+}

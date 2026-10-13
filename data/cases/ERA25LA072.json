@@ -1,0 +1,149 @@
+{
+  "ntsb_number": "ERA25LA072",
+  "date": "2024-12-09",
+  "location": {
+    "city": "Pahokee",
+    "state": "FL",
+    "lat": 26.795833,
+    "lon": -80.6945
+  },
+  "aircraft": {
+    "type": "Piper PA-28-181 Archer II (A1) & Cessna 172S Skyhawk SP (A2)",
+    "registration": "N90874 (A1) · N497SJ (A2)"
+  },
+  "operator": "SkyBlue Aviation (A1) · FXE FlightCenter Corp (A2)",
+  "flight_type": "Part 91: General aviation - Instructional (A1) · Part 91: General aviation - Instructional (A2)",
+  "occupants": 5,
+  "fatalities": 0,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "[Analysis]\n\nThe low-wing airplane and the high-wing airplane were both being operated as instructional flights. Both airplanes arrived from different airports and had completed several uneventful landings at the non-tower-controlled accident airport. The pilots of both airplanes reported that they were transmitting position reports and hearing transmissions on the airport's common traffic advisory frequency. Review of ADS-B data indicated that the low-wing airplane flew a wider left traffic pattern, and the high wing airplane flew a closer left traffic pattern before the airplanes converged on final approach, and the left wing of the high-wing airplane contacted the upper cabin of the low-wing airplane, resulting in substantial damage to both airplanes. The instructors onboard each airplane took control, and landed without further incident.\n\nThe circumstances of the accident are consistent with the failure of the pilots to see and avoid the other airplane while operating in the airport traffic pattern, which resulted in a midair collision.\n\n[History of Flight]\n\nOn December 9, 2024, about 1630 eastern standard time, a Piper PA-28-181, N90874, and a Cessna 172S, N497SJ, were substantially damaged when they were involved in a midair collision near Pahokee, Florida. The flight instructor and student pilot onboard the Piper were not injured. The flight instructor, private pilot receiving instruction, and student pilot observer onboard the Cessna were also not injured. Both airplanes were operated as Title 14 Code of Federal Regulations Part 91 instructional flights.\n\nBoth airplanes had previously completed multiple landings on runway 18 at Palm Beach County Glades Airport (PHK), Pahokee, Florida. The instructor onboard the low-wing Piper reported that, during final approach for a third landing, about 300 to 350 ft above ground level, he heard a \"crunching metal noise\" and realized that another airplane had collided with the cabin roof from above. He was able to continue and land on the runway. The instructor added that he had been making position reports in the traffic pattern on the airport's common traffic advisory frequency (CTAF). He remembered a Cessna making a \"short approach\" report during their previous traffic pattern, but he did not hear anything during the accident traffic pattern.\n\nThe pilot and instructor onboard the high-wing Cessna reported that they had completed one full-stop and two touch-and-go landings. During the fourth approach, the student pilot in the rear seat yelled as he saw \"something big\" on the left side of the airplane. The pilot pulled back on the control yoke, but it was too late, as contact was already made. The instructor took control and landed uneventfully. The pilot and flight instructor stated that they completed position reports on the CTAF during all four approaches. They heard a transmission from a different airplane on the ground at PHK, but never heard from another airplane in the traffic pattern.\n\nExamination of the airplanes by a Federal Aviation Administration inspector revealed substantial damage to the cabin roof fuselage of the Piper and the outboard left wing of the Cessna.\n\nReview of ADS-B data revealed that the Piper flew a wider left traffic pattern and the Cessna flew a tighter left traffic pattern before the two airplanes converged on short final approach.",
+  "probable_cause": "The pilots' failure to see and avoid the other airplane, which resulted in a midair collision during short final approach.",
+  "phase_of_flight": "Approach — VFR traffic pattern, short final (both aircraft); defining event: midair collision during short final approach to runway 18",
+  "weather": "Visual meteorological conditions (VMC), day. Nearest observation facility 2IS, elevation 16 ft msl, 20 nautical miles from the accident site (observed 1635 local, 260° from the site): sky clear, no ceiling, visibility 10 statute miles, wind from 140° at 8 knots with no gusts, altimeter 30.1 inches Hg, temperature 26°C / dew point 15°C, no turbulence, no obscuration or precipitation.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/199402/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=199402"
+  },
+  "sources_checked": [
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/199402/pdf",
+    "https://data.ntsb.gov/Docket?ProjectID=199402",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18168707&FileExtension=pdf&FileName=Investigation+Photographs+-Rel.pdf"
+  ],
+  "notes": "NTSB case ERA25LA072 confirmed directly on the case number appearing on every page of the fetched 8-page 'Aviation Investigation Final Report' PDF (data.ntsb.gov CAROL report-generation API, ProjectID 199402), downloaded and text-extracted locally with PyMuPDF in this session — not taken from a summarizer or a third-party aggregator. Report's 'Original Publish Date' is April 2, 2025; no later revision date is listed. This is NTSB's short-form 'Class 3' field-investigation final report (not a full narrative-style Aircraft Accident Report), consistent with a no-injury GA midair collision at a non-towered airport — it still carries a Board-adopted probable-cause determination, so report_status is 'final', not 'preliminary'. narrative and probable_cause above are verbatim text from the PDF's Analysis, History of Flight, and Probable Cause and Findings sections (bracketed section headers added for readability only; no wording changed, paraphrased, or reordered within a section).\n\nTwo-aircraft structure: following the DCA25MA108.json pattern, both aircraft (A1 = the Piper PA-28-181, N90874; A2 = the Cessna 172S, N497SJ) are encoded together in the aircraft/operator/flight_type fields, labeled 'A1'/'A2' to match NTSB's own labeling convention in this report, rather than splitting into two separate case files.\n\nOccupants/injuries: report states '2 None (A1); 3 None (A2)' for injuries — A1 (Piper) carried the flight instructor and a 17-year-old student pilot (left seat, 1 hour total flight time per the report's Flight Time table); A2 (Cessna) carried a private pilot receiving instruction (left seat), a flight instructor (right seat), and a student pilot observer (named in the narrative as the person who first spotted the Piper, seated in the rear). Total occupants = 5, fatalities = 0, serious/minor injuries = 0 by direct reading of the report's injury table — no ambiguity, all 5 people aboard both airplanes were uninjured and both airplanes landed under their own power.\n\nAircraft/operator fields: Piper PA-28-181 (N90874), 1985, s/n 28-8690014, Lycoming O-360, operator listed in the report as 'SkyBlue Aviation', registered owner withheld ('On file'). Cessna 172S (N497SJ), 2000, s/n 172S8497, Lycoming IO-360-L2A, operator and registered owner 'FXE FLIGHTCENTER CORP', which holds a Part 141 pilot school certificate per the report.\n\nLocation: both aircraft's 'Wreckage and Impact Information' blocks list identical coordinates (26.795833, -80.6945), which are NTSB's own recorded lat/lon for the accident — used here as the single collision/landing-site point (the accident occurred in the traffic pattern and both airplanes landed at PHK, so there is one effective site). Airport Information section: Palm Beach County Glades Airport (PHK), Pahokee, FL, elevation 15 ft msl, non-towered (Class G airspace, no IFR tower control), runway 18 (asphalt, 4,116 x 75 ft, dry), used for touch-and-go/traffic-pattern operations by both airplanes. A1 departed West Palm Beach, FL (F45) at 1530 local; A2 was conducting local pattern work out of PHK itself (no departure airport listed, destination PHK for both). Neither flight filed a flight plan or operated under ATC clearance (Type of Flight Plan Filed: None; Type of Clearance: None, both aircraft) — consistent with uncontrolled-field VFR pattern work.\n\nFindings section of the report lists, verbatim: 'Personnel issues (A1) — Monitoring other aircraft - Flight crew' and 'Personnel issues (A2) — Monitoring other aircraft - Flight crew' (a two-line NTSB coded-findings table, not prose) — reflected in the page's contributing_factors in expanded/readable form, not copied as raw codes.\n\nDocket (https://data.ntsb.gov/Docket?ProjectID=199402, fetched and confirmed live) lists 7 released documents: Investigation Photographs (used for the two incident photos on this page), Piper and Cessna pilot statements/records (partially redacted), ADS-B plots and raw ADS-B KMZ tracks for each airplane. The 'Investigation Photographs' PDF (docBLOB ID 18168707) was fetched directly and confirmed to carry the ERA25LA072 case number on every page before its two embedded photographs (captioned by NTSB as 'Photograph 1 – Piper Cabin (Courtesy of FAA)' and 'Photograph 2 – Cessna Left Wing (Courtesy of FAA)') were extracted with PyMuPDF, resized to 900px wide, and re-encoded as WebP for this page's media gallery — these are genuine NTSB-docket damage photographs of the actual accident airframes (the Cessna's registration N497SJ is legible in its photo). No Wikimedia Commons photo of either exact tail number (N90874 or N497SJ) could be found, so the aircraft_card photo and the Cessna reference photo in the media gallery are same-model file photos of different registrations, clearly disclaimed as such in their alt text/captions (the Cessna 172S Skyhawk SP generic photo is the same Wikimedia Commons file already used and credited for CEN23LA348, reused here rather than duplicated, since it is the same aircraft model).\n\nAdministrative: Investigator In Charge Robert Gretz; additional participating person Robert Perez, FAA/FSDO Miramar, FL; Investigation Class 3; the report explicitly notes 'The NTSB did not travel to the scene of this accident.'",
+  "page": {
+    "title": "Piper / Cessna Midair Collision, Pahokee FL",
+    "subtitle": "Two flight-school aircraft collide on short final at a non-towered Florida airport; both land safely",
+    "datetime_text": "December 9, 2024, 16:30 EST · short final approach, Palm Beach County Glades Airport (PHK), Pahokee, Florida",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Mid-air collision",
+    "badge_casualty": "0 fatal / 5 aboard",
+    "badge_casualty_sub": "All 5 occupants uninjured, both aircraft landed safely",
+    "status_meta": "NTSB · Final report published April 2, 2025",
+    "summary": "A Piper PA-28-181 and a Cessna 172S, both flying touch-and-go instructional patterns at a non-towered Florida airport, converged on short final approach to the same runway. The Cessna's left wing struck the Piper's cabin roof from above; both flight instructors took control and landed their airplanes without further incident, and no one aboard either airplane was hurt. The NTSB found the collision resulted from both pilots' failure to see and avoid the other airplane in the traffic pattern.",
+    "facts": {
+      "location_value": "Pahokee, Florida",
+      "location_sub": "Palm Beach County Glades Airport (PHK), non-towered",
+      "route_label": "Route",
+      "route_value": "Piper: West Palm Beach, FL (F45) → Pahokee, FL (PHK) · Cessna: local pattern work, PHK",
+      "route_sub": "Both aircraft in the runway 18 traffic pattern, PHK",
+      "phase_value": "Short final approach, VFR traffic pattern",
+      "phase_sub": "Midair collision (defining event)",
+      "operation": "Part 91 instructional flights (both aircraft)",
+      "damage": "Substantial (both aircraft) — both landed safely",
+      "weather_value": "VMC, clear, 10 mi visibility",
+      "weather_sub": "Wind 140° at 8 kt; day"
+    },
+    "narrative_excerpt": "The instructor onboard the low-wing Piper reported that, during final approach for a third landing, about 300 to 350 ft above ground level, he heard a \"crunching metal noise\" and realized that another airplane had collided with the cabin roof from above. He was able to continue and land on the runway. He had been making position reports on the airport's common traffic advisory frequency, and remembered a Cessna making a \"short approach\" report during their previous pattern — but heard nothing during the accident pattern.\n\nThe pilot and instructor onboard the high-wing Cessna reported that they had completed one full-stop and two touch-and-go landings. During the fourth approach, the student pilot in the rear seat yelled as he saw \"something big\" on the left side of the airplane. The pilot pulled back on the control yoke, but it was too late — contact was already made. The instructor took control and landed uneventfully.\n\nReview of ADS-B data revealed that the Piper flew a wider left traffic pattern and the Cessna flew a tighter left traffic pattern before the two airplanes converged on short final approach.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Piper flight crew's failure to monitor for and see the other airplane in the pattern (NTSB finding: \"Monitoring other aircraft – Flight crew\")",
+      "Cessna flight crew's failure to monitor for and see the other airplane in the pattern (NTSB finding: \"Monitoring other aircraft – Flight crew\")",
+      "The Piper flying a wider left traffic pattern while the Cessna flew a tighter one, converging the two flightpaths on short final",
+      "Non-towered airport with self-announced CTAF position reports — both crews reported transmitting, but neither crew heard the other's pattern calls"
+    ],
+    "safety_takeaways": [
+      "At a non-towered airport, CTAF position reports are advisory only — an aircraft can be transmitting correctly and still go unheard by traffic in the pattern, so an outside visual scan remains the primary defense, not the radio.",
+      "A \"wide\" pattern and a \"tight\" pattern flown by two aircraft at the same field converge somewhere — usually on final — so consistent pattern sizing and spacing matters as much as making position calls.",
+      "On short final, the highest-risk blind spot for a high-wing airplane is low and ahead; for a low-wing airplane it's high and behind — exactly the geometry of this collision, with the Cessna's wing striking the Piper's cabin from above.",
+      "Both airplanes here were flown by current instructors with a second set of eyes aboard, and neither crew saw the other aircraft until impact — a reminder that see-and-avoid is a real but limited layer of defense, not a guarantee.",
+      "A midair collision does not have to be catastrophic: both crews kept control of damaged airplanes and landed safely, which reflects training and a calm response as much as the outcome depended on luck."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-piper-pa28-181-generic.df975a3c.webp",
+      "alt": "A Piper PA-28-181 Archer II of the same model as the accident airplane, registration D-EKAM, on the ground in Germany (file photo, not the accident aircraft N90874)",
+      "caption": "A Piper PA-28-181 Archer II, same model as the accident airplane (file photo, not N90874)",
+      "name": "Piper PA-28-181 Archer II",
+      "sub": "SkyBlue Aviation · instructional flight",
+      "specs": [
+        [
+          "Registration",
+          "N90874"
+        ],
+        [
+          "Operator",
+          "SkyBlue Aviation"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/aircraft-cessna-172s-generic.69037b30.webp",
+        "alt": "A Cessna 172S Skyhawk SP of the same model as the second accident airplane, registration D-EDDH (file photo, not the accident aircraft N497SJ)",
+        "title": "Cessna 172S Skyhawk SP (file photo)",
+        "meta": "Same model as N497SJ · not the accident aircraft",
+        "link": "https://commons.wikimedia.org/wiki/File:Cessna_172S_Skyhawk_SP_(D-EDDH)_01.jpg"
+      },
+      {
+        "photo": "assets/img/incident-era25la072-piper-cabin-damage.ff02bda0.webp",
+        "alt": "The Piper's cabin roof, crushed and torn open where the Cessna's wing struck it from above",
+        "title": "Piper cabin roof damage",
+        "meta": "N90874 · NTSB docket photo, courtesy FAA",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18168707&FileExtension=pdf&FileName=Investigation+Photographs+-Rel.pdf"
+      },
+      {
+        "photo": "assets/img/incident-era25la072-cessna-wing-damage.950ab171.webp",
+        "alt": "The Cessna's outboard left wing, torn open along the leading edge, with registration N497SJ visible on the fuselage below",
+        "title": "Cessna left wing damage",
+        "meta": "N497SJ · NTSB docket photo, courtesy FAA",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=18168707&FileExtension=pdf&FileName=Investigation+Photographs+-Rel.pdf"
+      }
+    ],
+    "media_source_label": "NTSB docket investigation photographs, ERA25LA072 (courtesy FAA), plus reference file photos of each aircraft model (Wikimedia Commons)",
+    "location_card": {
+      "map_caption": "Pahokee, FL",
+      "primary": "Palm Beach County Glades Airport (PHK)",
+      "region": "Pahokee, Florida, USA",
+      "coords_text": "26.795833, -80.6945",
+      "site_title": "Collision site",
+      "site_sub": "Short final approach to runway 18",
+      "site_meta": "Non-towered airport, Class G airspace"
+    },
+    "docs": {
+      "report_label": "Final report (8 pages)",
+      "docket_label": "(7 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Flight 5342 & Army Black Hawk — DCA midair collision",
+        "sub": "Same root cause: a breakdown of \"see and avoid\" leading to a midair collision",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "DCA25MA108"
+      },
+      {
+        "title": "Cessna 172S — botched go-around, Philadelphia",
+        "sub": "Same setting: a student-pilot instructional flight in the traffic pattern",
+        "icon_style": "sky-landing rot-down",
+        "ntsb": "CEN23LA348"
+      }
+    ],
+    "about_investigation_type": "Class 3",
+    "seo": {
+      "title": "Piper-Cessna Midair, Pahokee FL",
+      "description": "NTSB case ERA25LA072: a Piper PA-28-181 and Cessna 172S collided on short final at Pahokee, FL. Both landed safely with no injuries."
+    }
+  }
+}

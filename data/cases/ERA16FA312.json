@@ -1,0 +1,152 @@
+{
+  "ntsb_number": "ERA16FA312",
+  "date": "2016-09-07",
+  "location": {
+    "city": "Carrollton",
+    "state": "GA",
+    "lat": 33.623332,
+    "lon": -85.149169
+  },
+  "aircraft": {
+    "type": "Beechcraft F33A Bonanza (A1) & Diamond DA20-C1 (A2)",
+    "registration": "N6027K (A1) · N85WP (A2)"
+  },
+  "operator": "Private owner-pilot (A1) · Falcon Aviation Academy LLC (A2, instructional)",
+  "flight_type": "A1: Part 91 – General aviation, personal · A2: Part 91 – General aviation, instructional (flight instructor + student pilot)",
+  "occupants": 3,
+  "fatalities": 3,
+  "injuries": {
+    "serious": 0,
+    "minor": 0
+  },
+  "report_status": "final",
+  "narrative": "The Diamond flight instructor and student pilot were in the traffic pattern at the non-towered airport practicing landings. The Beech pilot entered the traffic pattern on an extended left downwind leg with the intention of landing. Pilots of other airplanes in the pattern reported that the Diamond instructor was making standard traffic pattern callouts on the common traffic advisory frequency (CTAF); however, the Beech pilot was not transmitting on the CTAF. Witness observations, radar data, GPS data, and examination of the wreckage of the two airplanes revealed that, while both airplanes were on final approach for landing, the Beech overtook the Diamond from above and behind. The landing gear of the Beech struck the horizontal stabilizer and elevator of the Diamond, and then both airplanes abruptly descended into the terrain short of the runway. The Beech came to rest inverted and on top of the Diamond. An examination of wreckage of both airplanes did not reveal evidence of any preaccident anomalies or malfunctions.\n\nTesting of the Beech's VHF communications radio revealed that it was set to an old CTAF frequency for the airport that had been changed about 5 years before the accident. A local airport frequency card dated 7 years before the accident that was found in the Beech's cockpit listed the old CTAF frequency that was set in the Beech's radio. Another pilot at a different airport heard the Beech pilot making pattern calls on the incorrect frequency about the time of the accident.",
+  "probable_cause": "The failure of the Beech pilot to see and avoid the Diamond that was in front of and below his airplane on final approach and his use of an incorrect radio communication frequency for the airport.",
+  "phase_of_flight": "Final approach, VFR traffic pattern, non-towered airport (NTSB History-of-Flight coding: \"Approach—VFR pattern final\"; \"Midair collision (Defining event)\"; \"Uncontrolled descent\"; \"Collision with terr/obj (non-CFIT)\"). Both airplanes were on final approach to runway 35 when the faster Beech, descending through the pattern on an extended downwind, overtook the slower Diamond from above and behind.",
+  "weather": "Visual meteorological conditions (VMC) prevailed; daylight. The CTJ 1055 local weather observation (4 minutes before the 1048 accident, elevation 1,165 ft, 0 nm from the site) recorded: wind calm, visibility 10 statute miles, scattered clouds at 8,500 ft AGL, no ceiling, temperature 30°C / dew point 19°C, altimeter 30.29–30.30 inches Hg, no precipitation or obscuration. Weather was not cited as a factor in the probable cause.",
+  "links": {
+    "report": "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/93964/pdf",
+    "docket": "https://data.ntsb.gov/Docket?ProjectID=93964"
+  },
+  "sources_checked": [
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateFactualReport/93964/pdf",
+    "https://data.ntsb.gov/carol-repgen/api/Aviation/ReportMain/GenerateNewestReport/93964/pdf",
+    "https://data.ntsb.gov/Docket/?ProjectID=93964",
+    "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40457940&FileExtension=.PDF&FileName=Photo%20Array-Master.PDF"
+  ],
+  "notes": "NTSB number ERA16FA312 confirmed directly on both fetched PDFs' page headers (every page footer reads \"ERA16FA312\") and on the live NTSB docket page (data.ntsb.gov/Docket/?ProjectID=93964, title \"Aviation Investigation - 27 Docket Items - ERA16FA312AB\", description \"N6027K; Beech F33A and N85WP; Diamond Aircraft Industries DA20-C1\"). Two PDFs were fetched and text-extracted locally with PyMuPDF: (1) the Aviation Investigation Factual Report (CAROL GenerateFactualReport, 20 pages — factual-only, no Analysis/Probable Cause, and printed twice, once per registration, which is normal CAROL formatting for a two-aircraft event) and (2) the Aviation Investigation Final Report (CAROL GenerateNewestReport, 23 pages), which adds the Analysis, Probable Cause and Findings, and Findings sections (also printed twice, once per registration — the content is identical both times, confirmed by direct comparison). The final report's Administrative Information block gives \"Original Publish Date: December 11, 2017\"; the factual report alone was dated \"Report Date: August 17, 2017\" (an earlier, intermediate stage). narrative and probable_cause above are verbatim from the final report's Analysis and Probable Cause and Findings sections respectively — not paraphrased. The report's \"Investigation Class\" field was blank/unreadable in the extracted text (likely a checkbox image that did not extract as text), so about_investigation_type below is described generically (\"short-form\") rather than citing a specific class number that wasn't actually confirmed.\n\nTwo-aircraft structure: following the pattern established in data/cases/DCA25MA108.json, this schema's single aircraft/registration/operator/flight_type fields encode both airplanes together, labeled A1 (Beech, N6027K, the airplane the NTSB's probable cause centers on) and A2 (Diamond, N85WP, operated by Falcon Aviation Academy LLC as a dual instructional flight), matching NTSB's own per-aircraft report structure.\n\nFatalities: 3 total — 1 in the Beech (the 79-year-old private pilot, sole occupant) and 2 in the Diamond (24-year-old flight instructor in the right seat, 20-year-old student pilot in the left seat). No survivors; NTSB's injury tables for both airplanes list only fatal injuries, so serious/minor are 0. Toxicology on the Beech pilot found prescribed blood-pressure medications (doxazosin, losartan, both reported to the FAA on his medical application) and an over-the-counter cough suppressant metabolite (dextromethorphan/dextrorphan); toxicology on both Diamond occupants was negative for everything tested. None of this was cited as a probable cause or contributing factor by NTSB, and is included here only because it is part of the factual record — not implying impairment.\n\nCoordinates (33.623332, -85.149169) are NTSB's own \"Latitude, Longitude\" field under Wreckage and Impact Information, identical in both copies of the report — this is the main-wreckage location (a grass field about 408 ft south of the runway 35 threshold, on the extended centerline), not a separate initial-impact point.\n\nAircraft model: NTSB's own Aircraft and Owner/Operator Information table lists the second airplane as Make \"DIAMOND AIRCRAFT IND INC\", Model/Series \"DA20 C1\" — the C1 variant (sometimes marketed as \"Eclipse\"/\"Evolution\"; earlier A1 variants were marketed as \"Katana\"). Used here as \"Diamond DA20-C1\" to match the NTSB record exactly rather than a marketing name.\n\nPhotos: Wikimedia Commons, airliners.net, and jetphotos.com were searched directly for both accident registrations (N6027K and N85WP) and returned no photos of either specific airframe — only aviation-safety.net wikibase accident-summary pages, an airport-data.com registration record, and a FlightAware registration record, none of which are usable as sourced photos. The aircraft_card and media reference photos are therefore representative images of the same models, different airframes, clearly captioned as such, both from Wikimedia Commons under CC licenses (full attribution in credits_snippets/ERA16FA312.md). The two NTSB docket incident photos (main wreckage; the laminated frequency card recovered from the Beech's cockpit) were extracted with PyMuPDF from the docket's \"Photo Array\" item (14 photos, docBLOB ID 40457940 — confirmed against the live docket page's table-of-contents listing, not assumed from a search-result snippet, after an earlier attempt to download that same ID via a guessed URL pattern silently returned a 0-byte file and had to be re-fetched with the exact query-string formatting — FileExtension=.PDF, filename suffixed -Master.PDF — taken from the live page's own HTML).\n\nSecondary/aggregator sources (Kathryn's Report, aviation-safety.net, an AJC news article) surfaced in search results while locating this case and are not cited for any fact in this record — every fact above traces to the two NTSB PDFs fetched and extracted in this session, or to the live data.ntsb.gov docket page.\n\nConfidence: high. The only soft spot is the unreadable Investigation Class field, noted above and worked around by not asserting a specific class number.",
+  "page": {
+    "title": "Beech Bonanza / Diamond DA20 Midair Collision",
+    "subtitle": "A private pilot and a flight instructor with her student collided on final approach at a non-towered Georgia airport",
+    "datetime_text": "September 7, 2016, 10:48 EDT · Final approach, runway 35, West Georgia Regional Airport (CTJ), Carrollton, Georgia",
+    "badge_outcome": "Accident",
+    "badge_outcome_sub": "Mid-air collision",
+    "badge_casualty": "3 fatal / 3 aboard",
+    "badge_casualty_sub": "No survivors, both aircraft",
+    "status_meta": "NTSB · Final report published December 11, 2017",
+    "summary": "A 79-year-old private pilot flying a Beechcraft Bonanza entered the traffic pattern at non-towered West Georgia Regional Airport without announcing himself on the correct radio frequency. A flight instructor and her 20-year-old student, practicing landings nearby in a Diamond DA20, were making standard position calls exactly as trained — but on a frequency the Bonanza pilot wasn't listening to. On final approach, the faster Bonanza overtook the Diamond from above and behind; its landing gear struck the Diamond's tail, and both airplanes went down short of the runway. All three people aboard were killed. NTSB testing found the Bonanza's radio was still tuned to a CTAF frequency the airport had retired five years earlier.",
+    "facts": {
+      "location_value": "Carrollton, Georgia",
+      "location_sub": "West Georgia Regional Airport (CTJ)",
+      "route_label": "Flights",
+      "route_value": "Beech: Fulton County Airport (FTY) → CTJ · Diamond: Newnan Coweta County (CCO) → CTJ, local pattern work",
+      "route_sub": "Both inbound to CTJ's non-towered traffic pattern for runway 35",
+      "phase_value": "Final approach, VFR traffic pattern",
+      "phase_sub": "Mid-air collision (defining event)",
+      "operation": "A1: Part 91 personal · A2: Part 91 instructional (dual)",
+      "damage": "Beech: substantial · Diamond: destroyed",
+      "weather_value": "VMC, clear",
+      "weather_sub": "10 sm visibility, scattered clouds 8,500 ft, calm wind"
+    },
+    "narrative_excerpt": "The Diamond flight instructor and student pilot were in the traffic pattern at the non-towered airport practicing landings. The Beech pilot entered the traffic pattern on an extended left downwind leg with the intention of landing. Pilots of other airplanes in the pattern reported that the Diamond instructor was making standard traffic pattern callouts on the common traffic advisory frequency (CTAF); however, the Beech pilot was not transmitting on the CTAF. Witness observations, radar data, GPS data, and examination of the wreckage of the two airplanes revealed that, while both airplanes were on final approach for landing, the Beech overtook the Diamond from above and behind. The landing gear of the Beech struck the horizontal stabilizer and elevator of the Diamond, and then both airplanes abruptly descended into the terrain short of the runway. Testing of the Beech's VHF communications radio revealed that it was set to an old CTAF frequency for the airport that had been changed about 5 years before the accident — a local airport frequency card dated 7 years before the accident, found in the Beech's cockpit, still listed that old frequency.",
+    "narrative_is_excerpt": true,
+    "contributing_factors": [
+      "Beech pilot's VHF radio was tuned to an outdated CTAF frequency (122.7 MHz) that the airport had retired about 5 years before the accident",
+      "A laminated local-area frequency card in the Beech's cockpit, dated 2009, still listed the obsolete CTAF frequency",
+      "Beech pilot was not transmitting or apparently monitoring the correct CTAF (122.975 MHz), so other pattern traffic never heard his position",
+      "Failure of the Beech pilot to see and avoid the Diamond, which was ahead of and below him on the same final approach course",
+      "Closing speed: the Beech was overtaking the slower Diamond by roughly 50 knots on the downwind and final legs",
+      "Non-towered airport with no ATC separation service — CTAF communication and visual scanning were the only safety barriers in the pattern"
+    ],
+    "safety_takeaways": [
+      "Verify your CTAF before flying into an unfamiliar or infrequently visited non-towered airport — frequencies do change, and a years-old card or a number from memory can be wrong with no indication of that in the cockpit.",
+      "Hearing other aircraft make position calls is not the same as being heard yourself — if you can't confirm two-way communication is actually happening on the correct frequency, don't assume it is.",
+      "At a non-towered airport, see-and-avoid is the only separation that exists. Overtaking another airplane on the same final approach course removes your own forward visual reference to it at the worst possible moment.",
+      "A faster airplane entering the pattern behind a slower one on the same leg is a closure-rate problem, not just a sequencing one — match your speed to the traffic ahead or extend the pattern, rather than assuming it will sort itself out on short final.",
+      "Flight instructors training in the pattern should expect, not assume, that every other aircraft is communicating correctly on CTAF — keep scanning visually even while you're making textbook-correct calls yourself."
+    ],
+    "aircraft_card": {
+      "photo": "assets/img/aircraft-beech-f33a-bonanza.81a7c8a1.webp",
+      "alt": "A Beechcraft F33A Bonanza, the same model as the accident airplane, photographed on the ground — not the accident aircraft",
+      "caption": "Representative photo of a Beechcraft F33A Bonanza, the model involved — not the accident aircraft",
+      "name": "Beechcraft F33A Bonanza",
+      "sub": "Private pilot, personal flight",
+      "specs": [
+        [
+          "Registration",
+          "N6027K"
+        ],
+        [
+          "Year",
+          "1978"
+        ]
+      ]
+    },
+    "media": [
+      {
+        "photo": "assets/img/aircraft-diamond-da20c1.15ed97ca.webp",
+        "alt": "A Diamond DA20-C1, the same model as the accident airplane, in flight — not the accident aircraft",
+        "title": "Diamond DA20-C1 (reference photo)",
+        "meta": "N85WP was this model · not the accident aircraft · Wikimedia Commons",
+        "link": "https://commons.wikimedia.org/wiki/File:N634DC_2001_DIAMOND_DA20-C1_Katana_s_n_C0134_(52910332567).jpg"
+      },
+      {
+        "photo": "assets/img/incident-era16fa312-main-wreckage.857df235.webp",
+        "alt": "Main wreckage of both airplanes in a grass field south of the runway 35 threshold at West Georgia Regional Airport",
+        "title": "Main wreckage site",
+        "meta": "NTSB docket photo · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40457940&FileExtension=.PDF&FileName=Photo%20Array-Master.PDF"
+      },
+      {
+        "photo": "assets/img/incident-era16fa312-laminated-freq-card.f946c349.webp",
+        "alt": "Laminated local-area frequency card recovered from the Beech's cockpit, dated April 2009, listing the outdated CTJ CTAF frequency of 122.7 MHz",
+        "title": "Outdated frequency card found in the Beech",
+        "meta": "NTSB docket photo · Open PDF",
+        "link": "https://data.ntsb.gov/Docket/Document/docBLOB?ID=40457940&FileExtension=.PDF&FileName=Photo%20Array-Master.PDF"
+      }
+    ],
+    "media_source_label": "NTSB docket photos (ERA16FA312) and reference photos of both aircraft types (Wikimedia Commons)",
+    "location_card": {
+      "map_caption": "Carrollton, GA",
+      "primary": "West Georgia Regional Airport (CTJ)",
+      "region": "Carroll County, Georgia, USA",
+      "coords_text": "33.623332, -85.149169",
+      "site_title": "Collision / wreckage site",
+      "site_sub": "Grass field, about 408 ft south of the runway 35 threshold, on the extended centerline",
+      "site_meta": "West Georgia Regional Airport (CTJ), Carrollton, GA"
+    },
+    "docs": {
+      "report_label": "Final report (23 pages)",
+      "docket_label": "(27 items)"
+    },
+    "related_cases": [
+      {
+        "title": "Cessna 172 — go-around loss of control, Philadelphia PA",
+        "sub": "Similar factors: traffic pattern, non-towered airport operations",
+        "icon_style": "sky-takeoff rot-up",
+        "ntsb": "CEN23LA348"
+      },
+      {
+        "title": "PiperSport — stall/spin after go-around, Santa Monica CA",
+        "sub": "Similar factors: single-engine GA accident in the traffic pattern",
+        "icon_style": "sky-maneuver rot-side",
+        "ntsb": "WPR22FA338"
+      }
+    ],
+    "about_investigation_type": "Limited (short-form report)",
+    "seo": {
+      "title": "Bonanza/DA20 Midair, Carrollton GA",
+      "description": "NTSB case ERA16FA312: a Beechcraft Bonanza and Diamond DA20 collided on final approach at Carrollton, GA, after a CTAF frequency mix-up."
+    }
+  }
+}
