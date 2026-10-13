@@ -42,7 +42,7 @@
     "badge_casualty": "0 fatal / 3 aboard",
     "badge_casualty_sub": "2 minor injuries, 1 uninjured",
     "status_meta": "NTSB · Released July 16, 2025",
-    "summary": "A Cirrus SR22 lost total engine power during the initial climb out of Shelter Cove Airport, California, after water-contaminated fuel reached the engine. Unable to restore power despite switching tanks and working the boost pump and mixture, the pilot deployed the airplane's Cirrus Airframe Parachute System (CAPS). The airplane descended into densely tree-covered terrain, hung briefly in the branches, then fell to the ground inverted — substantially damaging the airframe but leaving all three occupants alive, with only two minor injuries. The NTSB could not determine how or when the water entered the fuel system.",
+    "summary": "NTSB confirmed water in the fuel caused the failure but could never determine how or when it got in — the contamination's source stayed a mystery.",
     "facts": {
       "location_value": "Whitethorn, California",
       "location_sub": "Remote, densely tree-covered terrain near the Lost Coast",

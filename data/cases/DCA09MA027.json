@@ -43,7 +43,7 @@
     "badge_casualty": "50 fatal / 49 aboard",
     "badge_casualty_sub": "No survivors aboard; 1 additional fatality on the ground",
     "status_meta": "NTSB · Released February 2, 2010",
-    "summary": "On a night instrument approach to Buffalo-Niagara International Airport in icing conditions, the captain of a Colgan Air Bombardier Q400 responded to a stall-warning stick shaker by pulling back on the controls instead of pushing forward, and the stick pusher's corrective nose-down inputs were then overridden. The airplane stalled, rolled, and crashed into a house in Clarence Center, New York, killing all 49 people aboard and one person on the ground. The NTSB found the captain's mishandling of the stall warning, a sterile cockpit violation, and inadequate airspeed-management procedures at Colgan Air all contributed — findings that led directly to the 2010 pilot rest, training, and experience rules known as the Colgan Air Act.",
+    "summary": "When the stall-warning stick shaker activated, the captain pulled back instead of pushing forward — the opposite of the correct recovery.",
     "facts": {
       "location_value": "Clarence Center, New York",
       "location_sub": "Residential neighborhood, ~5 nm northeast of BUF",

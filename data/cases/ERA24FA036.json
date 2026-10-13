@@ -43,7 +43,7 @@
     "badge_casualty": "1 fatal / 1 aboard",
     "badge_casualty_sub": "No survivors",
     "status_meta": "NTSB · Released October 22, 2025",
-    "summary": "A non-instrument-rated private pilot departed Kissimmee Gateway Airport as weather deteriorated toward his destination near Micanopy, Florida. About an hour into the flight the airplane entered a cloud layer; the pilot began erratic climbs, descents, and tight turns and radioed air traffic control that his attitude indicator and turn-and-bank indicator had failed and that he could not see outside. The airplane entered a steep, tightening descent and struck wooded terrain, killing the pilot. The NTSB found he had not obtained a weather briefing or filed a flight plan before departure.",
+    "summary": "A pilot with no instrument rating flew into clouds anyway, lost all outside visual reference, and never regained control.",
     "facts": {
       "location_value": "Micanopy, Florida",
       "location_sub": "Heavily wooded terrain, ~100 ft elevation",

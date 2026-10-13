@@ -46,7 +46,7 @@
     "badge_casualty": "10 fatal / 10 aboard",
     "badge_casualty_sub": "No survivors",
     "status_meta": "NTSB · Final report (AIR-23-01) adopted September 29, 2023",
-    "summary": "A de Havilland DHC-3 Otter floatplane on a scheduled West Isle Air / Friday Harbor Seaplanes passenger run from Friday Harbor to Renton abruptly pitched down and plunged into the water of Mutiny Bay, off Whidbey Island, Washington, killing the pilot and all nine passengers. NTSB investigators found that a clamp nut securing the horizontal stabilizer's trim actuator had unscrewed in flight because its lock ring was missing, letting the stabilizer travel to an extreme nose-down position that made the airplane's pitch uncontrollable.",
+    "summary": "A missing lock ring let a critical clamp nut unscrew in flight, letting the tail surface move uncommanded to an extreme nose-down trim.",
     "facts": {
       "location_value": "Mutiny Bay, Washington",
       "location_sub": "Near Freeland, Whidbey Island (Puget Sound)",

@@ -44,7 +44,7 @@
     "badge_casualty": "0 fatal / 4 aboard",
     "badge_casualty_sub": "4 minor injuries (pilot and 3 passengers)",
     "status_meta": "NTSB · Released July 7, 2022",
-    "summary": "A Cirrus SR22 carrying a pilot and three passengers lost engine power while descending toward Atoka Municipal Airport, Oklahoma, after erratic high oil-temperature warnings led the pilot to adjust the mixture and throttle in a way that choked off fuel flow. Unable to restore power and judging the terrain below unsuitable for a forced landing, the pilot deployed the Cirrus Airframe Parachute System (CAPS). The airplane descended under canopy into an open field, substantially damaging the airframe but leaving all four aboard alive, each with only minor injuries. The NTSB traced the erratic oil-temperature readings to an oil temperature connector most likely damaged during maintenance performed just before the accident flight — not an actual engine problem. The Cirrus Owners and Pilots Association (COPA), which participated in the investigation, has informally counted this event among its own tally of CAPS \"saves\"; that count is COPA's own record-keeping, not something the NTSB report itself tracks.",
+    "summary": "A damaged oil-temperature sensor sent false warnings, leading the pilot to mishandle the mixture and lose all engine power.",
     "facts": {
       "location_value": "Tishomingo, Oklahoma",
       "location_sub": "Open field, about 900 ft agl when the engine lost power",
