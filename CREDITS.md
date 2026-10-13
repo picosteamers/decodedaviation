@@ -322,12 +322,15 @@ here were all individually opened and confirmed to show "DCA09MA027" /
 
 ## ERA23FA008 — Cessna 172P, Newport News/Williamsburg
 
-- `assets/img/aircraft-cessna-172p-n65842.33e5350f.webp` — cropped/resized from
-  [File:1983 Cessna 172P N65842 (4428978758).jpg](https://commons.wikimedia.org/wiki/File:1983_Cessna_172P_N65842_(4428978758).jpg)
-  by Tomás Del Coro, Wikimedia Commons, CC BY-SA 2.0. Shows a Cessna 172P
-  Skyhawk in ATP Flight School colors (registration N65842) — **not** the
-  accident aircraft (N97883); used only as a representative reference photo
-  of the same model.
+- `assets/img/aircraft-cessna-172p-deggj.63b29972.webp` — cropped/resized from
+  [File:Cessna 172P Skyhawk II (D-EGGJ) (2).jpg](https://commons.wikimedia.org/wiki/File:Cessna_172P_Skyhawk_II_(D-EGGJ)_(2).jpg)
+  by Fiver, der Hellseher, Wikimedia Commons, CC BY-SA 4.0. A clean ground
+  side-profile of a Cessna 172P Skyhawk II (registration D-EGGJ, Germany)
+  — **not** the accident aircraft (N97883); used only as a representative
+  reference photo of the same model. Replaced an earlier choice (N65842,
+  a diagonal underside/rear-quarter banking shot against open sky) that
+  cropped poorly to the aircraft-card thumbnail's wide aspect ratio —
+  only the tail stayed in frame, with the cockpit and wings cropped out.
 
 - `assets/img/incident-era23fa008-wreckage-front-view.bd26ab52.webp`,
   `assets/img/incident-era23fa008-wreckage-side-view.dae1e35b.webp` — original
