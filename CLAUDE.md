@@ -80,6 +80,18 @@ for a fact that goes in `data/cases/*.json`.
   Public figures' names can go in editorial copy (the `page` block) since
   they're genuinely public-interest and already public record, but don't
   misattribute a name to the NTSB document as if it said it.
+- **If a case involves a recognizable public figure or a well-known named
+  event, that name must appear in the visible on-page text — `page.title`
+  (the `<h1>`) and/or `page.subtitle` — not only in `page.seo.title`/
+  `page.seo.description`.** It's easy to write a sharp, specific SEO title
+  ("Kobe Bryant Crash — Calabasas, CA") while leaving the generic
+  auto-derived h1 ("Sikorsky S-76B (N72EX)") untouched — a visitor reading
+  the actual page then never sees the name that got them there from search,
+  and it undercuts the "about" relevance of the page itself. This has
+  already had to be fixed after the fact on four cases (Kobe Bryant, Roy
+  Halladay, Miracle on the Hudson/Sullenberger, Colgan Air Flight 3407) —
+  when writing or reviewing a case's `page` block, check the h1/subtitle
+  against the seo fields for this gap before considering it done.
 
 ## Site structure (URLs are final — don't change them)
 
